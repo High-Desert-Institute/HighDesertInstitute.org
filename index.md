@@ -7,8 +7,8 @@ title: Building a Foundation for the Survival of Humanity
 
 *Building a Foundation for the Survival of Humanity*
 
-[Help Us Buy Land via GoFundMe](https://gofundme.com)  
-[Donate to The Cyberpony Express](https://www.gofundme.com)
+- [Help Us Buy Land via GoFundMe](https://gofundme.com)  
+- [Donate to The Cyberpony Express](https://www.gofundme.com)
 
 ---
 
