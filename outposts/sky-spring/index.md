@@ -16,8 +16,6 @@ _Joshua Tree, California
 
 Focused on demonstrating off-grid infrastructure: water, power, and waste systems.
 
-## Status
-
 ## 🛠️ Project Progress: The People’s Winter Palace
 - ✅ Discussions and consensus-building are complete.
 - ⏳ Waiting for other projects to finish fundraising...
