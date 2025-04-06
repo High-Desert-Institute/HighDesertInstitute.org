@@ -1,3 +1,8 @@
+---
+layout: default
+title: Building a Foundation for the Survival of Humanity
+---
+
 # The High Desert Institute
 
 *Building a Foundation for the Survival of Humanity*
