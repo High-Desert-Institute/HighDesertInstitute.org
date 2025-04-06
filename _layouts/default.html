@@ -30,10 +30,19 @@
     
   </head>
   <body>
-    <main>
-      {{ content }}
-    </main>
-
-    {% include footer.html %}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+              {{ content }}
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+              {% include footer.html %}
+            </div>
+        </div>
+    </div>
   </body>
 </html>
