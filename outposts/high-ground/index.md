@@ -1,6 +1,10 @@
 ---
 layout: default
-title: High Ground
+title: 🌄 High Ground
+status: Fundraising
+location: Grand Canyon, Arizona
+description: A flagship build focused on developing and sharing the most accessible, sustainable, and code-compliant off-grid housing plans.
+order: 1
 ---
 
 # High Ground  
