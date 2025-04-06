@@ -2,8 +2,8 @@
 layout: default
 title: 🌄 High Ground
 status: Fundraising
-location: Grand Canyon, Arizona
-blurb: A flagship build focused on developing and sharing the most accessible, sustainable, and code-compliant off-grid housing plans.
+location: "Grand Canyon, Arizona"
+blurb: "A flagship build focused on developing and sharing the most accessible, sustainable, and code-compliant off-grid housing plans."
 order: 1
 ---
 
@@ -18,16 +18,11 @@ High Ground is our first outpost — a model desert dwelling focused on producin
 
 We’re aiming to create the **most accessible, affordable, and up-to-code off-grid house** possible, and publish all our designs for free.
 
-## Goals
-
-- Demonstrate build techniques for desert climates
-- Design low-cost, code-compliant homes
-- Train volunteers in off-grid construction
-- Publish everything open-source
-
-## Status
-
-🟠 Fundraising — [Donate here](https://gofundme.com)  
-📍 Grand Canyon Region, Arizona
+## 🛠️ Project Progress: The People’s Winter Palace
+- ✅ Discussions and consensus-building are complete.
+- ✅ All other land-projects have finished fundraising.
+- ⏳ Currently fundraising. [Donate here!](https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity)
+- 🔜 Then, we begin on-site infrastructure development.
+- 🔜 Then, we open to early visitors and researchers.
 
 [← Back to All Outposts](/outposts/)
