@@ -9,7 +9,7 @@ These are the land projects currently being developed by the High Desert Institu
 
 ---
 
-
+<div markdown="0">
 
 {% assign sorted_pages = site.pages | sort: "order" %}
 
@@ -23,3 +23,4 @@ These are the land projects currently being developed by the High Desert Institu
   {% endif %}
 {% endfor %}
 
+</div>
