@@ -89,7 +89,7 @@ Disabled veteran, post-apocalyptic author, prepper. Brings skills in survival, h
 ## Get Involved
 
 - [Subscribe on Substack](https://highdesertinstitute.substack.com) for free email updates
-- [Follow us on TikTok](https://www.tiktok.com/@hdi.ngo)
+- [Follow us on TikTok](https://www.tiktok.com/@highdesertinstitute)
 - [Follow us on Youtube](https://www.youtube.com/@HighDesertInstitute)
 - [Follow us on Bluesky](https://bsky.app/profile/highdesertinstitute.org)
 - [Edit this page on Github](https://github.com/High-Desert-Institute/HighDesertInstitute.org/blob/main/index.md)
