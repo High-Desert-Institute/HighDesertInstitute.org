@@ -18,7 +18,11 @@ Focused on demonstrating off-grid infrastructure: water, power, and waste system
 
 ## Status
 
-🟠 Fundraising
-📍 Joshua Tree, California
+## 🛠️ Project Progress: The People’s Winter Palace
+- ✅ Discussions and consensus-building are complete.
+- ⏳ Waiting for other projects to finish fundraising...
+- 🔜 Then, we launch the fundraising campaign.
+- 🔜 Then, we begin on-site infrastructure development.
+- 🔜 Then, we open to early visitors and researchers.
 
 [← Back to All Outposts](/outposts/)
