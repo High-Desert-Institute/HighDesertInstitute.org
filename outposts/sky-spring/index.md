@@ -2,9 +2,9 @@
 layout: default
 title: 💧 Sky Spring
 status: Fundraising
-location: Joshua Tree, California
-blurb: Focused on demonstrating off-grid infrastructure: water, power, and waste systems.
-order: 1
+location: "Joshua Tree, California"
+blurb: "Focused on demonstrating off-grid infrastructure: water, power, and waste systems."
+order: 2
 ---
 
 # 💧 Sky Spring  
