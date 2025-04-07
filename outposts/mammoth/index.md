@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 🐘 Mammoth 🦖
-status: Fundraising
+status: Discussion
 location: "Mammoth Lakes, California"
 blurb: "Geothermal synergies create a spectacular and bizare landscape on this ancient dry sea bed at the peaks of the Sierra Nevada Mountains."
 order: 4
