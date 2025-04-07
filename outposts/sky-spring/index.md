@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 💧 Sky Spring
-status: Fundraising
+status: Waiting...
 location: "Joshua Tree, California"
 blurb: "Focused on demonstrating off-grid infrastructure: water, power, and waste systems."
 order: 2
