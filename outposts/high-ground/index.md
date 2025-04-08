@@ -5,13 +5,14 @@ status: Fundraising
 location: "Grand Canyon, Arizona"
 blurb: "A flagship build focused on developing and sharing the most accessible, sustainable, and code-compliant off-grid housing plans."
 donate_link: "https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity"
+thumbnail: /assets/images/high-ground.jpg
 order: 1
 ---
 
 # High Ground  
 _Grand Canyon, Arizona_
 
-![High Ground Image](https://highdesertinstitute.org/wp-content/uploads/2023/10/sustainable.jpg)
+![High Ground Image](/assets/images/high-ground.jpg)
 
 ## Mission
 
