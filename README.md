@@ -14,3 +14,11 @@ For any directory in this repository, there should be an index.md. This file can
 There should also be a readme.md which contains devops details such as what you're reading now. This information is not necessary of helpful on the public website; only for people who are editing the public website.
 
 If you would like to help with the process of reviewing pull requests, please reach out to CJ in the DevOps channel of the discord.
+
+
+## Recommended Editing Setup
+
+- Download github desktop for free. This allows you to stage your changes and submit them all at once.
+- Download vs code to edit the pages. This has good integration for copilot which will help a lot for debugging and completions.
+
+TODO put together a good self-hosted, open-source alternative set of recommendations running completions with something like QwQ-32b instead.
