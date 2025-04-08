@@ -89,21 +89,22 @@ The Garden was where many involved in HDI first met. It inspired our current wor
 
 ## Project Leadership
 
-### CJ Trowbridge
+<div markdown="0">
 
-Expert in sustainable infrastructure. Has helped build and volunteer at dozens of land projects, collaborating with Arcosanti, the Arizona Department of Agriculture, and the Rocky Mountain Institute.
+{% assign sorted_pages = site.pages | sort: "order" %}
 
-### Julia Heim
+{% for page in sorted_pages %}
+  {% if page.path contains "board/" and page.path != "board/index.md" %}
+    <hr>
+    {% if page.thumbnail %}
+      <img src="{{ page.thumbnail }}" alt="{{ page.title }} image" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+    {% endif %}
+    <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+    {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
+  {% endif %}
+{% endfor %}
 
-Expert in crowdfunding and land-trust incorporation. Has worked on intentional communities across Costa Rica, Nepal, and the U.S.
-
-### Joe Whisher
-
-Organizational leadership specialist. Brings a vital critical lens to help refine systems and processes.
-
-### Tyler Milligan
-
-Disabled veteran, post-apocalyptic author, prepper. Brings skills in survival, hunting, bushcraft, and education. Passionate about building the apocalypse library.
+</div>
 
 > "If you have a garden and a library, you have everything you need."  
 > — *Cicero*
