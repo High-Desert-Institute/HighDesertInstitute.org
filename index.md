@@ -41,6 +41,9 @@ HDI will sponsor guest researchers to conduct vital work on sustainable, off-gri
 {% assign sorted_pages = site.pages | sort: "order" %}
 {% for page in sorted_pages %}
   {% if page.path contains "outposts/" and page.path != "outposts/index.md" %}
+    {% if page.thumbnail %}
+      <img src="{{ page.thumbnail }}" alt="{{ page.title }} image" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+    {% endif %}
     <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
     {% if page.status %}<p><em>Status:</em> {{ page.status }}</p>{% endif %}
     {% if page.location %}<p><em>Location:</em> {{ page.location }}</p>{% endif %}
