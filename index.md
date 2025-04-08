@@ -34,11 +34,27 @@ HDI will sponsor guest researchers to conduct vital work on sustainable, off-gri
 
 ---
 
-## Model Communities
+## Current Land Project
 
-We will build model communities to demonstrate best practices and appropriate technologies for solving off-grid human infrastructure challenges. These communities will be open to the public.
+<div markdown="0">
 
----
+{% assign sorted_pages = site.pages | sort: "order" %}
+{% for page in sorted_pages %}
+  {% if page.path contains "outposts/" and page.path != "outposts/index.md" %}
+    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+    {% if page.status %}<p><em>Status:</em> {{ page.status }}</p>{% endif %}
+    {% if page.location %}<p><em>Location:</em> {{ page.location }}</p>{% endif %}
+    {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
+    {% if page.donate_link %}
+      <p><a class="btn btn-primary" href="{{ page.donate_link }}">Donate Now</a></p>
+    {% endif %}
+    <p><a href="/outposts/">View all outposts →</a></p>
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+</div>
+
 
 ## Upcoming Land Projects
 
