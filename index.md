@@ -106,7 +106,7 @@ The Garden was where many involved in HDI first met.
 
 {% for page in sorted_pages %}
   {% if page.path contains "board/" and page.path != "board/index.md" %}
-    <hr>
+    
     {% if page.thumbnail %}
       <img src="{{ page.thumbnail }}" alt="{{ page.title }} image" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
     {% endif %}
@@ -121,6 +121,9 @@ The Garden was where many involved in HDI first met.
 
 > "If you have a garden and a library, you have everything you need."  
 > — *Cicero*
+
+> "Lets help everyone do that."
+> - *HDI*
 
 ---
 
