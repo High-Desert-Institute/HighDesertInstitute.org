@@ -21,3 +21,4 @@ A migratory nexus for nomads, RVers, and solar boondockers — Quartzsite offers
 - 🔜 Then, we open to early visitors and researchers.
 
 [← Back to All Outposts](/outposts/)
+[← Back to Home](/)
