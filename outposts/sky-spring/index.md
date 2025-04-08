@@ -24,3 +24,4 @@ Focused on demonstrating off-grid infrastructure: water, power, and waste system
 - 🔜 Then, we open to early visitors and researchers.
 
 [← Back to All Outposts](/outposts/)
+[← Back to Home](/)
