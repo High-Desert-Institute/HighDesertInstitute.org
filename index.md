@@ -74,12 +74,11 @@ HDI will build outposts to demonstrate all the best practices and appropriate te
 *(We do have several other land projects in common, but these are the public ones...)*
 
 
-
 ### [Emberfield](https://emberfield.org)
 
 <img src="/assets/images/emberfield.png" alt="Emberfield" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
 
-A moneyless intentional community featured in an upcoming TV show. We cover land ownership, governance, and infrastructure for permanent off-grid living.
+The moneyless intentional community featured in our recent TV show. Out of it came the *Radical Raccoon How-To Guide* and the dream of HDI in the southwest.
 
 ---
 
@@ -87,7 +86,7 @@ A moneyless intentional community featured in an upcoming TV show. We cover land
 
 <img src="/assets/images/pirates-cove.jpg" alt="Pirates' Cove" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
 
-A 16-acre off-grid community on Dale Hollow Lake, Tennessee. Hundreds helped build this project after a successful GoFundMe campaign in 2022.
+A 16-acre off-grid community on Dale Hollow Lake, Tennessee. Hundreds of us helped build this project after a successful GoFundMe campaign in 2022.
 
 ---
 
@@ -95,7 +94,7 @@ A 16-acre off-grid community on Dale Hollow Lake, Tennessee. Hundreds helped bui
 
 <img src="/assets/images/the-garden.jpg" alt="The Garden" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
 
-The Garden was where many involved in HDI first met. It inspired our current work. Out of it came the *Radical Raccoon How-To Guide* and the dream of HDI in the southwest.
+The Garden was where many involved in HDI first met.
 
 ---
 
