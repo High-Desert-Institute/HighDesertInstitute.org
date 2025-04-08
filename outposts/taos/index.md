@@ -21,3 +21,4 @@ A high desert mecca for off-grid architecture, creative self-reliance, and Indig
 - 🔜 Then, we open to early visitors and researchers.
 
 [← Back to All Outposts](/outposts/)
+[← Back to Home](/)
