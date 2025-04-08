@@ -20,15 +20,16 @@ None of us are getting paid, every dollar goes to the mission. The entire proces
 
 ---
 
-
 ## The Library
 
 HDI will publish a vast, free, open-source library containing everything we learn as well as many other sources we have collected on the topic of how to live off-grid well. This idea started as a request from one of the communities our team helped build in the past; to enable off-grid communities to host their own private internet with libraries of useful knowledge. This library will be completely free and open to anyone and everyone.
+
 ---
 
 ## Guest Researchers
 
 HDI will sponsor guest researchers to conduct vital research on sustainable, off-grid infrastructure and housing which is affordable and accessible. We will bring together lessons about appropriate technologies and publish all of this research for free as part of a vast library of free open-source knowledge for how to live off-grid well.
+
 ---
 
 ## [High Desert Outposts](/outposts)
