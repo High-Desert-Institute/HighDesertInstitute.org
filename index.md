@@ -38,6 +38,7 @@ HDI will publish a vast, free, open-source library containing everything we lear
 
 Guilds are groups within the High Desert Institute that focus on particular topics or aspects of community development. These are semi-atonomous organizations which start out as ad-hoc committees with a degree of self-governance ability including their own budget and fundraising ability, plus broad authority to decide how their projects happen, including spending. The goal is that these guilds will grow beyond the High Desert Institute, and eventually take on a life of their own, all over the world.
 
+---
 
 ## [High Desert Outposts](/outposts)
 
@@ -66,21 +67,33 @@ HDI will build outposts to demonstrate all the best practices and appropriate te
 </div>
 
 
-## Our Previous Land Projects
+---
+
+## Our Previous Land Projects Together
 
 *(We do have several other land projects in common, but these are the public ones...)*
 
+
+
 ### [Emberfield](https://emberfield.org)
 
-
+<img src="/assets/images/emberfield.png" alt="Emberfield" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
 
 A moneyless intentional community featured in an upcoming TV show. We cover land ownership, governance, and infrastructure for permanent off-grid living.
 
+---
+
 ### [Pirates’ Cove](https://www.peoplesprojectearth.org)
+
+<img src="/assets/images/pirates-cove.jpg" alt="Pirates' Cove" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
 
 A 16-acre off-grid community on Dale Hollow Lake, Tennessee. Hundreds helped build this project after a successful GoFundMe campaign in 2022.
 
+---
+
 ### The Garden
+
+<img src="/assets/images/the-garden.jpg" alt="The Garden" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
 
 The Garden was where many involved in HDI first met. It inspired our current work. Out of it came the *Radical Raccoon How-To Guide* and the dream of HDI in the southwest.
 
@@ -105,9 +118,12 @@ The Garden was where many involved in HDI first met. It inspired our current wor
 
 </div>
 
+---
+
 > "If you have a garden and a library, you have everything you need."  
 > — *Cicero*
 
+---
 
 ## [Blog Posts and Updates:](/blog)
 
