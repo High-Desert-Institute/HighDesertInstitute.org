@@ -31,9 +31,9 @@ HDI will publish a vast, free, open-source library containing everything we lear
 HDI will sponsor guest researchers to conduct vital research on sustainable, off-grid infrastructure and housing which is affordable and accessible. We will bring together lessons about appropriate technologies and publish all of this research for free as part of a vast library of free open-source knowledge for how to live off-grid well.
 ---
 
-## Current Land Project
+## [High Desert Outposts](/outposts)
 
-HDI will build model communities to demonstrate all the best practices and appropriate technologies we have identified for solving human infrastructure challenges off-grid. These communities will be open and available for the public to come see what we have learned in action.
+HDI will build outposts to demonstrate all the best practices and appropriate technologies we have identified for solving human infrastructure challenges off-grid. These outposts will be open and available for the public to come see what we have learned in action.
 
 <div markdown="0">
 
@@ -74,7 +74,7 @@ The Garden was where many involved in HDI first met. It inspired our current wor
 
 ---
 
-## Project Leadership
+## [Project Leadership](/board)
 
 <div markdown="0">
 
@@ -97,7 +97,7 @@ The Garden was where many involved in HDI first met. It inspired our current wor
 > — *Cicero*
 
 
-## Blog Posts and Updates:
+## [Blog Posts and Updates:](/blog)
 
 <div markdown="0">
 
