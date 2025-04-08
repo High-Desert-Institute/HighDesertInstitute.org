@@ -29,3 +29,5 @@ These are the land projects currently being developed by the High Desert Institu
 {% endfor %}
 
 </div>
+
+[← Back to Home](/)
