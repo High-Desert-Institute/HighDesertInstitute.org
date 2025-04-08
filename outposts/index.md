@@ -15,6 +15,9 @@ These are the land projects currently being developed by the High Desert Institu
 {% for page in sorted_pages %}
   {% if page.path contains "outposts/" and page.path != "outposts/index.md" %}
     <hr>
+    {% if page.thumbnail %}
+      <img src="{{ page.thumbnail }}" alt="{{ page.title }} image" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+    {% endif %}
     <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
     {% if page.status %}<p><em>Status:</em> {{ page.status }}</p>{% endif %}
     {% if page.location %}<p><em>Location:</em> {{ page.location }}</p>{% endif %}
