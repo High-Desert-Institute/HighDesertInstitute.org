@@ -28,3 +28,4 @@ We’re aiming to create the **most accessible, affordable, and up-to-code off-g
 - 🔜 Then, we open to early visitors and researchers.
 
 [← Back to All Outposts](/outposts/)
+[← Back to Home](/)
