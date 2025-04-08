@@ -26,11 +26,12 @@ HDI will publish a vast, free, open-source library containing everything we lear
 
 ---
 
-## Guest Researchers
+## [Guilds](/guilds)
 
-HDI will sponsor guest researchers to conduct vital research on sustainable, off-grid infrastructure and housing which is affordable and accessible. We will bring together lessons about appropriate technologies and publish all of this research for free as part of a vast library of free open-source knowledge for how to live off-grid well.
+<img src="/assets/images/artificers-guild.jpg" alt="Guilds" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
 
----
+Guilds are groups within the High Desert Institute that focus on particular topics or aspects of community development. These are semi-atonomous organizations which start out as ad-hoc committees with a degree of self-governance ability including their own budget and fundraising ability, plus broad authority to decide how their projects happen, including spending. The goal is that these guilds will grow beyond the High Desert Institute, and eventually take on a life of their own, all over the world.
+
 
 ## [High Desert Outposts](/outposts)
 
@@ -59,7 +60,9 @@ HDI will build outposts to demonstrate all the best practices and appropriate te
 </div>
 
 
-## Previous Projects
+## Our Previous Land Projects
+
+*(We do have several other land projects in common, but these are the public ones...)*
 
 ### [Emberfield](https://emberfield.org)
 
