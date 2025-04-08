@@ -24,3 +24,4 @@ A warm desert outpost where nomads and travelers can congregate with likeminded 
 - 🔜 Then, we open to early visitors and researchers.
 
 [← Back to All Outposts](/outposts/)
+[← Back to Home](/)
