@@ -4,6 +4,7 @@ title: 🌄 High Ground
 status: Fundraising
 location: "Grand Canyon, Arizona"
 blurb: "A flagship build focused on developing and sharing the most accessible, sustainable, and code-compliant off-grid housing plans."
+donate_link: "https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity"
 order: 1
 ---
 
