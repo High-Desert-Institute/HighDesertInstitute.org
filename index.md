@@ -14,27 +14,26 @@ title: Building a Foundation for the Survival of Humanity
 
 ## What We’re Working On
 
-A group of seasoned experts from the off-grid community-building world are fundraising to create a series of new land projects in the high deserts of the southwest. These outposts will be centers for permaculture and mutual aid, designed to build a foundation for the survival of humanity.
+A group of seasoned experts from the off-grid community-building world are fundraising to create a series of new land projects in the high deserts of the southwest. These outposts will be centers for permaculture and mutual aid, designed to build a foundation for the survival of humanity. These new land projects will facilitate research, development, and distribution free open-source solutions to basic human needs like housing and off-grid infrastructure.
 
-These new land projects will facilitate research, development, and distribution of free, open-source solutions to basic human needs like housing and off-grid infrastructure.
-
-None of us are getting paid — every dollar goes to the mission. The entire process will be completely transparent and open source. Every dollar donated makes a huge difference!
+None of us are getting paid, every dollar goes to the mission. The entire process will be completely transparent and open source. Every dollar donated means the world and makes a huge difference!
 
 ---
 
+
 ## The Library
 
-HDI will publish a vast, free, open-source library containing everything we learn, as well as many other sources we’ve collected on how to live off-grid well. This started as a request from a community we helped build. The idea is to enable off-grid communities to host their own private internet with libraries of useful knowledge.
-
+HDI will publish a vast, free, open-source library containing everything we learn as well as many other sources we have collected on the topic of how to live off-grid well. This idea started as a request from one of the communities our team helped build in the past; to enable off-grid communities to host their own private internet with libraries of useful knowledge. This library will be completely free and open to anyone and everyone.
 ---
 
 ## Guest Researchers
 
-HDI will sponsor guest researchers to conduct vital work on sustainable, off-grid infrastructure and housing. We’ll publish all research in our open-source library for anyone to use freely.
-
+HDI will sponsor guest researchers to conduct vital research on sustainable, off-grid infrastructure and housing which is affordable and accessible. We will bring together lessons about appropriate technologies and publish all of this research for free as part of a vast library of free open-source knowledge for how to live off-grid well.
 ---
 
 ## Current Land Project
+
+HDI will build model communities to demonstrate all the best practices and appropriate technologies we have identified for solving human infrastructure challenges off-grid. These communities will be open and available for the public to come see what we have learned in action.
 
 <div markdown="0">
 
@@ -58,18 +57,6 @@ HDI will sponsor guest researchers to conduct vital work on sustainable, off-gri
 
 </div>
 
-
-## Upcoming Land Projects
-
-### High Ground
-
-We are currently fundraising for High Ground — a project focused on free, open-source building plans for accessible, affordable, sustainable, up-to-code off-grid homes.
-
-### Sky Spring
-
-Sky Spring will focus on free, open-source, sustainable infrastructure — offering the best solutions to basic off-grid infrastructure needs.
-
----
 
 ## Previous Projects
 
@@ -108,3 +95,28 @@ The Garden was where many involved in HDI first met. It inspired our current wor
 
 > "If you have a garden and a library, you have everything you need."  
 > — *Cicero*
+
+
+## Blog Posts and Updates:
+
+<div markdown="0">
+
+{% assign blog_pages = site.pages | sort: "date" | reverse %}
+
+{% assign count = 0 %}
+{% for page in blog_pages %}
+  {% if page.path contains "blog/" and page.path != "blog/index.md" %}
+    <p>
+      <a href="{{ page.url }}">{{ page.title }}</a><br>
+      <small><em>{{ page.date | date: "%B %d, %Y at %I:%M %p" }}</em></small>
+    </p>
+    {% assign count = count | plus: 1 %}
+    {% if count >= 10 %}
+      {% break %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<p><a href="/blog/">View all blog posts →</a></p>
+
+</div>
