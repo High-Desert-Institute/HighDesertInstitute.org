@@ -3,6 +3,8 @@ layout: default
 title: Building a Foundation for the Survival of Humanity
 ---
 
+<img src="/assets/images/landscape.jpg" alt="High Desert Institute" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+
 # The High Desert Institute
 
 *Building a Foundation for the Survival of Humanity*
@@ -14,6 +16,8 @@ title: Building a Foundation for the Survival of Humanity
 
 ## What We’re Working On
 
+<img src="/assets/images/high-ground.jpg" alt="Land Projects" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+
 A group of seasoned experts from the off-grid community-building world are fundraising to create a series of new land projects in the high deserts of the southwest. These outposts will be centers for permaculture and mutual aid, designed to build a foundation for the survival of humanity. These new land projects will facilitate research, development, and distribution free open-source solutions to basic human needs like housing and off-grid infrastructure.
 
 None of us are getting paid, every dollar goes to the mission. The entire process will be completely transparent and open source. Every dollar donated means the world and makes a huge difference!
@@ -21,6 +25,8 @@ None of us are getting paid, every dollar goes to the mission. The entire proces
 ---
 
 ## The Library
+
+<img src="/assets/images/library.jpg" alt="Library" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
 
 HDI will publish a vast, free, open-source library containing everything we learn as well as many other sources we have collected on the topic of how to live off-grid well. This idea started as a request from one of the communities our team helped build in the past; to enable off-grid communities to host their own private internet with libraries of useful knowledge. This library will be completely free and open to anyone and everyone.
 
@@ -65,6 +71,8 @@ HDI will build outposts to demonstrate all the best practices and appropriate te
 *(We do have several other land projects in common, but these are the public ones...)*
 
 ### [Emberfield](https://emberfield.org)
+
+
 
 A moneyless intentional community featured in an upcoming TV show. We cover land ownership, governance, and infrastructure for permanent off-grid living.
 
