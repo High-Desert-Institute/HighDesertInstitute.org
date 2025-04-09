@@ -39,6 +39,8 @@ HDI will publish a vast, free, open-source library containing everything we lear
 
 Guilds are groups within the High Desert Institute that focus on particular topics or aspects of community development. These are semi-atonomous organizations which start out as ad-hoc committees with a degree of self-governance ability including their own budget and fundraising ability, plus broad authority to decide how their projects happen, including spending. The goal is that these guilds will grow beyond the High Desert Institute, and eventually take on a life of their own, all over the world.
 
+<p class="text-right"><a href="/guilds/">View all guilds →</a></p>
+
 ---
 
 ## [High Desert Outposts](/outposts)
@@ -69,11 +71,12 @@ HDI will build outposts to demonstrate all the best practices and appropriate te
     {% endif %}
   {% endif %}
 {% endfor %}
-<p><a href="/outposts/">View all outposts →</a></p>
+<p class="text-right"><a href="/outposts/">View all outposts →</a></p>
 
 </div><!--/row-->
 <div class="row">
 <div class="col-md-12">
+  <hr>
   <h3>Our Previous Land Projects Together</h3>
   <p><i>(We do have several other land projects in common, but these are the public ones...)</i></p>
 </div>
@@ -151,6 +154,6 @@ HDI will build outposts to demonstrate all the best practices and appropriate te
   {% endif %}
 {% endfor %}
 
-<p><a href="/blog/">View all blog posts →</a></p>
+<p class="text-right"><a href="/blog/">View all blog posts →</a></p>
 
 </div>
