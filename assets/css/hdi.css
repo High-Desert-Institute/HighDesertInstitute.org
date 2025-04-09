@@ -2,6 +2,9 @@ h1, h2, h3{
     margin-top: 2em;
     margin-bottom: 1em;
 }
+h1 a, h2 a, h3 a{
+    color: #c6c6c6;
+}
 h4{
     margin-top: 1em;
     margin-bottom: 0.5em;
