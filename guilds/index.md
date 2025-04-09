@@ -12,13 +12,13 @@ Guilds are groups within the High Desert Institute that focus on particular topi
 
 {% assign sorted_pages = site.pages | sort: "order" %}
 {% for page in sorted_pages %}
-  {% if page.path contains "guilds/" and page.path != "guilds/index.md" %}
+  {% assign path_parts = page.path | split: "/" %}
+  {% if path_parts[0] == "guilds" and path_parts.size == 2 %}
     {% if page.thumbnail %}
       <img src="{{ page.thumbnail }}" alt="{{ page.title }} image" class="photo">
     {% endif %}
     <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
     {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
-    {% break %}
   {% endif %}
 {% endfor %}
 
