@@ -17,9 +17,9 @@ title: Building a Foundation for the Survival of Humanity
 
 ## What We’re Working On
 
-<img src="/assets/images/high-ground.jpg" alt="Land Projects" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+<img src="/assets/images/high-ground.jpg" alt="Land Projects" class="photo">
 
-A group of seasoned experts from the off-grid community-building world are fundraising to create a series of new land projects in the high deserts of the southwest. These outposts will be centers for permaculture and mutual aid, designed to build a foundation for the survival of humanity. These new land projects will facilitate research, development, and distribution free open-source solutions to basic human needs like housing and off-grid infrastructure.
+A group of seasoned experts from the off-grid community-building world are fundraising to create a series of new land projects in the high deserts of the southwest. These outposts will be centers for permaculture and mutual aid, designed to build a foundation for the survival of humanity. These new land projects will facilitate research, development, and distribution of free, open-source solutions to basic human needs like housing and off-grid infrastructure.
 
 None of us are getting paid, every dollar goes to the mission. The entire process will be completely transparent and open source. Every dollar donated means the world and makes a huge difference!
 
@@ -27,15 +27,15 @@ None of us are getting paid, every dollar goes to the mission. The entire proces
 
 ## The Library
 
-<img src="/assets/images/library.jpg" alt="Library" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+<img src="/assets/images/library.jpg" alt="Library" class="photo">
 
-HDI will publish a vast, free, open-source library containing everything we learn as well as many other sources we have collected on the topic of how to live off-grid well. This idea started as a request from one of the communities our team helped build in the past; to enable off-grid communities to host their own private internet with libraries of useful knowledge. This library will be completely free and open to anyone and everyone.
+HDI will publish a vast, free, open-source library containing everything we learn as well as many other sources we have collected on the topic of how to live well off-grid. This idea started as a request from one of the communities our team helped build in the past; to enable off-grid communities to host their own private intranets with libraries of useful knowledge. This library will be completely free and open to anyone and everyone.
 
 ---
 
 ## [Guilds](/guilds)
 
-<img src="/assets/images/artificers-guild.jpg" alt="Guilds" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+<img src="/assets/images/artificers-guild.jpg" alt="Guilds" class="photo">
 
 Guilds are groups within the High Desert Institute that focus on particular topics or aspects of community development. These are semi-atonomous organizations which start out as ad-hoc committees with a degree of self-governance ability including their own budget and fundraising ability, plus broad authority to decide how their projects happen, including spending. The goal is that these guilds will grow beyond the High Desert Institute, and eventually take on a life of their own, all over the world.
 
@@ -51,7 +51,7 @@ HDI will build outposts to demonstrate all the best practices and appropriate te
 {% for page in sorted_pages %}
   {% if page.path contains "outposts/" and page.path != "outposts/index.md" %}
     {% if page.thumbnail %}
-      <img src="{{ page.thumbnail }}" alt="{{ page.title }} image" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+      <img src="{{ page.thumbnail }}" alt="{{ page.title }} image" class="photo">
     {% endif %}
     <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
     {% if page.status %}<p><em>Status:</em> {{ page.status }}</p>{% endif %}
@@ -77,7 +77,7 @@ HDI will build outposts to demonstrate all the best practices and appropriate te
 
 ### [Emberfield](https://emberfield.org)
 
-<img src="/assets/images/emberfield.png" alt="Emberfield" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+<img src="/assets/images/emberfield.png" alt="Emberfield" class="photo">
 
 The moneyless intentional community featured in our recent TV show. Out of it came the *Radical Raccoon How-To Guide* and the dream of HDI in the southwest.
 
@@ -85,7 +85,7 @@ The moneyless intentional community featured in our recent TV show. Out of it ca
 
 ### [Pirates’ Cove](https://www.peoplesprojectearth.org)
 
-<img src="/assets/images/pirates-cove.jpg" alt="Pirates' Cove" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+<img src="/assets/images/pirates-cove.jpg" alt="Pirates' Cove" class="photo">
 
 A 16-acre off-grid community on Dale Hollow Lake, Tennessee. Hundreds of us helped build this project after a successful GoFundMe campaign in 2022.
 
@@ -93,7 +93,7 @@ A 16-acre off-grid community on Dale Hollow Lake, Tennessee. Hundreds of us help
 
 ### The Garden
 
-<img src="/assets/images/the-garden.jpg" alt="The Garden" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+<img src="/assets/images/the-garden.jpg" alt="The Garden" class="photo">
 
 The Garden was where many involved in HDI first met.
 
@@ -109,7 +109,7 @@ The Garden was where many involved in HDI first met.
   {% if page.path contains "board/" and page.path != "board/index.md" %}
     
     {% if page.thumbnail %}
-      <img src="{{ page.thumbnail }}" alt="{{ page.title }} image" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+      <img src="{{ page.thumbnail }}" alt="{{ page.title }} image" class="photo">
     {% endif %}
     <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
     {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
