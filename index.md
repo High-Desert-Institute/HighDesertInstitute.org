@@ -35,6 +35,12 @@ title: Building a Foundation for the Survival of Humanity
       <p><a href="/guilds/lorekeepers/library/">Learn more about the library →</a></p>
     </div>
     <div class="col-md-4">
+      <h3><a href="/guilds/lorekeepers/cyberpony-express">The Cyberpony Express</a></h3>
+      <img src="/assets/images/cyberpony-express.jpg" alt="Guilds" class="photo">
+      <p>HDI is partnering with Burners Without Borders and the Multiverse School to build a free, secure, public mesh network using Meshtastic nodes to enable anyone to securely communicate. The Cyberpony Express also allows communication between the outposts of the High Desert Institute as well as other intentional communities without relying on the fragile infrastructure of the public internet and cell phone towers. This is vital disaster response infrastructure which will make people safer and make communities better prepared for the many disasters that are coming.</p>
+      <p><a href="/guilds/lorekeepers/cyberpony-express">Learn more about the Cyberpony Express →</a></p>
+    </div>
+    <div class="col-md-4">
       <h3><a href="/guilds">Guilds</a></h3>
       <img src="/assets/images/artificers-guild.jpg" alt="Guilds" class="photo">
       <p>Guilds are groups within the High Desert Institute that focus on particular topics or aspects of community development. These are semi-atonomous organizations which start out as ad-hoc committees with a degree of self-governance ability including their own budget and fundraising ability, plus broad authority to decide how their projects happen, including spending. The goal is that these guilds will grow beyond the High Desert Institute, and eventually take on a life of their own, all over the world.</p>
