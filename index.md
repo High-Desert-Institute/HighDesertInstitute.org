@@ -1,5 +1,5 @@
 ---
-layout: defaultnc
+layout: default
 title: Building a Foundation for the Survival of Humanity
 ---
 
