@@ -5,15 +5,15 @@ title: Building a Foundation for the Survival of Humanity
 
 <img src="/assets/images/landscape.jpg" alt="High Desert Institute" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
 
-# The High Desert Institute
+<h1> The High Desert Institute </h1>
 
-*Building a Foundation for the Survival of Humanity*
+<i>Building a Foundation for the Survival of Humanity</i>
 
 <p><a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Buy Land</a></p>
 <p><a href="https://www.gofundme.com/f/cyberpony-express-free-and-offgrid-communications" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build the Cyberpony Express</a></p>
 <p><a href="https://forms.gle/UZgQiUNzm8q1dmNfA" class="btn btn-success">✨ Apply To Receive A Free Cyberpony Express Node ✨</a></p>
 
----
+<hr>
 
   </div><!--/col-->
 </div><!--/row-->
