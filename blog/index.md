@@ -3,7 +3,7 @@ layout: default
 title: Blog and Updates
 ---
 
-# Updates:
+# Blog Posts and Updates:
 
 <div markdown="0">
 
