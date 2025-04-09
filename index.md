@@ -46,19 +46,16 @@ Guilds are groups within the High Desert Institute that focus on particular topi
 HDI will build outposts to demonstrate all the best practices and appropriate technologies we have identified for solving human infrastructure challenges off-grid. These outposts will be open and available for the public to come see what we have learned in action.
 
 <div markdown="0" class="row">
-  <div class="col-md-12">
-    <h3>Our Current Land Project Together</h3>
-    <p><i>(We do have several other land projects in common, but these are the public ones...)</i></p>
-  </div>
 
 {% assign sorted_pages = site.pages | sort: "order" %}
+{% assign counter = 0 %}
 {% for page in sorted_pages %}
   {% if page.path contains "outposts/" and page.path != "outposts/index.md" %}
     <div class="col-md-4">
+      <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
       {% if page.thumbnail %}
         <img src="{{ page.thumbnail }}" alt="{{ page.title }} image" class="photo">
       {% endif %}
-      <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
       {% if page.status %}<p><em>Status:</em> {{ page.status }}</p>{% endif %}
       {% if page.location %}<p><em>Location:</em> {{ page.location }}</p>{% endif %}
       {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
@@ -66,10 +63,13 @@ HDI will build outposts to demonstrate all the best practices and appropriate te
         <p><a class="btn btn-primary" href="{{ page.donate_link }}">Donate Now</a></p>
       {% endif %}
     </div><!--/col-md-4-->
-    {% break %}
+    {% assign counter = counter | plus: 1 %}
+    {% if counter == 3 %}
+      {% break %}
+    {% endif %}
   {% endif %}
 {% endfor %}
-  <p><a href="/outposts/">View all outposts →</a></p>
+<p><a href="/outposts/">View all outposts →</a></p>
 
 </div><!--/row-->
 <div class="row">
