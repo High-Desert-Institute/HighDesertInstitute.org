@@ -3,7 +3,9 @@ layout: default
 title: Endangered Species Gardens - Floramancers' Guild 
 ---
 
-# Floramancers' Guild
+## <a href="/guilds/floramancers/">Floramancers' Guild</a>
+
+### Endangered Species Gardens
 
 <img src="/assets/images/floramancers.jpg" alt="Floramancers" class="photo">
 

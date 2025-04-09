@@ -3,7 +3,9 @@ layout: default
 title: Indigenous Solidarity Gardens - Floramancers' Guild 
 ---
 
-# Floramancers' Guild
+## <a href="/guilds/floramancers/">Floramancers' Guild</a>
+
+### Indigenous Solidarity Gardens
 
 <img src="/assets/images/floramancers.jpg" alt="Floramancers" class="photo">
 
