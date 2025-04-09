@@ -6,8 +6,6 @@ title: Cyberpony Express
 # Lorekeepers' Guild: The Cyberpony Express - Build List v0.1
 
 <img src="/assets/images/cyberpony-express.jpg" alt="The Cyberpony Express" class="photo">
-
-## Build List v0.1
   
 ### Mobile Client Device
 - [Lilygo T-Deck](https://www.amazon.com/LILYGO-Meshtastic-ESP32-S3-Keyboard-Development/dp/B0DL8PJ69F)
