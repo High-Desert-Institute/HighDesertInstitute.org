@@ -4,13 +4,14 @@ title: 💧 Sky Spring
 status: Waiting...
 location: "Joshua Tree, California"
 blurb: "Focused on demonstrating off-grid infrastructure: water, power, and waste systems."
+thumbnail: /assets/images/sky-spring.jpg
 order: 2
 ---
 
 # 💧 Sky Spring  
 _Joshua Tree, California
 
-
+![Sky Spring](/assets/images/sky-spring.jpg)
 
 ## Mission
 

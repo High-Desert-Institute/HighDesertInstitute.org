@@ -4,13 +4,14 @@ title: ❄️ The People’s Winter Palace
 status: Ongoing Discussion
 location: Tucson, Arizona
 blurb: A warm desert outpost where nomads and travelers can congregate with likeminded folk during winter months.
+thumbnail: /assets/images/peoples-winter-palace.jpg
 order: 3
 ---
 
 # ❄️ The People’s Winter Palace
 _Tucson, Arizona
 
-
+![The People’s Winter Palace](/assets/images/peoples-winter-palace.jpg)
 
 ## Mission
 
