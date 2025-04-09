@@ -33,7 +33,9 @@ title: Guilds
 {% endfor %}
 
   </div><!--/row-->
+  <div class="row">
+    <div class="col">
+      [← Back to Home](/)
+    </div><!--/col-->
+  </div><!--/row---->
 </div><!--/container-->
-
-[← Back to Home](/)
-
