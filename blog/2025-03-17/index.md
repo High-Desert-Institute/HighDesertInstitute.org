@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "2025-03-17: Board Meeting Minutes"
+title: "Board Meeting Minutes"
 date: 2025-03-17
 ---
 

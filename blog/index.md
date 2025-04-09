@@ -13,7 +13,7 @@ title: Blog and Updates
   {% if page.path contains "blog/" and page.path != "blog/index.md" %}
     <p>
       <a href="{{ page.url }}">{{ page.title }}</a><br>
-      <small><em>{{ page.date | date: "%B %d, %Y at %I:%M %p" }}</em></small>
+      <small><em>{{ page.date | date: "%B %d, %Y" }}</em></small>
     </p>
   {% endif %}
 {% endfor %}

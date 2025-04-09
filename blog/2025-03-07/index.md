@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "2025-03-07: Exciting News about Cyberpony Express Partnerships and Upcoming Workshop"
+title: "Exciting News about Cyberpony Express Partnerships and Upcoming Workshop"
 date: 2025-03-07
 ---
 
