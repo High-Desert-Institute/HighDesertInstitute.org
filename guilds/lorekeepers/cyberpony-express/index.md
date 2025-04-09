@@ -12,6 +12,9 @@ The Cyberpony Express is a free, encrypted, public mesh network based on Meshtas
 ## Workshops!
 
 ### 2025-03-27 - Meshtastic Hardware Strategy and Development 
+
+[Text Summary of the first workshop.](/blog/)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Sw1WCDngTA?si=2bLo_iF1MKjQO0kG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Build Lists!
