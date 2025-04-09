@@ -9,8 +9,9 @@ title: Building a Foundation for the Survival of Humanity
 
 *Building a Foundation for the Survival of Humanity*
 
-<a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Buy Land</a>
-<a href="https://www.gofundme.com/f/cyberpony-express-free-and-offgrid-communications" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build the Cyberpony Express</a>
+<p><a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Buy Land</a></p>
+<p><a href="https://www.gofundme.com/f/cyberpony-express-free-and-offgrid-communications" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build the Cyberpony Express</a></p>
+<p><a href="https://forms.gle/UZgQiUNzm8q1dmNfA" class="btn btn-success">✨ Apply To Receive A Free Cyberpony Express Node ✨</a></p>
 
 ---
 
