@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Cyberpony Express Initial Workshop Recap"
+title: "Cyberpony Express - Initial Workshop Recap"
 date: 2025-03-19
 ---
 
