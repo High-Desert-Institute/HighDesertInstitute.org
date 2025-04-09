@@ -19,6 +19,7 @@ Guilds are groups within the High Desert Institute that focus on particular topi
     {% endif %}
     <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
     {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
+    <hr>
   {% endif %}
 {% endfor %}
 
