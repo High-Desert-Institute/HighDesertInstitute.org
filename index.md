@@ -45,7 +45,6 @@ Guilds are groups within the High Desert Institute that focus on particular topi
 
 HDI will build outposts to demonstrate all the best practices and appropriate technologies we have identified for solving human infrastructure challenges off-grid. These outposts will be open and available for the public to come see what we have learned in action.
 
-<div markdown="0">
 
 {% assign sorted_pages = site.pages | sort: "order" %}
 {% for page in sorted_pages %}
@@ -69,61 +68,63 @@ HDI will build outposts to demonstrate all the best practices and appropriate te
 
 
 ---
-
-## Our Previous Land Projects Together
-
-*(We do have several other land projects in common, but these are the public ones...)*
-
-
-### [Emberfield](https://emberfield.org)
-
-<img src="/assets/images/emberfield.png" alt="Emberfield" class="photo">
-
-The moneyless intentional community featured in our recent TV show. Out of it came the *Radical Raccoon How-To Guide* and the dream of HDI in the southwest.
-
----
-
-### [Pirates’ Cove](https://www.peoplesprojectearth.org)
-
-<img src="/assets/images/pirates-cove.jpg" alt="Pirates' Cove" class="photo">
-
-A 16-acre off-grid community on Dale Hollow Lake, Tennessee. Hundreds of us helped build this project after a successful GoFundMe campaign in 2022.
-
----
-
-### The Garden
-
-<img src="/assets/images/the-garden.jpg" alt="The Garden" class="photo">
-
-The Garden was where many involved in HDI first met.
-
----
-
-## [Project Leadership](/board)
-
-<div markdown="0">
+  </div><!--/col-->
+</div><!--/row-->
+<div class="row">
+<div class="col-md-12">
+  <h3>Our Previous Land Projects Together</h3>
+  <p><i>(We do have several other land projects in common, but these are the public ones...)</i></p>
+</div>
+<div class="col-md-4">
+  <h4><a href="https://emberfield.org">Emberfield</a></h4>
+  <img src="/assets/images/emberfield.png" alt="Emberfield" class="photo">
+  <p>The moneyless intentional community featured in our recent TV show. Out of it came the <a href="https://www.radicalraccoon.com">Radical Raccoon How-To Guide</a> and the dream of HDI in the southwest.</p>
+</div>
+<div class="col-md-4">
+  <h4><a href="https://peoplesprojectearth.org">Pirates' Cove</a></h4>
+  <img src="/assets/images/pirates-cove.jpg" alt="Pirates' Cove" class="photo">
+  <p>A 16-acre off-grid community on Dale Hollow Lake, Tennessee. Hundreds of us helped build this project after a successful GoFundMe campaign in 2022.</p>
+</div>
+<div class="col-md-4">
+  <h4>The Garden</h4>
+  <img src="/assets/images/the-garden.jpg" alt="The Garden" class="photo">
+  <p>The Garden was where many involved in HDI first met.</p>
+</div>
+</div><!--/row-->
+<div class="row">
+  <div class="col-md-12">
+    <h3><a href="/board">Project Leadership</a></h3>
+    <p>Meet the board of directors of the High Desert Institute.</p>
+  </div>
+</div><!--/row-->
+  
+<div markdown="0" class="row">
 
 {% assign sorted_pages = site.pages | sort: "order" %}
 
 {% for page in sorted_pages %}
   {% if page.path contains "board/" and page.path != "board/index.md" %}
+    <div class="col-md-4">
     
     {% if page.thumbnail %}
       <img src="{{ page.thumbnail }}" alt="{{ page.title }} image" class="photo">
     {% endif %}
     <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
     {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
+
+    </div><!--/col-md-4-->
+
   {% endif %}
 {% endfor %}
 
-</div>
+</div><!--/row-->
 
 ---
 
 > "If you have a garden and a library, you have everything you need."  
 > — *Cicero*
-
-> "Lets help everyone do that."
+  
+> "Lets help everyone do that."  
 > — *HDI*
 
 ---
