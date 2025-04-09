@@ -20,15 +20,6 @@ These are the current members of our nonprofit board, tasked with overseeing gov
     {% endif %}
     <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
     {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
-    <p>The best way to reach us is on Discord. Also, here are our socials:</p>
-    <ul>
-    {% if page.tiktok %}
-      <li><a class="btn btn-primary" href="{{ tiktok }}">tiktok.com/@{{ tiktok }}</a></li>
-    {% endif %}
-    {% if page.bluesky %}
-      <li><a class="btn btn-primary" href="{{ bluesky }}">bluesky.com/@{{ bluesky }}</a></li>
-    {% endif %}
-    </ul>
   {% endif %}
 {% endfor %}
 
