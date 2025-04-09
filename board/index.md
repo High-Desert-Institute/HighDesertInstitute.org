@@ -24,3 +24,5 @@ These are the current members of our nonprofit board, tasked with overseeing gov
 {% endfor %}
 
 </div>
+
+[← Back to Home](/)
