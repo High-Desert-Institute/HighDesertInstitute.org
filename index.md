@@ -15,8 +15,10 @@ title: Building a Foundation for the Survival of Humanity
 
 <hr>
 
+{% raw %}
   </div>
 </div>
+{% endraw %}
 
 <div class="row">
   <div class="col-md-12">
