@@ -73,6 +73,7 @@ The TC2 project has gotten a lot of attention and volunteer help on solving tech
 
 [Glancing at the code](https://github.com/VeggieVampire/MeshBoard), it looks like some version of this would be able to deliver everything we want, including integrating with the chat bots, and allowing the same single-board-computer to host internet-in-a-box, host the AI chat bots, run RAG against the local IIAB install, and also be its own Meshtastic node. This would drastically lower the cost of the node, requiring only a single computer for the entire node instead of several.
 
+---
 
 [← Back to Cyberpony Express](/guilds/lorekeepers/cyberpony-express/)  
 [← Back to Lorekeepers' Guild](/guilds/lorekeepers)  
