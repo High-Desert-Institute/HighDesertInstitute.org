@@ -3,7 +3,7 @@ layout: default
 title: Board
 ---
 
-# Board
+## Board Members
 
 These are the current members of our nonprofit board, tasked with overseeing governance and empowering the teams and projects that make up the guilds and lands of the High Desert Institute.
 
