@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Board Meeting Minutes"
+title: "Board Meeting Minutes: Launching Land Fund"
 date: 2024-01-16
 ---
 

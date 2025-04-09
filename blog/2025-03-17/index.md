@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Board Meeting Minutes"
+title: "Board Meeting Minutes: Financial Report, Cyberpony Express Recap, and Upcoming Workshops"
 date: 2025-03-17
 ---
 
