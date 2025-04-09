@@ -4,10 +4,6 @@ title: Building a Foundation for the Survival of Humanity
 ---
 
 
-      <div class="container" markdown="0">
-        <div class="row">
-            <div class="col">
-
               <img src="/assets/images/landscape.jpg" alt="High Desert Institute" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
 
               <h1> The High Desert Institute </h1>
@@ -156,6 +152,3 @@ title: Building a Foundation for the Survival of Humanity
 
           </div>
           <p class="text-right"><a href="/blog/">View all blog posts →</a></p>
-
-          </div><!--/row-->
-        </div><!--/col-md-12-->
