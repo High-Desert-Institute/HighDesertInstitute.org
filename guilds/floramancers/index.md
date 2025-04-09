@@ -2,7 +2,7 @@
 layout: default
 title: Floramancers' Guild
 blurb: "🌱Tenders of flora, Floramancers cultivate beauty and biodiversity, enriching our desert home."
-thumbnail: /assets/images/sky-spring.jpg
+thumbnail: /assets/images/floramancers.jpg
 order: 2
 ---
 
