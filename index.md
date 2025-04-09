@@ -15,37 +15,30 @@ title: Building a Foundation for the Survival of Humanity
 
 ---
 
-## What We’re Working On
-
-<img src="/assets/images/high-ground.jpg" alt="Land Projects" class="photo">
-
-A group of seasoned experts from the off-grid community-building world are fundraising to create a series of new land projects in the high deserts of the southwest. These outposts will be centers for permaculture and mutual aid, designed to build a foundation for the survival of humanity. These new land projects will facilitate research, development, and distribution of free, open-source solutions to basic human needs like housing and off-grid infrastructure.
-
-None of us are getting paid, every dollar goes to the mission. The entire process will be completely transparent and open source. Every dollar donated means the world and makes a huge difference!
-
----
-
-## The Library
-
-<img src="/assets/images/library.jpg" alt="Library" class="photo">
-
-HDI will publish a vast, free, open-source library containing everything we learn as well as many other sources we have collected on the topic of how to live well off-grid. This idea started as a request from one of the communities our team helped build in the past; to enable off-grid communities to host their own private intranets with libraries of useful knowledge. This library will be completely free and open to anyone and everyone.
-
----
-
-## [Guilds](/guilds)
-
-<img src="/assets/images/artificers-guild.jpg" alt="Guilds" class="photo">
-
-Guilds are groups within the High Desert Institute that focus on particular topics or aspects of community development. These are semi-atonomous organizations which start out as ad-hoc committees with a degree of self-governance ability including their own budget and fundraising ability, plus broad authority to decide how their projects happen, including spending. The goal is that these guilds will grow beyond the High Desert Institute, and eventually take on a life of their own, all over the world.
-
-<p class="text-right"><a href="/guilds/">View all guilds →</a></p>
-
----
-
-## [High Desert Outposts](/outposts)
-
-HDI will build outposts to demonstrate all the best practices and appropriate technologies we have identified for solving human infrastructure challenges off-grid. These outposts will be open and available for the public to come see what we have learned in action.
+  </div><!--/col-->
+</div><!--/row-->
+<div class="row">
+  <div class="col-md-12">
+    <h2>What We Do</h2>
+    <p>The High Desert Institute is a 501(c)(3) non-profit organization dedicated to building a foundation for the survival of humanity. We are focused on accomplishing this through off-grid land projects, libraries, and guilds.</p>
+    <p>A group of seasoned experts from the off-grid community-building world are fundraising to create a series of new land projects in the high deserts of the southwest. These outposts will be centers for permaculture and mutual aid, designed to build a foundation for the survival of humanity. These new land projects will facilitate research, development, and distribution of free, open-source solutions to basic human needs like housing and off-grid infrastructure.</p>
+    <p>None of us are getting paid, every dollar goes to the mission. The entire process will be completely transparent and open source. Every dollar donated means the world and makes a huge difference!</p>
+  </div>
+  <div class="col-md-4">
+    <h3>The Library</h3>
+    <img src="/assets/images/library.jpg" alt="Library" class="photo">
+    <p>HDI will publish a vast, free, open-source library containing everything we learn as well as many other sources we have collected on the topic of how to live well off-grid. This idea started as a request from one of the communities our team helped build in the past; to enable off-grid communities to host their own private intranets with libraries of useful knowledge. This library will be completely free and open to anyone and everyone.</p>
+  </div>
+  <div class="col-md-4">
+    <h3>Guilds</h3>
+    <img src="/assets/images/artificers-guild.jpg" alt="Guilds" class="photo">
+    <p>Guilds are groups within the High Desert Institute that focus on particular topics or aspects of community development. These are semi-atonomous organizations which start out as ad-hoc committees with a degree of self-governance ability including their own budget and fundraising ability, plus broad authority to decide how their projects happen, including spending. The goal is that these guilds will grow beyond the High Desert Institute, and eventually take on a life of their own, all over the world.</p>
+    <p><a href="/guilds/">View all guilds →</a></p>
+  </div>
+</div><!--/row-->
+<div class="row">
+  <div class="col">
+    <h2><a href="/outposts/">High Desert Outposts</a></h2>
 
 <div markdown="0" class="row">
 
