@@ -41,6 +41,13 @@ Third workshop video is not available yet.
 
 - [Build List v0.1](/guilds/lorekeepers/cyberpony-express/build-list-v0.1)
 
+
+## Useful Tools
+
+- [Flash Your Firmware From The Web](https://flasher.meshtastic.org/) Requires chrome!
+- [Plan Your Mesh](https://site.meshtastic.org/)
+
+
 ---
 
 [← Back to Lorekeepers' Guild](/guilds/lorekeepers)  
