@@ -6,11 +6,11 @@ title: Building a Foundation for the Survival of Humanity
 <div class="container">
   <div class="row">
     <div class="col">
-      <img src="/assets/images/landscape.jpg" alt="High Desert Institute" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+      <img src="/assets/images/landscape.jpg" alt="High Desert Institute" style="width: 100%; max-width: 100%; border-radius: 8px; margin-bottom: 1rem;">
 
       <h1> The High Desert Institute </h1>
 
-      <i>Building a Foundation for the Survival of Humanity</i>
+      <p><i>Building a Foundation for the Survival of Humanity</i></p>
 
       <p><a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Buy Land</a></p>
       <p><a href="https://www.gofundme.com/f/cyberpony-express-free-and-offgrid-communications" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build the Cyberpony Express</a></p>
