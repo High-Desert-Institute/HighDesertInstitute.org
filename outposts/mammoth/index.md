@@ -20,5 +20,5 @@ Geothermal synergies create a spectacular and bizare landscape on this ancient d
 - 🔜 Then, we begin on-site infrastructure development.
 - 🔜 Then, we open to early visitors and researchers.
 
-[← Back to All Outposts](/outposts/)
+[← Back to All Outposts](/outposts/)    
 [← Back to Home](/)
