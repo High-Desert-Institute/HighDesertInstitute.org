@@ -4,7 +4,7 @@ title: "Board Meeting Minutes: Launching Land Fund"
 date: 2024-01-16
 ---
 
-# 2024-01-16: Board Meeting Minutes
+# 2024-01-16: Board Meeting Minutes: Launching Land Fund
 
 We are fundraising on GoFundMe. Help us build a foundation for the survival of humanity by donating what you can…
 
