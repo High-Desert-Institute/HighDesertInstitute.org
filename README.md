@@ -15,6 +15,18 @@ There should also be a readme.md which contains devops details such as what you'
 
 If you would like to help with the process of reviewing pull requests, please reach out to CJ in the DevOps channel of the discord.
 
+## IMPORTANT: Scope of Work
+
+In general, changes to the home page, global css files, and the pages that list sub-pages (/blog, /outposts, /guilds, etc) are off limits unless there is some compelling reason to change them. It's important to maintain a consistent look and feel across the site. Think of these as the root scope; the board's section of the website. 
+
+If you are working on a guild or one of it's projects, feel free to make any changes the guild wants to the pages in its section of the website. It's fine to use a different template or layout for your pages if that's what your group agrees to. Remember that you need to discuss changes with your project colleagues before requesting to make them.
+
+If you are part of a Cyberpony Express Node site, feel free to edit or create subpages within the directory for that site. Remember that you need to discuss changes with the other people working on that site before requesting to make them.
+
+No matter what scope you're working under, other people are working there too. Any changes need to be socialized and consensus built with your colleageues before the changes are made. This doesn't mean you need an internal review of every tweak and change, but no one who's working with you on your project should be surprised to hear that you've submitted a pull request.
+
+The exception to these rules is for any factual errors or inconsistencies. If you notice something that is incorrect, please request to change it. Make sure to include details about what the error is and why you think it should be changed. If you are not sure if something is correct, please ask in the DevOps channel of the discord or wherever appropriate.
+
 
 ## Recommended Editing Setup
 
