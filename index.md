@@ -25,12 +25,13 @@ title: Building a Foundation for the Survival of Humanity
     <p>None of us are getting paid, every dollar goes to the mission. The entire process will be completely transparent and open source. Every dollar donated means the world and makes a huge difference!</p>
   </div>
   <div class="col-md-4">
-    <h3>The Library</h3>
+    <h3><a href="/guilds/lorekeepers/library">The Library</a></h3>
     <img src="/assets/images/library.jpg" alt="Library" class="photo">
     <p>HDI will publish a vast, free, open-source library containing everything we learn as well as many other sources we have collected on the topic of how to live well off-grid. This idea started as a request from one of the communities our team helped build in the past; to enable off-grid communities to host their own private intranets with libraries of useful knowledge. This library will be completely free and open to anyone and everyone.</p>
+    <p><a href="/guilds/lorekeepers/library/">Learn more about the library →</a></p>
   </div>
   <div class="col-md-4">
-    <h3>Guilds</h3>
+    <h3><a href="/guilds">Guilds</a></h3>
     <img src="/assets/images/artificers-guild.jpg" alt="Guilds" class="photo">
     <p>Guilds are groups within the High Desert Institute that focus on particular topics or aspects of community development. These are semi-atonomous organizations which start out as ad-hoc committees with a degree of self-governance ability including their own budget and fundraising ability, plus broad authority to decide how their projects happen, including spending. The goal is that these guilds will grow beyond the High Desert Institute, and eventually take on a life of their own, all over the world.</p>
     <p><a href="/guilds/">View all guilds →</a></p>
@@ -91,6 +92,7 @@ title: Building a Foundation for the Survival of Humanity
 </div><!--/row-->
 <div class="row">
   <div class="col-md-12">
+    <hr>
     <h3><a href="/board">Project Leadership</a></h3>
     <p>Meet the board of directors of the High Desert Institute.</p>
   </div>
@@ -117,17 +119,15 @@ title: Building a Foundation for the Survival of Humanity
 
 </div><!--/row-->
 
----
-
-> "If you have a garden and a library, you have everything you need."  
-> — *Cicero*
-  
-> "Lets help everyone do that."  
-> — *HDI*
-
----
-
-## [Blog Posts and Updates:](/blog)
+<div class="row">
+  <div class="col-md-12">
+    <hr>
+    <p>&apos;If you have a garden and a library, you have everything you need.&apos; <br> — Cicero</p>
+    <p>&apos;Lets help everyone do that.&apos; <br> — HDI</p>
+    <hr>
+  </div>
+  <div class="col-md-12">
+    <h2><a href="/blog/">Blog Posts and Updates:</a></h2>
 
 <div markdown="0">
 
@@ -147,6 +147,7 @@ title: Building a Foundation for the Survival of Humanity
   {% endif %}
 {% endfor %}
 
-<p class="text-right"><a href="/blog/">View all blog posts →</a></p>
 
 </div>
+<p class="text-right"><a href="/blog/">View all blog posts →</a></p>
+
