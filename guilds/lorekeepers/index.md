@@ -3,7 +3,7 @@ layout: default
 title: Lorekeepers' Guild
 blurb: "📚Custodians of knowledge, Lorekeepers preserve the wisdom of the ages and foster the exchange of ideas."
 thumbnail: /assets/images/library-rage.gif
-order: 2
+order: 1
 ---
 
 # Lorekeepers' Guild
