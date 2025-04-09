@@ -124,7 +124,7 @@ The Garden was where many involved in HDI first met.
 > — *Cicero*
 
 > "Lets help everyone do that."
-> - *HDI*
+> — *HDI*
 
 ---
 
