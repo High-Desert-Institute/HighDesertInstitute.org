@@ -3,7 +3,7 @@ layout: default
 title: Cyberpony Express
 ---
 
-# Lorekeepers' Guild: The Cyberpony Express
+# [Lorekeepers' Guild](/guilds/lorekeepers/): [Cyberpony Express](guilds/lorekeepers/cyberpony-express/)
 
 <img src="/assets/images/cyberpony-express.jpg" alt="The Cyberpony Express" class="photo">
 
