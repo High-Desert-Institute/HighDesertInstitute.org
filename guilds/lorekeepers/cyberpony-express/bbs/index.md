@@ -92,7 +92,7 @@ It seems to me that we have a three step pipeline here from the user's perspecti
 
 ```
 ┌────────────────────┐
-│ 🌾 Remote Node      │
+│ 🌾 Remote Node     │
 │  (User's Device)    │
 │                    │
 │  > "How to clean    │
@@ -101,7 +101,7 @@ It seems to me that we have a three step pipeline here from the user's perspecti
          │   Message sent over LoRa mesh
          ▼
 ┌────────────────────┐
-│ 🧠 BBS Operator     │
+│ 🧠 BBS Operator    │
 │  (Running On A New │
 │  Cyberpony Express │
 │  Meshtastic Node)  │
@@ -113,7 +113,7 @@ It seems to me that we have a three step pipeline here from the user's perspecti
          │   Queue message to service host
          ▼
 ┌────────────────────────────┐
-│ 🧃 Raspberry Pi (Service)   │
+│ 🧃 Raspberry Pi (Service)  │
 │  The Librarian + MUDs +    │
 │  Internet-in-a-Box (IIAB)  │
 │                            │
@@ -124,7 +124,7 @@ It seems to me that we have a three step pipeline here from the user's perspecti
          │   Response flows back over LoRa
          ▼
 ┌────────────────────┐
-│ 🌾 Remote Node      │
+│ 🌾 Remote Node    │
 │                    │
 │  < "Boil it for 1m,│
 │     avoid surface  │
@@ -140,11 +140,11 @@ It seems to me that we have a three step pipeline here from the user's perspecti
 
 ### Cyberpony Express BBS Todo List:
 
-- [ ] Build an operator that runs as a meshtastic plugin on the meshtastic node, and queues up requests for the services.
-- [ ] Build A Linux Service Host which handles the queues and hosts the services, informing the operator of what services are available.
-- [ ] Build a simple librarian that can answer questions and send back responses.
-- [ ] Build a MUD engine that can be played over the Cyberpony Express.
-    - [ ] Implement the example MUDs from above.
+- Build an operator that runs as a meshtastic plugin on the meshtastic node, and queues up requests for the services.
+- Build A Linux Service Host which handles the queues and hosts the services, informing the operator of what services are available.
+- Build a simple librarian that can answer questions and send back responses.
+- Build a MUD engine that can be played over the Cyberpony Express.
+    - Implement the example MUDs from above.
 
 ---
 
