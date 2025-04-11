@@ -12,20 +12,22 @@ The Bulletin Board Service is a key part of the Cyberpony Express. It is a free,
 The core element is the BBS, a simple, dumb system that works like a phone operator;
 
 ---
-*User:* Hi
-*BBS:* 
-[C]heck messages (7)
-View Public [T]hreads (4)
-View [P]rivate Threads (2)
-Talk to the [L]ibrarian
-
-*User:* L
-*BBS:* Hi. I'm the librarian, an intelligent assistant with access to a vast library of knowledge. How can I assist you today?
-*User:* How can I make sure the water is safe to drink during a disaster?
+*User:* Hi  
+*BBS:*  
+[C]heck messages (7)  
+View Public [T]hreads (4)  
+View [P]rivate Threads (2)  
+Talk to the [L]ibrarian  
+  
+*User:* L  
+*BBS:* Hi. I'm the librarian, an intelligent assistant with access to a vast library of knowledge. How can I assist you today?  
+*User:* How can I make sure the water is safe to drink during a disaster?  
 
 ---
 
 This core service doesn't need a lot of compute or power. It can run on basically anything, and then it can connect to more powerful devices to do the heavy lifting for services like the Librarian, the MUDs, etc.
+
+<img src="/assets/images/librarian.gif" alt="The Librarian" class="photo">
 
 #### Librarian
 
@@ -35,7 +37,7 @@ The librarian can respond with short summaries of topics as well as sending long
 
 Also, a key point of this project is that this all works completely off-grid without power or internet. These are completely self-contained systems which continue to function during disasters or in remote areas with no internet service.
 
-<img src="/assets/images/librarian.gif" alt="The Librarian" class="photo">
+<img src="/assets/images/muds.png" alt="MUDs" class="photo">
 
 #### MUDs
 
@@ -51,13 +53,13 @@ Also, some aspects of the MUD could be integrated with the public internet to al
 
 You can imagine using something like stable diffusion to create a video version of this experience based on the description, etc. For example, here is an image ChatGPT created based on the contents of this page...
 
-<img src="/assets/images/muds.gif" alt="MUDs" class="photo">
-
 The fundamental value created by MUDs is that they give us an obvious way to explain the power of what we've built, and a compelling use case for the kind of thing that really couldn't work anywhere except within this new world we've created. This just wouldn't work on the internet because it wouldn't be real in the same way.
 
 ### Existing Meshtastic BBS Projects
 
 There are several existing projects which are similar to the BBS we want to build, or where there is a good foundation and we can build on top.
+
+<img src="/assets/images/tc2-bbs.jpg" alt="TC2 BBS" class="photo">
 
 #### TC2 BBS
 
