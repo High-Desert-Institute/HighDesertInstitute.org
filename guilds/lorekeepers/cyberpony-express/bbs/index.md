@@ -13,7 +13,7 @@ The core element is the BBS, a simple, dumb system that works like a phone opera
 
 ---
 *User:* Hi  
-*BBS:*  
+*BBS:*  Hi!  
 [C]heck messages (7)  
 View Public [T]hreads (4)  
 View [P]rivate Threads (2)  
