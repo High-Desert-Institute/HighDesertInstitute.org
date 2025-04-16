@@ -17,7 +17,11 @@ Tucson, Arizona
 
 A warm desert outpost where nomads and travelers can congregate with likeminded folk during winter months.
 
-## 🛠️ Project Progress: The People’s Winter Palace
+## Planned Projects For This Site: 
+- Saguaro Gardens
+- All-Weather Lodge
+
+## 🛠️ Land Project Progress: The People’s Winter Palace
 - ⏳ Discussions and consensus-building are ongoing...
 - 🔜 Next, pending other projects and preparing to fundraise.
 - 🔜 Then, we launch the fundraising campaign.
