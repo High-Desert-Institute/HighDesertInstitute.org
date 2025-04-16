@@ -9,7 +9,7 @@ order: 3
 ---
 
 # ❄️ The People’s Winter Palace
-_Tucson, Arizona
+Tucson, Arizona
 
 <img src="/assets/images/peoples-winter-palace.jpg" class="photo">
 
