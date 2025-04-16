@@ -33,8 +33,8 @@ If you've like to host a node for free at your intentional communtiy, community 
     {% if page.status %}<p><em>Status:</em> {{ page.status }}</p>{% endif %}
     {% if page.location %}<p><em>Location:</em> {{ page.location }}</p>{% endif %}
     {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
-    {% if page.donate_link %}<a href="{{ page.donate_link }}" class="btn btn-success"></a>{% endif %}
-    {% if page.volunteer_link %}<a href="{{ page.volunteer_link }}" class="btn btn-primary"></a>{% endif %}
+    {% if page.donate_link %}<a href="{{ page.donate_link }}" class="btn btn-success">Donate</a>{% endif %}
+    {% if page.volunteer_link %}<a href="{{ page.volunteer_link }}" class="btn btn-primary">Volunteer</a>{% endif %}
   {% endif %}
 {% endfor %}
 
