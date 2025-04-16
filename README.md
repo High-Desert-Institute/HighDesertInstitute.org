@@ -2,7 +2,7 @@
 Our public website
 
 
-The idea is to start by recreating the structure of the previous website, and then point the DNS servers to this new static version so that anyone can submit edits or updates or new pages related to the projects they're working on. And then the website can become a shared repository of all the projects we are working on, where we can all help each other and anyone in the world can contribute to the work.
+The idea is that anyone can submit edits or updates or new pages related to the projects they're working on. And then the website can become a shared repository of all the projects we are working on, where we can all help each other and anyone in the world can contribute to the work.
 
 This website is live at [highdesertinstitute.org](https://highdesertinstitute.org)!
 
