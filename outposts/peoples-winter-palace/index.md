@@ -11,7 +11,7 @@ order: 3
 # ❄️ The People’s Winter Palace
 _Tucson, Arizona
 
-![The People’s Winter Palace](/assets/images/peoples-winter-palace.jpg)
+<img src="/assets/images/peoples-winter-palace.jpg" class="photo">
 
 ## Mission
 
