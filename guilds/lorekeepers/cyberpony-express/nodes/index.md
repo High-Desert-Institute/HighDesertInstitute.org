@@ -9,9 +9,15 @@ These are the official public nodes of the Cyberpony Express.
 
 If you'd like to donate to fund the creation of new nodes, [click here for the gofundme](https://www.gofundme.com/f/cyberpony-express-free-and-offgrid-communications).  
 
-If you've like to host a node for free at your intentional communtiy, community garden, amateur radio club repeater site, etc, [click here for the appliaction form](https://forms.gle/UZgQiUNzm8q1dmNfA).  
+If you've like to host a node for free at your intentional communtiy, community garden, amateur radio club repeater site, etc, [click here for the application form](https://forms.gle/UZgQiUNzm8q1dmNfA).  
 
 <img src="/assets/images/cyberpony-loop-2.gif" class="photo">
+
+### Map:
+
+
+
+### Node List:
 
 <div markdown="0">
 
