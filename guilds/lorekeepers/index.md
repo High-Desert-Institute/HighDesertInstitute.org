@@ -21,7 +21,7 @@ order: 1
 <img src="/assets/images/library-rage.gif" alt="Rage against the dying of the light" class="photo">
 
 **[The Librarian](/guilds/lorekeepers/librarian):** A free, open-source, digital librarian to help you find what you need and answer complex questions.
-<img src="/assets/images/librarian.jpg" class="photo">
+<img src="/assets/images/librarian.gif" class="photo">
 
 **[EMP Shielding](/guilds/lorekeepers/emp-shielding):** A project to shield the 
 <img src="/assets/images/emp-shielding.jpg" class="photo">
