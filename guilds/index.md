@@ -18,7 +18,7 @@ title: Guilds
 
   <div class="row" markdown="0">
 
-{% assign sorted_pages = site.pages | sort: "order" %}
+{% assign sorted_pages = site.pages | sort: "title" %}
 {% for page in sorted_pages %}
   {% assign path_parts = page.path | split: "/" %}
   {% if path_parts[0] == "guilds" and path_parts.size == 3 %}
