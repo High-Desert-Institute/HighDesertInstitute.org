@@ -2,7 +2,7 @@
 layout: default
 title: Fundweavers' Guild
 blurb: "Specializing in weaving together resources and opportunities, Fundweavers expertly navigate the realms of grant applications and other forms of fundraising to support and sustain the institute’s endeavors."
-thumbnail: /assets/iamges/fundweavers.jpg
+thumbnail: /assets/images/fundweavers.jpg
 ---
 
 ## Fundweavers' Guild
@@ -10,7 +10,7 @@ thumbnail: /assets/iamges/fundweavers.jpg
 ### Mission
 Specializing in weaving together resources and opportunities, Fundweavers expertly navigate the realms of grant applications and other forms of fundraising to support and sustain the institute’s endeavors.
 
-<img src="/assets/iamges/fundweavers.jpg" class="photo">
+<img src="/assets/images/fundweavers.jpg" class="photo">
 
 ### Projects
 
