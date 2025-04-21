@@ -35,7 +35,7 @@ title: Guilds
   </div><!--/row-->
   <div class="row">
     <div class="col">
-      [← Back to Home](/)
+      <a href="/">← Back to Home</a>
     </div><!--/col-->
   </div><!--/row---->
 </div><!--/container-->
