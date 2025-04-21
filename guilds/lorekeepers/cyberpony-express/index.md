@@ -19,14 +19,14 @@ The Cyberpony Express is a free, encrypted, public mesh network based on Meshtas
 
 ## Workshops!
 
-###2025-03-20 - Meet and Greet!
+### 2025-03-20 - Meet and Greet!
 
 [Text summary of the first workshop.](/blog/2025-03-19/) 
 
 
 ### 2025-03-27 - Meshtastic Hardware Strategy and Development 
 
-[Text summary of the second workshop.](/blog/2025-03-27/)  
+[Text summary of the second workshop.](/blog/2025-03-27-meshtastic-hardware-strategy-development/)  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Sw1WCDngTA?si=2bLo_iF1MKjQO0kG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -47,7 +47,7 @@ The Cyberpony Express is a free, encrypted, public mesh network based on Meshtas
 
 ### 2025-04-16 - Opsec in AI and Meshtastic
 
-[Text summary of the fifth workshop.](https://highdesertinstitute.org/guilds/lorekeepers/cyberpony-express/bbs/)
+[Text summary of the fifth workshop.](https://highdesertinstitute.org/blog/2025-04-16-opsec-ai-meshtastic/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z5k--VjGQjA?si=V5tZ3E881doqj-zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
