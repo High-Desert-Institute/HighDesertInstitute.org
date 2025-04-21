@@ -9,15 +9,19 @@ order: 3
 ---
 
 # ❄️ The People’s Winter Palace
-_Tucson, Arizona
+Tucson, Arizona
 
-![The People’s Winter Palace](/assets/images/peoples-winter-palace.jpg)
+<img src="/assets/images/peoples-winter-palace.jpg" class="photo">
 
 ## Mission
 
 A warm desert outpost where nomads and travelers can congregate with likeminded folk during winter months.
 
-## 🛠️ Project Progress: The People’s Winter Palace
+## Planned Projects For This Site: 
+- Saguaro Gardens
+- All-Weather Lodge
+
+## 🛠️ Land Project Progress: The People’s Winter Palace
 - ⏳ Discussions and consensus-building are ongoing...
 - 🔜 Next, pending other projects and preparing to fundraise.
 - 🔜 Then, we launch the fundraising campaign.
