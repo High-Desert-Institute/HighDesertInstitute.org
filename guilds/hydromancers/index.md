@@ -14,7 +14,17 @@ order: 2
 
 ## Current Projects:
 
-- **[Air Wells](/guilds/hydromancers/air-wells):** Pulligng water from the air using atmospheric water generators.  
+#### Air Wells
+Utilize atmospheric water generators to extract moisture from the air, providing a sustainable water source for remote and off-grid living.  
+[Learn More](https://highdesertinstitute.org/guilds/hydromancers/air-wells)
+
+#### Rainwater Harvesting Systems
+Design and implement efficient rainwater collection and filtration systems, ensuring a reliable water supply during dry seasons.  
+[Learn More](https://highdesertinstitute.org/guilds/hydromancers/rainwater-harvesting)
+
+#### Desert Water Solutions
+Research and develop technologies for water sourcing and conservation in arid environments.  
+[Learn More](https://highdesertinstitute.org/guilds/hydromancers/desert-water-solutions)
 
 [← Back to All Guilds](/guilds/)  
 [← Back to Home](/)
