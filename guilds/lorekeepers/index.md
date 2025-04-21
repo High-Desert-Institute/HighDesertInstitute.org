@@ -14,11 +14,18 @@ order: 1
 
 ## Current Projects:
 
-- **[The Library](/guilds/lorekeepers/library):** A vast, free, digital, public library of vital knowledge.  
-- **[The Librarian](/guilds/lorekeepers/librarian):** A free, open-source, digital librarian to help you find what you need and answer complex questions.  
-- **[The Cyberpony Express](/guilds/lorekeepers/cyberpony-express):** A free, encrypted, public mesh network based on Meshtastic.  
+**[The Cyberpony Express](/guilds/lorekeepers/cyberpony-express):** A free, encrypted, public mesh network based on Meshtastic.  
 
+
+**[The Library](/guilds/lorekeepers/library):** A vast, free, digital, public library of vital knowledge.  
 <img src="/assets/images/library-rage.gif" alt="Rage against the dying of the light" class="photo">
+
+**[The Librarian](/guilds/lorekeepers/librarian):** A free, open-source, digital librarian to help you find what you need and answer complex questions.
+<img src="/assets/images/librarian.jpg" class="photo">
+
+**[EMP Shielding](/guilds/lorekeepers/emp-shielding):** A project to shield the 
+<img src="/assets/images/emp-shielding.jpg" class="photo">
+
 
 [← Back to All Guilds](/guilds/)  
 [← Back to Home](/)
