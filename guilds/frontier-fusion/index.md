@@ -17,3 +17,5 @@ Delving into the fundamental building blocks of reality, the Frontier Fusion Gui
 #### Nuclear Fusion Test Reactor
 An experimental reactor aimed at producing clean, sustainable energy for the community through nuclear fusion.  
 [Learn More](https://highdesertinstitute.org/guilds/frontier-fusion/nuclear-fusion)
+
+<img src="/assets/images/fusion-reactor.jpg" class="photo">
