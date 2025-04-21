@@ -15,7 +15,7 @@ order: 1
 ## Current Projects:
 
 **[The Cyberpony Express](/guilds/lorekeepers/cyberpony-express):** A free, encrypted, public mesh network based on Meshtastic.  
-
+<img src="/assets/images/cyberpony-express.jpg" class="photo">
 
 **[The Library](/guilds/lorekeepers/library):** A vast, free, digital, public library of vital knowledge.  
 <img src="/assets/images/library-rage.gif" alt="Rage against the dying of the light" class="photo">
