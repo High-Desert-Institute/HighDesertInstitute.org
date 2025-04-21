@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Pathfinders' Guild
-blurb: "Maintain safe and accessible pathways for off-grid travel, ensuring community members can move freely through the desert landscape and between the outposts and the other communities.
-"
+blurb: "Maintain safe and accessible pathways for off-grid travel, ensuring community members can move freely through the desert landscape and between the outposts and the other communities."
 thumbnail: /assets/images/pathfinders.jpg
 ---
 
