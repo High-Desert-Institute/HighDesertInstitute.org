@@ -9,7 +9,10 @@ date: 2025-04-03
 <img src="/assets/images/cyberpony-express-flyer-2.jpg" alt="Flyer for sharing" class="photo">
 
 
-## Youtube recording will be posted here.
+## YouTube Recording Of The Workshop
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zCB9deVyMq8?si=BhLPqO11RNHWzEDP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 Our third Cyberpony Express workshop covered about Siting and Outreach.

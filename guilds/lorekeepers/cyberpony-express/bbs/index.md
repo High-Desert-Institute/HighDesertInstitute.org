@@ -3,7 +3,7 @@ layout: default
 title: Librarian
 ---
 
-## [Lorekeepers' Guild](/guilds/lorekeepers/): [Cyberpony Express](guilds/lorekeepers/cyberpony-express/) - [BBS](guilds/lorekeepers/cyberpony-express/bbs/)
+## [Lorekeepers' Guild](/guilds/lorekeepers/): [Cyberpony Express](/guilds/lorekeepers/cyberpony-express/) - [BBS](/guilds/lorekeepers/cyberpony-express/bbs/)
 
 The Bulletin Board Service is a key part of the Cyberpony Express. It is a free, open-source, digital postal service for the people. The idea is to create a network of BBS nodes that can send and receive messages with users, solve the backhaul problem of long-distance messaging between distant parts of the network, enable access to MUDs and chatbots like the Librarian, and provide a framework for extending the functionality of the Cyberpony Express in the future.
 

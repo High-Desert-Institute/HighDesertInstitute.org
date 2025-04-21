@@ -18,7 +18,7 @@ title: Guilds
 
   <div class="row" markdown="0">
 
-{% assign sorted_pages = site.pages | sort: "order" %}
+{% assign sorted_pages = site.pages | sort: "title" %}
 {% for page in sorted_pages %}
   {% assign path_parts = page.path | split: "/" %}
   {% if path_parts[0] == "guilds" and path_parts.size == 3 %}
@@ -35,7 +35,7 @@ title: Guilds
   </div><!--/row-->
   <div class="row">
     <div class="col">
-      [← Back to Home](/)
+      <a href="/">← Back to Home</a>
     </div><!--/col-->
   </div><!--/row---->
 </div><!--/container-->
