@@ -19,28 +19,37 @@ The Cyberpony Express is a free, encrypted, public mesh network based on Meshtas
 
 ## Workshops!
 
+###2025-03-20 - Meet and Greet!
+
+[Text summary of the first workshop.](/blog/2025-03-19/) 
+
 
 ### 2025-03-27 - Meshtastic Hardware Strategy and Development 
 
-[Text Summary of the first workshop.](/blog/2025-03-19/)  
+[Text summary of the second workshop.](/blog/2025-03-27/)  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Sw1WCDngTA?si=2bLo_iF1MKjQO0kG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-
 ### 2025-04-03 - Siting and Outreach
 
-[Text Summary of the second workshop.](/blog/2025-04-03/)
+[Text summary of the third workshop.](/blog/2025-04-03/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zCB9deVyMq8?si=g343O4FyGhktcBZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ### 2025-04-10 - BBS/Librarian
 
-[Text Summary of the third workshop.](https://highdesertinstitute.org/guilds/lorekeepers/cyberpony-express/bbs/)
+[Text summary of the fourth workshop.](https://highdesertinstitute.org/guilds/lorekeepers/cyberpony-express/bbs/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3gRCj5V-8wc?si=x9lYCh9Qg6KwmHE5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+### 2025-04-16 - Opsec in AI and Meshtastic
+
+[Text summary of the fifth workshop.](https://highdesertinstitute.org/guilds/lorekeepers/cyberpony-express/bbs/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z5k--VjGQjA?si=V5tZ3E881doqj-zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Build Lists!
