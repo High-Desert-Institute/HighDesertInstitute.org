@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Board Meeting Minutes: Launching Land Fund"
+title: "Meshtastic Hardware Strategy and Development"
 date: 2025-03-27
 ---
 
