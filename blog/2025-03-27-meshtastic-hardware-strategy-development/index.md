@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Meshtastic Hardware Strategy and Development"
+title: "Cyberpony Express - Meshtastic Hardware Strategy and Development"
 date: 2025-03-27
 ---
 
