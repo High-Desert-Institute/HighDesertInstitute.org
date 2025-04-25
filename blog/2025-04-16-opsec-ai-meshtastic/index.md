@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Opsec in AI and Meshtastic"
+title: "Cyberpony Express - Opsec in AI and Meshtastic"
 date: 2025-04-16
 ---
 
