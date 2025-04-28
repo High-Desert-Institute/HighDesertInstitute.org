@@ -46,7 +46,7 @@ title: Building a Foundation for the Survival of Humanity
     </div>
     <div class="col-md-4">
       <h3><a href="/high-desert-community-land-trust/">High Desert Community Land Trust</a></h3>
-      <img src="/assets/images/landscape-sqwuare.jpg" alt="Land Trust" class="photo">
+      <img src="/assets/images/landscape-square.jpg" alt="Land Trust" class="photo">
       <p>The High Desert Community Land Trust is a separate nonprofit we will create as an owner of the lands we buy. This new nonprofit will have an extremely narrow focus and extremely careful rules and bylaws. It will exist simply to own the land and administer the land trusts that govern how the land can be used. </p>
       <p>This insulates risk and improves separation of concerns so that the ownership of the lands can be separaetly secured forever within an institution designed for the purpose of protecting the land for the community.</p>
       <p><b>Note:</b> Julia and CJ will be leading an upcoming workshop series about this project. Stay tuned for details.</p>
