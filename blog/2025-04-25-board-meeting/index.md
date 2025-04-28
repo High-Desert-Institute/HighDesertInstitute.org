@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Board Meeting Minutes: Launching Land Fund"
-date: 2024-01-16
+title: "Board Meeting Minutes: Workshop recap, financial update, next steps"
+date: 2025-04-25
 ---
 
 # 2025-04-25: Board Meeting Minutes: Workshop recap, financial update, next steps
