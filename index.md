@@ -63,6 +63,7 @@ title: Building a Foundation for the Survival of Humanity
   </div><!--/row-->
   <div class="row">
     <div class="col">
+      <hr>
       <h2><a href="/outposts/">High Desert Outposts</a></h2>
 
   <div markdown="0" class="row">
