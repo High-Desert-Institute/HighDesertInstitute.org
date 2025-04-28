@@ -55,6 +55,12 @@ You can imagine using something like stable diffusion to create a video version 
 
 The fundamental value created by MUDs is that they give us an obvious way to explain the power of what we've built, and a compelling use case for the kind of thing that really couldn't work anywhere except within this new world we've created. This just wouldn't work on the internet because it wouldn't be real in the same way.
 
+Recent discussions about programming these kinds of things...
+- [https://news.ycombinator.com/item?id=43809638](https://news.ycombinator.com/item?id=43809638)
+- [https://news.ycombinator.com/item?id=22652690](https://news.ycombinator.com/item?id=22652690)
+- [https://helderman.github.io/htpataic/htpataic01.html](https://helderman.github.io/htpataic/htpataic01.html)
+
+
 ### Existing Meshtastic BBS Projects
 
 There are several existing projects which are similar to the BBS we want to build, or where there is a good foundation and we can build on top.
