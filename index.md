@@ -44,9 +44,25 @@ title: Building a Foundation for the Survival of Humanity
       <p>Guilds are groups within the High Desert Institute that focus on particular topics or aspects of community development. These are semi-atonomous organizations which start out as ad-hoc committees with a degree of self-governance ability including their own budget and fundraising ability, plus broad authority to decide how their projects happen, including spending. The goal is that these guilds will grow beyond the High Desert Institute, and eventually take on a life of their own, all over the world.</p>
       <p><a href="/guilds/">View all guilds →</a></p>
     </div>
+    <div class="col-md-4">
+      <h3><a href="/high-desert-community-land-trust/">High Desert Community Land Trust</a></h3>
+      <img src="/assets/images/landscape-square.jpg" alt="Land Trust" class="photo">
+      <p>The High Desert Community Land Trust is a separate nonprofit we will create as an owner of the lands we buy. This new nonprofit will have an extremely narrow focus and extremely careful rules and bylaws. It will exist simply to own the land and administer the land trusts that govern how the land can be used. </p>
+      <p>This insulates risk and improves separation of concerns so that the ownership of the lands can be separaetly secured forever within an institution designed for the purpose of protecting the land for the community.</p>
+      <p><b>Note:</b> Julia and CJ will be leading an upcoming workshop series about this project. Stay tuned for details.</p>
+      <p><a href="/high-desert-community-land-trust/">Learn more →</a></p>
+    </div>
+    <div class="col-md-4">
+      <h3><a href="/high-desert-community-development-fund">High Desert Community Development Fund</a></h3>
+      <img src="/assets/images/fundweavers.jpg" alt="Fundweavers" class="photo">
+      <p>The High Desert Community Development Fund is a planned, separate nonprofit which provides reliable, long-term support for the High Desert Institute’s programs and land purchases. By creating a nonprofit endowment fund, we ensure that HDI will be able to continue buying land and building outposts, giving out critical infrastructure for free, paying for workshops, and all the other projects that are in the works. In this way, the fund transforms one-off donations and bequests into a self-sustaining financial engine, empowering our outposts and the surrounding communities to thrive through what's coming.</p>
+      <p>The essential mission and purpose of the fund will be to build and maintain a safe and diversified portfolio of passive index-fund ETFs and index-dividend ETFs which deliver returns that can fund things like our property taxes, land aquisitions, and maintenance of any essential infrastructure. Any additional returns can be allocated to fund the programs of the High Desert Institute or for reinvestment back into the fund.</p>
+      <p><a href="/high-desert-community-development-fund/">Learn more →</a></p>
+    </div>
   </div><!--/row-->
   <div class="row">
     <div class="col">
+      <hr>
       <h2><a href="/outposts/">High Desert Outposts</a></h2>
 
   <div markdown="0" class="row">
