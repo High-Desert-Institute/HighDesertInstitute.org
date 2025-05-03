@@ -16,12 +16,12 @@ Specializing in weaving together resources and opportunities, Fundweavers expert
 
 #### High Desert Community Land Trust
 The High Desert Community Land Trust is a separate nonprofit we will create as an owner of the lands we buy. This new nonprofit will have an extremely narrow focus and extremely careful rules and bylaws. It will exist simply to own the land and administer the land trusts that govern how the land can be used.  
-This insulates risk and improves separation of concerns so that the ownership of the lands can be separaetly secured forever within an institution designed for the purpose of protecting the land for the community.
+This insulates risk and improves separation of concerns so that the ownership of the lands can be separaetly secured forever within an institution designed for the purpose of protecting the land for the community.  
 [Learn More](https://highdesertinstitute.org/high-desert-community-land-trust/)
 
 
 #### High Desert Community Development Fund
-The core mission of the High Desert Community Development Fund is to build and manage a safe, diversified portfolio of passive index funds and index dividend funds. These investments are designed to generate returns that cover the operational costs of the HDI, including property taxes, land acquisitions, and the maintenance of essential infrastructure. Any additional returns generated will be used to fund HDI’s programs, reinvest into the fund for growth, or assist with future land acquisitions. This strategic financial structure will ensure that HDI’s impact on the community continues to expand, creating a lasting legacy of sustainability, education, and infrastructure for generations to come.
+The core mission of the High Desert Community Development Fund is to build and manage a safe, diversified portfolio of passive index funds and index dividend funds. These investments are designed to generate returns that cover the operational costs of the HDI, including property taxes, land acquisitions, and the maintenance of essential infrastructure. Any additional returns generated will be used to fund HDI’s programs, reinvest into the fund for growth, or assist with future land acquisitions. This strategic financial structure will ensure that HDI’s impact on the community continues to expand, creating a lasting legacy of sustainability, education, and infrastructure for generations to come.  
 [Learn More](https://highdesertinstitute.org/high-desert-community-development-fund/)
 
 
