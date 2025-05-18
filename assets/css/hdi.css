@@ -79,3 +79,6 @@ h4{
 .text-right{
     text-align: right;
 }
+iframe{
+    max-width: 100%;
+}
