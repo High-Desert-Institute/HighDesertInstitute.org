@@ -3,6 +3,8 @@ layout: default
 title: Gravity
 ---
 
+<img src="/assets/images/gravity-spec.jpg" class="photo" alt="Picture a Y-shaped logic tree descending vertically from a floating sun or node cluster, with the “roots” of the logic structure penetrating layered desert strata. Each segment of the tree could represent encapsulated modules or subgraphs, with faint glyphs representing semantic metadata. The whole structure is both architectural and ecological—anchored in a high desert basin, yet part of a planetary computing network.">
+
 # 🌌 Gravity: An Open Specification for Composable, Logic-Driven, Procedural Interfaces
 
 ## 🧽 Summary
