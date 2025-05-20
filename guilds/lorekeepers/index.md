@@ -20,10 +20,10 @@ order: 1
 **[The Library](/guilds/lorekeepers/library):** A vast, free, digital, public library of vital knowledge.  
 <img src="/assets/images/library-rage.gif" alt="Rage against the dying of the light" class="photo">
 
-**[The Librarian](/guilds/lorekeepers/librarian):** A free, open-source, digital librarian to help you find what you need and answer complex questions.
+**[The Librarian](/guilds/lorekeepers/librarian):** A free, open-source, digital librarian to help you find what you need and answer complex questions.  
 <img src="/assets/images/librarian.gif" class="photo">
 
-**[EMP Shielding](/guilds/lorekeepers/emp-shielding):** A project to shield the 
+**[EMP Shielding](/guilds/lorekeepers/emp-shielding):** A project to shield the library from the potential effects of electromagnetic pulses.  
 <img src="/assets/images/emp-shielding.jpg" class="photo">
 
 
