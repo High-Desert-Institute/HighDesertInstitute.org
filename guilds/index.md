@@ -37,5 +37,5 @@ title: Guilds
     <div class="col">
       <a href="/">← Back to Home</a>
     </div><!--/col-->
-  </div><!--/row---->
+  </div><!--/row-->
 </div><!--/container-->
