@@ -7,11 +7,14 @@ title: Flying Robots
 
 The "Flying Robots" project brings the automation ethos of *Factorio* to life. In the game, swarms of tiny drones ferry materials and handle jobs across sprawling factories. Our real‑world version uses low‑cost quadcopters, the Cyberpony Express mesh network, and open mapping tools so communities can dispatch small autonomous aircraft to tackle everyday tasks.
 
-![The Cyberpony Express mesh network enables many robots to work together to accomplish tasks for users](/assets/images/flying-robots-mesh.png)
+  
+![A quadcopter drone flying over a community garden](/assets/images/flying-robots-gardens.png)
 
 ### Why Now?
 
 To date we have raised more than ten thousand dollars and distributed hundreds of Cyberpony Express nodes across the Sacramento – San Francisco Bay Area. This growing Meshtastic network lets devices talk even when the public internet or cell service is unavailable. With the network in place, inexpensive drones can coordinate just like Factorio's flying robots.
+
+![The Cyberpony Express mesh network enables many robots to work together to accomplish tasks for users](/assets/images/flying-robots-mesh.png)
 
 ### Key Ingredients
 
