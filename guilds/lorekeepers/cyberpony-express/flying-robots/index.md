@@ -25,12 +25,69 @@ To date we have raised more than ten thousand dollars and distributed hundreds o
 4. **Execution** – The drone flies to the target, gathers photos, video, or other data, and sends its findings back through Meshtastic/ATAK.
 5. **Reporting** – Results flow to responders or logbooks, closing the loop and readying the drone for the next assignment.
 
-### Example Roles
+### Robot Types
 
-- **Scout** – Verify alarms or check a triggered motion sensor.
-- **Guardian** – Patrol gardens and chase pests away with lights or sound.
-- **Courier** – Deliver small items between nearby outposts.
-- **Surveyor** – Capture aerial imagery for mapping or real‑estate photography.
+#### Carrier (Fixed‑Wing UAV)
+Built for long distances where agility is less critical.
+
+**Example tasks:**
+- Inter‑community logistics deliveries
+- Photographing downed robots or infrastructure
+- Surveying large areas for mapping
+- Patrolling for predators or pests
+- Capturing broad‑area imagery
+
+#### Worker (Quadcopter)
+Workers excel at nimble, close‑quarters tasks.
+
+**Example tasks:**
+- Moving small objects or supplies
+- Wielding lightweight tools for repairs or assembly
+- Deploying or recovering relay nodes in tight spots
+- Planting seeds or placing sensors with precision
+- Retrieving small payloads from Carriers
+
+#### Rover (Ground Robot)
+Rovers trade speed for endurance and payload capacity.
+
+**Example tasks:**
+- Serving as remote mesh nodes or charging stations
+- Identifying and removing weeds
+- Planting seeds and tending crops
+- Deploying heavier tools or sensors
+- Being dropped or retrieved by a Worker in rough terrain
+
+### Design Snapshots
+
+The images below illustrate the system architecture, prototype capabilities, and long‑term vision for the flying robot fleet.
+
+![Block diagram of sensors, mesh nodes, and mission control linking to a quadcopter](/assets/images/flying-robots-system-diagram.png)
+
+The system diagram highlights how sensors feed alerts into the Cyberpony Express mesh. Tasks are broadcast, claimed by an available drone, and reported back through ATAK.
+
+![Drone photographing a community garden from above](/assets/images/flying-robots-aerial-photography.png)
+
+A surveyor drone captures detailed aerial photography, turning routine flights into up‑to‑date maps and progress logs.
+
+![Quadcopter frame with interchangeable camera, speaker, and cargo modules laid out](/assets/images/flying-robots-modular-payloads.png)
+
+Modular payloads let each airframe specialize. Swap a camera for a speaker, light, or small cargo pod depending on the mission.
+
+![Stylized illustration of a small fleet of community drones at work](/assets/images/flying-robots-concept-art.png)
+
+Concept art shows how a humble fleet might look zipping between gardens, rooftops, and neighborhood outposts.
+
+![Three drones perched on a solar-powered charging rail](/assets/images/flying-robots-charging.png)
+
+An automated charging rack keeps robots topped off and ready without human intervention.
+
+![Drone lowering a first-aid kit toward people in a flooded neighborhood](/assets/images/flying-robots-disaster-response.png)
+
+The same system that handles daily chores can pivot to disaster response, delivering supplies or relaying messages when roads are impassable.
+
+![Illustration of a future skyline dotted with helper drones and connected outposts](/assets/images/flying-robots-future-vision.png)
+
+These scenes hint at a future where swarms of flying robots quietly stitch together the digital and physical realms.
 
 By combining open‑hardware drones with the Cyberpony Express, communities gain a modular automation layer that works off‑grid. Each "flying robot" handles a narrow task it is suited for, while the mesh network and ATAK provide the coordination glue. When a sensor trips, a mission is created, a drone claims it, and the job gets done—no internet backbone required.
 
