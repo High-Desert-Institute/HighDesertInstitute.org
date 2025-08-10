@@ -7,7 +7,7 @@ title: Flying Robots
 
 The "Flying Robots" project brings the automation ethos of *Factorio* to life. In the game, swarms of tiny drones ferry materials and handle jobs across sprawling factories. Our real‑world version uses low‑cost quadcopters, the Cyberpony Express mesh network, and open mapping tools so communities can dispatch small autonomous aircraft to tackle everyday tasks.
 
-  
+
 ![A quadcopter drone flying over a community garden](/assets/images/flying-robots-gardens.png)
 
 ### Why Now?
@@ -32,6 +32,8 @@ To date we have raised more than ten thousand dollars and distributed hundreds o
 
 ### Robot Types
 
+![Carrier (fixed-wing UAV)](/assets/images/flying-robots-carrier.png)
+
 #### Carrier (Fixed‑Wing UAV)
 Built for long distances where agility is less critical.
 
@@ -42,6 +44,8 @@ Built for long distances where agility is less critical.
 - Patrolling for predators or pests
 - Capturing broad‑area imagery
 
+![Worker (quadcopter)](/assets/images/flying-robots-worker.png)
+
 #### Worker (Quadcopter)
 Workers excel at nimble, close‑quarters tasks.
 
@@ -51,6 +55,8 @@ Workers excel at nimble, close‑quarters tasks.
 - Deploying or recovering relay nodes in tight spots
 - Planting seeds or placing sensors with precision
 - Retrieving small payloads from Carriers
+
+![Rover (ground robot)](/assets/images/flying-robots-rover.png)
 
 #### Rover (Ground Robot)
 Rovers trade speed for endurance and payload capacity.
