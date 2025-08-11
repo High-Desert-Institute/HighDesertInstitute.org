@@ -104,7 +104,7 @@ By combining open‑hardware drones with the Cyberpony Express, communities gain
 
 ## Relevant Legal Limitations and Constraints for Flying and Ground Robots
 
-This is not legal advice. This is just research I conducted to try to understand where regulations are at in different states and how they might affect the feasability of this project. This is by no means a complete or exhaustive list of the relevant or applicable laws, regulations, or rules. Please consult a qualified attorney for legal advice specific to your situation.  
+This is not legal advice. This is just research I conducted as an amateur trying to understand where any relevant or adjacent regulations are at in different states and how they might affect the feasability of this project. Many of these laws are for delivery services or industrial agriculture; none of which is what we propose to do. This is by no means a complete or exhaustive list of the relevant or applicable laws, regulations, or rules. Please consult a qualified attorney for legal advice specific to your situation.  
 
 *Scope: small unmanned aircraft (drones) under 55 lb operating under 14 CFR Part 107; spray/ag drones under 14 CFR Part 137; and ground-based Personal Delivery Devices (PDDs) a.k.a. sidewalk delivery robots. This is an informational overview, not legal advice.*
 
@@ -311,7 +311,9 @@ This is not legal advice. This is just research I conducted to try to understand
 
 ---
 
-*Questions welcome—happy to tailor this to your exact routes, payloads, and sensors.*
+## My Final Thoughts About Potential Legal Issues
+
+It's important to note that we are not talking about large drones or delivery robots that operate on public roads or as a commercial service. The focus here is on small drones (under 55 lbs) and robots that operate primarily/exclusively on private property, with strict adherence to FAA regulations and local laws. It's difficult to say exactly how and when regulations will apply since what we're talking about doing is essentially entirely non-overlapping with any of the typical use cases that regulations have been written for.
 
 
 ---
