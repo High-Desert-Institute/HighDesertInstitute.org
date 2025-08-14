@@ -16,7 +16,7 @@ The Cyberpony Express is a free, encrypted, public mesh network based on Meshtas
 - [Deploying New Nodes](https://forms.gle/UZgQiUNzm8q1dmNfA) - A project to deploy nodes in the wild and test the network. This is what the GoFundMe pays for.
 - [BBS](/guilds/lorekeepers/cyberpony-express/bbs/) - A simple, dumb system that works like a phone operator. It can send and receive messages with users, solve the backhaul problem of long-distance messaging between distant parts of the network, enable access to MUDs and chatbots like the Librarian, and provide a framework for extending the functionality of the Cyberpony Express in the future.
 - [Flying Robots](/guilds/lorekeepers/cyberpony-express/flying-robots/) - Low-cost quadcopters coordinated over the mesh to handle tasks like observation, pest deterrence, and deliveries.
-
+ - [Flying Robots](/guilds/lorekeepers/cyberpony-express/flying-robots/) - Low-cost quadcopters and solar electric boats coordinated over the mesh to handle tasks like observation, pest deterrence, deliveries, and waterway maintenance.
 
 ## Workshops!
 

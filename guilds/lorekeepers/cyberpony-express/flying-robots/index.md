@@ -7,6 +7,7 @@ title: Flying Robots
 
 The "Flying Robots" project brings the automation ethos of *Factorio* to life. In the game, swarms of tiny drones ferry materials and handle jobs across sprawling factories. Our real‑world version uses low‑cost quadcopters, the Cyberpony Express mesh network, and open mapping tools so communities can dispatch small autonomous aircraft to tackle everyday tasks.
 
+While the focus began in the air, the project is expanding to include water‑based solar electric robots that glide across ponds and canals to handle jobs on the water.  
 
 ![A quadcopter drone flying over a community garden](/assets/images/flying-robots-gardens.png)
 
@@ -66,7 +67,18 @@ Rovers trade speed for endurance and payload capacity.
 - Identifying and removing weeds
 - Planting seeds and tending crops
 - Deploying heavier tools or sensors
-- Being dropped or retrieved by a Worker in rough terrain
+- Being dropped or retrieved by a Worker in rough 
+
+![Skimmer (solar water robot)](/assets/images/flying-robots-skimmer.png)
+
+#### Skimmer (Solar Water Robot)
+Skimmers rely on solar-charged batteries to move quietly across ponds, canals, or reservoirs.
+
+**Example tasks:**
+- Inspecting water quality and levels
+- Delivering lightweight cargo between docks
+- Hauling or deploying floating sensors
+- Acting as mobile power banks for other robots
 
 ### Design Snapshots
 
@@ -98,9 +110,9 @@ The same system that handles daily chores can pivot to disaster response, delive
   
 ![Illustration of a future skyline dotted with helper drones and connected outposts](/assets/images/flying-robots-future-vision.png)
 
-These scenes hint at a future where swarms of flying robots quietly stitch together the digital and physical realms.
+These scenes hint at a future where swarms of flying robots and solar boats quietly stitch together the digital and physical realms.
 
-By combining open‑hardware drones with the Cyberpony Express, communities gain a modular automation layer that works off‑grid. Each "flying robot" handles a narrow task it is suited for, while the mesh network and ATAK provide the coordination glue. When a sensor trips, a mission is created, a drone claims it, and the job gets done—no internet backbone required.
+By combining open‑hardware drones and solar electric watercraft with the Cyberpony Express, communities gain a modular automation layer that works off‑grid. Each robot handles a narrow task it is suited for, while the mesh network and ATAK provide the coordination glue. When a sensor or buoy trips, a mission is created, a robot claims it, and the job gets done—no internet backbone required.
 
 ## Relevant Legal Limitations and Constraints for Flying and Ground Robots
 
