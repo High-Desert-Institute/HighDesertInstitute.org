@@ -28,10 +28,10 @@ title: Building a Foundation for the Survival of Humanity
       <p>None of us are getting paid, every dollar goes to the mission. The entire process will be completely transparent and open source. Every dollar donated means the world and makes a huge difference!</p>
     </div>
     <div class="col-md-4">
-      <h3><a href="/guilds/lorekeepers/library">The Library</a></h3>
-      <img src="/assets/images/library.jpg" alt="Library" class="photo">
-      <p>HDI will publish a vast, free, open-source library containing everything we learn as well as many other sources we have collected on the topic of how to live well off-grid. This idea started as a request from one of the communities our team helped build in the past; to enable off-grid communities to host their own private intranets with libraries of useful knowledge. This library will be completely free and open to anyone and everyone.</p>
-      <p><a href="/guilds/lorekeepers/library/">Learn more about the library →</a></p>
+      <h3><a href="/guilds/lorekeepers/librarian/">The Librarian</a></h3>
+      <img src="/assets/images/librarian.gif" alt="Guilds" class="photo">
+      <p>The librarian is a free, open-source, digital librarian to help you find what you need and answer complex questions. A small LLM runs on an edge device like a Raspberry Pi in order to answer complex questions based on the contents of the local library. This means, communities can add contents to the library and the librarian will be able to answer questions based on that content.</p>
+      <p><a href="/guilds/lorekeepers/librarian/">Learn more about the Librarian →</a></p>
     </div>
     <div class="col-md-4">
       <h3><a href="/guilds/lorekeepers/cyberpony-express">The Cyberpony Express</a></h3>
@@ -44,6 +44,12 @@ title: Building a Foundation for the Survival of Humanity
       <img src="/assets/images/artificers-guild.jpg" alt="Guilds" class="photo">
       <p>Guilds are groups within the High Desert Institute that focus on particular topics or aspects of community development. These are semi-atonomous organizations which start out as ad-hoc committees with a degree of self-governance ability including their own budget and fundraising ability, plus broad authority to decide how their projects happen, including spending. The goal is that these guilds will grow beyond the High Desert Institute, and eventually take on a life of their own, all over the world.</p>
       <p><a href="/guilds/">View all guilds →</a></p>
+    </div>
+    <div class="col-md-4">
+      <h3><a href="/guilds/lorekeepers/library">The Library</a></h3>
+      <img src="/assets/images/library.jpg" alt="Library" class="photo">
+      <p>HDI will publish a vast, free, open-source library containing everything we learn as well as many other sources we have collected on the topic of how to live well off-grid. This idea started as a request from one of the communities our team helped build in the past; to enable off-grid communities to host their own private intranets with libraries of useful knowledge. This library will be completely free and open to anyone and everyone.</p>
+      <p><a href="/guilds/lorekeepers/library/">Learn more about the library →</a></p>
     </div>
     <div class="col-md-4">
       <h3><a href="/high-desert-community-land-trust/">High Desert Community Land Trust</a></h3>
