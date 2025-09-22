@@ -35,6 +35,7 @@ The librarian is a free, open-source, digital librarian to help you find what yo
 
 The development repository is here. Please feel free to contribute, make suggestions, or post issues.
 
+[https://github.com/High-Desert-Institute/Librarian](https://github.com/High-Desert-Institute/Librarian)
 
 
 ---
