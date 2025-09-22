@@ -27,11 +27,16 @@ The librarian is a free, open-source, digital librarian to help you find what yo
 - Lilygo T-Beam Supreme or other Meshtastic-compatible device for mesh networking
 - Large antenna mounted up high for better range
 
+## Software Stack
+- Ollama: local LLM hosting
+- OpenWebUI: web interface for LLMs
+- [HDI Librarian](https://github.com/High-Desert-Institute/Librarian): custom software for managing the librarian and integrating with Meshtastic
+
 - Recommended Personal Node:
     -T-Deck Plus as a terminal to interact with the librarian. Battery life isn't amazing, but it has a keyboard and screen which makes it easy to send/receive messages on the node device itself.
     -Meshpocket; a rugged node with a huge battery which lasts for weeks and has a really great internal antenna. It doesn't have a keyboard, so you'll need to use a phone or computer to interact with it, but you can leave this in your backpack for weeks and it will work.
 
-## Software
+## HDI Librarian Software
 
 The development repository is here. Please feel free to contribute, make suggestions, or post issues.
 
