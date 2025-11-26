@@ -14,6 +14,15 @@
     <li><a href="https://www.tiktok.com/@highdesertinstitute.org">Follow us on TikTok</a></li>
     <li><a href="https://www.youtube.com/@HighDesertInstitute">Follow us on Youtube</a></li>
     <li><a href="https://bsky.app/profile/highdesertinstitute.org">Follow us on Bluesky</a></li>
-    <li><a href="https://github.com/High-Desert-Institute/HighDesertInstitute.org/blob/main/{{ page.path }}">Edit this page on GitHub</a></li>
+    {% assign edit_repo = "https://github.com/High-Desert-Institute/HighDesertInstitute.org" %}
+    {% assign edit_branch = "main" %}
+    {% assign edit_path = page.path | default: 'index.md' %}
+    {% assign is_project_page = page.layout == 'project' %}
+
+    {% if is_project_page %}
+      <li><span class="text-muted">See project documentation for more details about how to contribute.</span></li>
+    {% else %}
+      <li><a href="{{ edit_repo }}/blob/{{ edit_branch }}/{{ edit_path }}">Edit this page on GitHub</a></li>
+    {% endif %}
   </ul>
 </footer>

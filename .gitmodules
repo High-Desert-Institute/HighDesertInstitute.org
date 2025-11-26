@@ -4,3 +4,15 @@
 [submodule "projects/openzine"]
 	path = projects/openzine
 	url = https://github.com/High-Desert-Institute/OpenZineProject.org
+[submodule "projects/pubsub"]
+	path = projects/pubsub
+	url = https://github.com/High-Desert-Institute/pubsub
+[submodule "projects/meshtastic-llm"]
+	path = projects/meshtastic-llm
+	url = https://github.com/High-Desert-Institute/Meshtastic-LLM
+[submodule "projects/librarian"]
+	path = projects/librarian
+	url = https://github.com/High-Desert-Institute/Librarian
+[submodule "projects/cyberpony-express-bbs"]
+	path = projects/cyberpony-express-bbs
+	url = https://github.com/High-Desert-Institute/cyberpony-express-bbs
