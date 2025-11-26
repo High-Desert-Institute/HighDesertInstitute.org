@@ -8,12 +8,13 @@ title: Building a Foundation for the Survival of Humanity
     <div class="col">
       <h1><a href="/">High Desert Institute</a></h1>
       <p><i>Building a Foundation for the Survival of Humanity</i></p>
-      <img src="/assets/images/landscape.jpg" alt="High Desert Institute" style="width: 100%; max-width: 100%; border-radius: 8px; margin-bottom: 1rem;">
-
-      <p><a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Buy Land</a></p>
-      <p><a href="https://www.gofundme.com/f/indigenous-solidarity-gardens-endangered-species" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Indigenous Solidarity Gardens & Endangered Species</a></p>
-      <!--p><a href="https://www.gofundme.com/f/cyberpony-express-free-and-offgrid-communications" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build the Cyberpony Express</a></p-->
-      <p><a href="https://forms.gle/UZgQiUNzm8q1dmNfA" class="btn btn-success">✨ Apply To Receive A Free Cyberpony Express Node ✨</a></p>
+      <!--img src="/assets/images/landscape.jpg" alt="High Desert Institute" style="width: 100%; max-width: 100%; border-radius: 8px; margin-bottom: 1rem;"-->
+      <p>
+        <a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Buy Land</a>
+        <a href="https://www.gofundme.com/f/indigenous-solidarity-gardens-endangered-species" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Indigenous Solidarity & Endangered Species Gardens</a>
+        <a href="https://www.gofundme.com/f/cyberpony-express-free-and-offgrid-communications" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build the Cyberpony Express</a>
+      </p>
+      <!--p><a href="https://forms.gle/UZgQiUNzm8q1dmNfA" class="btn btn-success">✨ Apply To Receive A Free Cyberpony Express Node ✨</a></p-->
 
       <hr>
 
