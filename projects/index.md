@@ -6,8 +6,9 @@ title: "Projects"
 <h1>Projects</h1>
 
 <ul>
-  {% assign projects = site.pages 
-    | where_exp: "item", "item.path contains 'projects/' and (item.path contains '/README.md' or item.path contains '/readme.md')" %}
+  {% assign projects = site.pages
+    | where_exp: "item", "item.path contains 'projects/'"
+    | where_exp: "item", "item.path contains '/README.md' or item.path contains '/readme.md'" %}
   {% for project in projects %}
     <li>
       <a href="{{ project.url }}">{{ project.title | default: project.url }}</a>

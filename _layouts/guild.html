@@ -10,7 +10,8 @@ layout: default
 
 {% assign guild_slug = page.guild_id %}
 {% assign guild_projects = site.pages
-  | where_exp: "item", "item.path contains 'projects/' and (item.path contains '/README.md' or item.path contains '/readme.md')"
+  | where_exp: "item", "item.path contains 'projects/'"
+  | where_exp: "item", "item.path contains '/README.md' or item.path contains '/readme.md'"
   | where_exp: "p", "p.guilds contains guild_slug" %}
 
 {% if guild_projects and guild_projects != empty %}
