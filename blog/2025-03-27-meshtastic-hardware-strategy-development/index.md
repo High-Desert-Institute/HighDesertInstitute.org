@@ -16,7 +16,7 @@ date: 2025-03-27
     - https://github.com/VeggieVampire/MeshBoard
 - These custom hardware platforms cost $60 or more and are targeting low power off grid applications.
 - A Raspberry Pi Zero W2 that can also run IIAB costs $20
-- [**We have an initial recommended build list!**](https://highdesertinstitute.org/guilds/lorekeepers/cyberpony-express/build-list-v0.1/)
+- [**We have an initial recommended build list!**](https://highdesertinstitute.org/projects/cyberpony-express/build-list-v0.1/)
 
 
 [← Back to All Blog Posts](/blog/)  

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cyberpony Express
+title: Cyberpony Express Build List v0.1
 ---
 
 # Lorekeepers' Guild: The Cyberpony Express - Build List v0.1
@@ -75,8 +75,6 @@ The TC2 project has gotten a lot of attention and volunteer help on solving tech
 
 ---
 
-[← Back to Cyberpony Express](/guilds/lorekeepers/cyberpony-express/)  
-[← Back to Lorekeepers' Guild](/guilds/lorekeepers)  
-[← Back to All Guilds](/guilds/)  
+[← Back to Cyberpony Express Project](/projects/cyberpony-express/)
+[← Back to All Projects](/projects/)
 [← Back to Home](/)
- 

@@ -3,12 +3,13 @@ layout: default
 title: Library
 ---
 
-# Lorekeepers' Guild: The Library
+<div class="alert alert-info" role="alert">
+	<strong>Update:</strong> The Library now lives as its own project at <a href="/projects/library/">/projects/library/</a>.
+</div>
 
-<img src="/assets/images/library-rage.gif" alt="Rage against the dying of the light" class="photo">
+Read the latest roadmap, contribution steps, and hosting guides on the project page.
 
-HDI will publish a vast, free, open-source library containing everything we learn as well as many other sources we have collected on the topic of how to live off-grid well. This idea started as a request from one of the communities our team helped build in the past; to enable off-grid communities to host their own private internet with libraries of useful knowledge. This library will be completely free and open to anyone and everyone.
-
+[→ View the Library project](/projects/library/)
 
 [← Back to Lorekeepers' Guild](/guilds/lorekeepers)  
 [← Back to All Guilds](/guilds/)  

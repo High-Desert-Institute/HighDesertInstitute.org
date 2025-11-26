@@ -160,8 +160,6 @@ title: Building a Foundation for the Survival of Humanity
           </tbody>
         </table>
       </div>
-
-      <p class="text-end"><a href="/projects/">View all projects →</a></p>
     </div>
 
   </div><!--/row-->
