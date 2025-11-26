@@ -13,7 +13,7 @@ Maintain safe and accessible pathways for off-grid travel, ensuring community me
 
 <img src="/assets/images/pathfinders.jpg" class="photo">
 
-### Projects
+### Future Projects
 
 #### Trail Building and Maintenance
 Create and maintain desert trails for hiking, biking, and emergency travel routes.  
