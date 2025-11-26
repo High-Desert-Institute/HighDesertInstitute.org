@@ -24,9 +24,10 @@ title: "Projects"
     <tbody>
       {% for project in projects %}
         {% if project.path != 'projects/index.md' %}
+  {% assign project_link = project.link | default: project.url %}
         <tr>
           <td class="fw-semibold">
-            <a href="{{ project.url }}">{{ project.title | default: project.url }}</a>
+            <a href="{{ project_link }}"{% if project.link %} target="_blank" rel="noopener"{% endif %}>{{ project.title | default: project.url }}</a>
           </td>
           <td>
             {% if project.guilds %}

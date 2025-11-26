@@ -40,8 +40,7 @@ layout: project
 title: "Cyberpony Express"
 guilds:
   - lorekeepers
-status: active
-repo: "https://github.com/High-Desert-Institute/cyberpony-express"
+link: "https://github.com/High-Desert-Institute/cyberpony-express"
 ---
 ```
 

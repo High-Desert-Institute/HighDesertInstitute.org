@@ -20,8 +20,9 @@ layout: default
 {% if guild_projects and guild_projects != empty %}
   <ul class="guild-project-list">
     {% for project in guild_projects %}
+      {% assign project_link = project.link | default: project.url %}
       <li>
-        <a href="{{ project.url }}">{{ project.title }}</a>
+        <a href="{{ project_link }}"{% if project.link %} target="_blank" rel="noopener"{% endif %}>{{ project.title }}</a>
         {% if project.summary %}
           <div class="project-summary text-muted">{{ project.summary }}</div>
         {% endif %}
