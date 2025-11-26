@@ -70,6 +70,46 @@ title: Building a Foundation for the Survival of Humanity
   <div class="row">
     <div class="col">
       <hr>
+      <h2><a href="/projects/">Projects</a></h2>
+
+  <div markdown="0" class="row">
+
+  {% assign project_readmes = site.pages | where_exp: "item", "item.path contains 'projects/'" %}
+  {% assign project_readmes = project_readmes | where_exp: "item", "item.path contains '/README.md'" %}
+  {% assign project_indexes = site.pages | where_exp: "item", "item.path contains 'projects/'" %}
+  {% assign project_indexes = project_indexes | where_exp: "item", "item.path contains '/index.md'" %}
+  {% assign project_indexes = project_indexes | where_exp: "item", "item.path != 'projects/index.md'" %}
+  {% assign projects = project_readmes | concat: project_indexes | uniq %}
+  {% assign projects = projects | sort: "order" %}
+  {% assign counter = 0 %}
+  {% for project in projects %}
+    {% if project.path != 'projects/index.md' %}
+      {% assign project_link = project.link | default: project.url %}
+      <div class="col-md-4">
+        <h3><a href="{{ project_link }}"{% if project.link %} target="_blank" rel="noopener"{% endif %}>{{ project.title }}</a></h3>
+        {% if project.thumbnail %}
+          <img src="{{ project.thumbnail }}" alt="{{ project.title }} image" class="photo">
+        {% endif %}
+        {% if project.summary %}<p>{{ project.summary }}</p>
+        {% elsif project.blurb %}<p>{{ project.blurb }}</p>
+        {% else %}<p><span class="text-muted">No summary provided.</span></p>{% endif %}
+      </div><!--/col-md-4-->
+      {% assign counter = counter | plus: 1 %}
+      {% if counter == 3 %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  <p class="text-right"><a href="/projects/">View all projects →</a></p>
+
+  </div><!--/row-->
+
+    </div><!--/col-->
+  </div><!--/row-->
+
+  <div class="row">
+    <div class="col">
+      <hr>
       <h2><a href="/outposts/">High Desert Outposts</a></h2>
 
   <div markdown="0" class="row">
