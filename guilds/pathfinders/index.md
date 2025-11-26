@@ -1,3 +1,4 @@
+---
 layout: guild
 title: Pathfinders' Guild
 guild_id: pathfinders
