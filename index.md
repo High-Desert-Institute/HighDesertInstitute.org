@@ -83,19 +83,40 @@ title: Building a Foundation for the Survival of Humanity
       {% assign project_indexes = project_indexes | where_exp: "item", "item.path != 'projects/index.md'" %}
       {% assign projects = project_readmes | concat: project_indexes | uniq %}
       {% assign projects = projects | sort: "order" %}
+        {% assign project_rows = '' | split: '' %}
+        {% for project in projects %}
+          {% if project.path != 'projects/index.md' %}
+            {% assign primary_guild_slug = project.guilds | first %}
+            {% assign guild_page = site.pages | where: 'guild_id', primary_guild_slug | first %}
+            {% if guild_page %}
+              {% assign guild_sort_key = guild_page.title %}
+            {% elsif primary_guild_slug %}
+              {% assign guild_sort_key = primary_guild_slug %}
+            {% else %}
+              {% assign guild_sort_key = 'zzz' %}
+            {% endif %}
+            {% capture row %}{{ guild_sort_key | downcase }}::{{ project.title | downcase | default: project.url }}::{{ project.path }}{% endcapture %}
+            {% assign project_rows = project_rows | push: row %}
+          {% endif %}
+        {% endfor %}
+        {% assign project_rows = project_rows | sort %}
 
       <div class="table-responsive">
         <table class="table table-striped align-middle">
           <thead>
             <tr>
               <th scope="col">Project</th>
-              <th scope="col" width="1">Guilds</th>
+              <th scope="col" width="1">Guild</th>
               <th scope="col">Description</th>
             </tr>
           </thead>
           <tbody>
-            {% for project in projects limit:5 %}
-              {% if project.path != 'projects/index.md' %}
+            {% assign row_count = 0 %}
+            {% for row in project_rows %}
+              {% assign parts = row | split: '::' %}
+              {% assign row_path = parts[2] | default: parts[1] %}
+              {% assign project = site.pages | where: 'path', row_path | first %}
+              {% if project %}
                 {% assign project_link = project.link | default: project.url %}
                 <tr>
                   <td class="fw-semibold">
@@ -125,6 +146,10 @@ title: Building a Foundation for the Survival of Humanity
                     {% endif %}
                   </td>
                 </tr>
+                {% assign row_count = row_count | plus: 1 %}
+                {% if row_count >= 5 %}
+                  {% break %}
+                {% endif %}
               {% endif %}
             {% endfor %}
           </tbody>
