@@ -25,11 +25,6 @@ layout: default
         {% if project.summary %}
           <div class="project-summary text-muted">{{ project.summary }}</div>
         {% endif %}
-        {% if project.status %}
-          <span class="badge bg-secondary project-status-{{ project.status }}">
-            {{ project.status | capitalize }}
-          </span>
-        {% endif %}
       </li>
     {% endfor %}
   </ul>
