@@ -1,3 +1,6 @@
 [submodule "projects/localnet"]
 	path = projects/localnet
 	url = https://github.com/High-Desert-Institute/LocalNet
+[submodule "projects/openzine"]
+	path = projects/openzine
+	url = https://github.com/High-Desert-Institute/OpenZineProject.org
