@@ -3,7 +3,7 @@ layout: project
 title: "Cyberpony Express"
 slug: cyberpony-express
 guilds:
-  - lorekeepers
+  - pathfinders
 link: "https://github.com/High-Desert-Institute/cyberpony-express"
 summary: >
   A free, encrypted, public mesh network based on Meshtastic. It is designed to be a free, open-source, digital postal service for the people.
