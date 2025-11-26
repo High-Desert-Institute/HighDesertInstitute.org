@@ -15,7 +15,23 @@ title: "Projects"
   {% endif %}
 {% endfor %}
 
-{% assign projects = project_readmes | sort: 'order' %}
+{% assign project_rows = '' | split: '' %}
+{% for project in project_readmes %}
+  {% if project.path != 'projects/index.md' %}
+    {% assign primary_guild_slug = project.guilds | first %}
+    {% assign guild_page = site.pages | where: 'guild_id', primary_guild_slug | first %}
+    {% if guild_page %}
+      {% assign guild_sort_key = guild_page.title %}
+    {% elsif primary_guild_slug %}
+      {% assign guild_sort_key = primary_guild_slug %}
+    {% else %}
+      {% assign guild_sort_key = 'zzz' %}
+    {% endif %}
+    {% capture row %}{{ guild_sort_key | downcase }}::{{ project.title | downcase | default: project.url }}::{{ project.path }}{% endcapture %}
+    {% assign project_rows = project_rows | push: row %}
+  {% endif %}
+{% endfor %}
+{% assign project_rows = project_rows | sort %}
 
 <div class="table-responsive">
   <table class="table table-striped align-middle">
@@ -27,8 +43,11 @@ title: "Projects"
       </tr>
     </thead>
     <tbody>
-      {% for project in projects %}
-        {% if project.path != 'projects/index.md' %}
+      {% for row in project_rows %}
+        {% assign parts = row | split: '::' %}
+        {% assign row_path = parts[2] | default: parts[1] %}
+        {% assign project = site.pages | where: 'path', row_path | first %}
+        {% if project %}
           {% assign project_link = project.link | default: project.url %}
         <tr>
           <td class="fw-semibold">
@@ -51,6 +70,8 @@ title: "Projects"
           <td>
             {% if project.summary %}
               {{ project.summary }}
+            {% elsif project.blurb %}
+              {{ project.blurb }}
             {% else %}
               <span class="text-muted">No summary provided.</span>
             {% endif %}
