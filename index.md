@@ -115,7 +115,6 @@ title: Building a Foundation for the Survival of Humanity
             </tr>
           </thead>
           <tbody>
-            {% assign row_count = 0 %}
             {% for row in project_rows %}
               {% assign parts = row | split: '::' %}
               {% assign row_path = parts[2] | default: parts[1] %}
@@ -156,10 +155,6 @@ title: Building a Foundation for the Survival of Humanity
                     {% endif %}
                   </td>
                 </tr>
-                {% assign row_count = row_count | plus: 1 %}
-                {% if row_count >= 5 %}
-                  {% break %}
-                {% endif %}
               {% endif %}
             {% endfor %}
           </tbody>
