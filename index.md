@@ -86,18 +86,7 @@ title: Building a Foundation for the Survival of Humanity
         {% endif %}
       {% endfor %}
 
-      {% assign project_indexes = '' | split: '' %}
-      {% for item in site.pages %}
-        {% if item.path contains 'projects/' and item.path contains '/index.md' and item.path != 'projects/index.md' %}
-          {% assign path_parts = item.path | split: '/' %}
-          {% if path_parts.size == 3 %}
-            {% assign project_indexes = project_indexes | push: item %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-
-      {% assign projects = project_readmes | concat: project_indexes | uniq %}
-      {% assign projects = projects | sort: "order" %}
+      {% assign projects = project_readmes | sort: "order" %}
         {% assign project_rows = '' | split: '' %}
         {% for project in projects %}
           {% if project.path != 'projects/index.md' %}
