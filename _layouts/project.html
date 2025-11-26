@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<div class="project-meta">
+  {% if page.status %}
+  <span class="badge bg-secondary project-status-{{ page.status }}">
+    {{ page.status | capitalize }}
+  </span>
+  {% endif %}
+  
+  {% if page.repo %}
+  <a href="{{ page.repo }}" class="btn btn-sm btn-outline-primary" target="_blank">
+    <i class="fab fa-github"></i> View Repo
+  </a>
+  {% endif %}
+</div>
+
+{% if page.summary %}
+<div class="lead my-3">
+  {{ page.summary }}
+</div>
+{% endif %}
+
+<hr>
+
+{{ content }}
+
+<hr>
+
+<div class="project-footer mt-4">
+  <h3>Guilds</h3>
+  {% if page.guilds %}
+    <ul class="project-guild-list">
+      {% for guild_slug in page.guilds %}
+        {% assign guild_page = site.pages | where: "guild_id", guild_slug | first %}
+        <li>
+          {% if guild_page %}
+            <a href="{{ guild_page.url }}">{{ guild_page.title }}</a>
+          {% else %}
+            {{ guild_slug }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>This project is not yet associated with a guild.</p>
+  {% endif %}
+</div>
+
+<div class="mt-3">
+  <a href="/projects/">← Back to All Projects</a>
+</div>

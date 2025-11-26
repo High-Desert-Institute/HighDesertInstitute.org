@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<hr>
+
+<h2>Projects in this Guild</h2>
+
+{% assign guild_slug = page.guild_id %}
+{% assign guild_projects = site.pages
+  | where_exp: "item", "item.path contains 'projects/' and (item.path contains '/README.md' or item.path contains '/readme.md')"
+  | where_exp: "p", "p.guilds contains guild_slug" %}
+
+{% if guild_projects and guild_projects != empty %}
+  <ul class="guild-project-list">
+    {% for project in guild_projects %}
+      <li>
+        <a href="{{ project.url }}">{{ project.title }}</a>
+        {% if project.summary %}
+          <div class="project-summary text-muted">{{ project.summary }}</div>
+        {% endif %}
+        {% if project.status %}
+          <span class="badge bg-secondary project-status-{{ project.status }}">
+            {{ project.status | capitalize }}
+          </span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No projects are currently linked to this guild.</p>
+{% endif %}
