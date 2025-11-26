@@ -16,10 +16,11 @@ layout: default
 {% assign guild_project_indexes = guild_project_indexes | where_exp: "item", "item.path != 'projects/index.md'" %}
 {% assign guild_projects = guild_project_readmes | concat: guild_project_indexes | uniq %}
 {% assign guild_projects = guild_projects | where_exp: "p", "p.guilds contains guild_slug" %}
+{% assign sorted_guild_projects = guild_projects | sort: 'title' %}
 
-{% if guild_projects and guild_projects != empty %}
+{% if sorted_guild_projects and sorted_guild_projects != empty %}
   <ul class="guild-project-list">
-    {% for project in guild_projects %}
+    {% for project in sorted_guild_projects %}
       {% assign project_link = project.link | default: project.url %}
       <li>
         <a href="{{ project_link }}"{% if project.link %} target="_blank" rel="noopener"{% endif %}>{{ project.title }}</a>
