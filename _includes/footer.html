@@ -17,7 +17,8 @@
     {% assign edit_repo = "https://github.com/High-Desert-Institute/HighDesertInstitute.org" %}
     {% assign edit_branch = "main" %}
     {% assign edit_path = page.path | default: 'index.md' %}
-    {% assign is_project_page = page.layout == 'project' %}
+    {% assign edit_path = edit_path | replace: '\\', '/' %}
+    {% assign is_project_page = page.layout == 'project' or edit_path contains 'projects/' %}
 
     {% if is_project_page %}
       <li><span class="text-muted">See project documentation for more details about how to contribute.</span></li>
