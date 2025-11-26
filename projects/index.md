@@ -6,10 +6,14 @@ title: "Projects"
 <h1>Projects</h1>
 
 <ul>
-  {% assign projects = site.pages
-    | where_exp: "item", "item.path contains 'projects/'"
-    | where_exp: "item", "item.path contains '/README.md' or item.path contains '/readme.md'" %}
+  {% assign project_readmes = site.pages | where_exp: "item", "item.path contains 'projects/'" %}
+  {% assign project_readmes = project_readmes | where_exp: "item", "item.path contains '/README.md'" %}
+  {% assign project_indexes = site.pages | where_exp: "item", "item.path contains 'projects/'" %}
+  {% assign project_indexes = project_indexes | where_exp: "item", "item.path contains '/index.md'" %}
+  {% assign project_indexes = project_indexes | where_exp: "item", "item.path != 'projects/index.md'" %}
+  {% assign projects = project_readmes | concat: project_indexes | uniq %}
   {% for project in projects %}
+    {% if project.path != 'projects/index.md' %}
     <li>
       <a href="{{ project.url }}">{{ project.title | default: project.url }}</a>
       {% if project.guilds %}
@@ -24,5 +28,6 @@ title: "Projects"
         {% endfor %}
       {% endif %}
     </li>
+    {% endif %}
   {% endfor %}
 </ul>
