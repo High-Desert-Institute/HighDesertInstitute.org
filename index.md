@@ -28,7 +28,7 @@ title: Building a Foundation for the Survival of Humanity
       <p>A group of seasoned experts from the off-grid community-building world are fundraising to create a series of new land projects in the high deserts of the southwest. These outposts will be centers for permaculture and mutual aid, designed to build a foundation for the survival of humanity. These new land projects will facilitate research, development, and distribution of free, open-source solutions to basic human needs like housing and off-grid infrastructure.</p>
       <p>None of us are getting paid, every dollar goes to the mission. The entire process will be completely transparent and open source. Every dollar donated means the world and makes a huge difference!</p>
     </div>
-    <div class="col-md-4">
+    <!--div class="col-md-4">
       <h3><a href="/guilds/lorekeepers/librarian/">The Librarian</a></h3>
       <img src="/assets/images/librarian.gif" alt="Guilds" class="photo">
       <p>The librarian is a free, open-source, digital librarian to help you find what you need and answer complex questions. A small LLM runs on an edge device like a Raspberry Pi in order to answer complex questions based on the contents of the local library. This means, communities can add contents to the library and the librarian will be able to answer questions based on that content.</p>
@@ -66,7 +66,7 @@ title: Building a Foundation for the Survival of Humanity
       <p>The High Desert Community Development Fund is a planned, separate nonprofit which provides reliable, long-term support for the High Desert Institute’s programs and land purchases. By creating a nonprofit endowment fund, we ensure that HDI will be able to continue buying land and building outposts, giving out critical infrastructure for free, paying for workshops, and all the other projects that are in the works. In this way, the fund transforms one-off donations and bequests into a self-sustaining financial engine, empowering our outposts and the surrounding communities to thrive through what's coming.</p>
       <p>The essential mission and purpose of the fund will be to build and maintain a safe and diversified portfolio of passive index-fund ETFs and index-dividend ETFs which deliver returns that can fund things like our property taxes, land acquisitions, and maintenance of any essential infrastructure. Any additional returns can be allocated to fund the programs of the High Desert Institute or for reinvestment back into the fund.</p>
       <p><a href="/high-desert-community-development-fund/">Learn more →</a></p>
-    </div>
+    </div-->
   </div><!--/row-->
   <div class="row">
     <div class="col">
@@ -121,7 +121,13 @@ title: Building a Foundation for the Survival of Humanity
               {% assign row_path = parts[2] | default: parts[1] %}
               {% assign project = site.pages | where: 'path', row_path | first %}
               {% if project %}
-                {% assign project_link = project.link | default: project.url %}
+                {% if project.link %}
+                  {% assign project_link = project.link %}
+                {% elsif project.dir %}
+                  {% assign project_link = project.dir %}
+                {% else %}
+                  {% assign project_link = project.url %}
+                {% endif %}
                 <tr>
                   <td class="fw-semibold">
                     <a href="{{ project_link }}"{% if project.link %} target="_blank" rel="noopener"{% endif %}>{{ project.title | default: project.url }}</a>

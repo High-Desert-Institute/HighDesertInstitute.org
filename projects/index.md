@@ -48,7 +48,13 @@ title: "Projects"
         {% assign row_path = parts[2] | default: parts[1] %}
         {% assign project = site.pages | where: 'path', row_path | first %}
         {% if project %}
-          {% assign project_link = project.link | default: project.url %}
+          {% if project.link %}
+            {% assign project_link = project.link %}
+          {% elsif project.dir %}
+            {% assign project_link = project.dir %}
+          {% else %}
+            {% assign project_link = project.url %}
+          {% endif %}
         <tr>
           <td class="fw-semibold">
             <a href="{{ project_link }}"{% if project.link %} target="_blank" rel="noopener"{% endif %}>{{ project.title | default: project.url }}</a>
