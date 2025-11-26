@@ -1,0 +1,3 @@
+[submodule "projects/localnet"]
+	path = projects/localnet
+	url = https://github.com/High-Desert-Institute/LocalNet
