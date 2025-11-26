@@ -76,13 +76,26 @@ title: Building a Foundation for the Survival of Humanity
   <div markdown="0" class="row">
 
     <div class="col-12">
-      {% assign project_readmes = site.pages | where_exp: "item", "item.path contains 'projects/'" %}
-      {% assign project_readmes = project_readmes | where_exp: "item", "item.path contains '/README.md'" %}
-  {% assign project_readmes = project_readmes | where_exp: "item", "item.path | split: '/' | size == 3" %}
-      {% assign project_indexes = site.pages | where_exp: "item", "item.path contains 'projects/'" %}
-      {% assign project_indexes = project_indexes | where_exp: "item", "item.path contains '/index.md'" %}
-      {% assign project_indexes = project_indexes | where_exp: "item", "item.path != 'projects/index.md'" %}
-  {% assign project_indexes = project_indexes | where_exp: "item", "item.path | split: '/' | size == 3" %}
+      {% assign project_readmes = '' | split: '' %}
+      {% for item in site.pages %}
+        {% if item.path contains 'projects/' and item.path contains '/README.md' %}
+          {% assign path_parts = item.path | split: '/' %}
+          {% if path_parts.size == 3 %}
+            {% assign project_readmes = project_readmes | push: item %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign project_indexes = '' | split: '' %}
+      {% for item in site.pages %}
+        {% if item.path contains 'projects/' and item.path contains '/index.md' and item.path != 'projects/index.md' %}
+          {% assign path_parts = item.path | split: '/' %}
+          {% if path_parts.size == 3 %}
+            {% assign project_indexes = project_indexes | push: item %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
       {% assign projects = project_readmes | concat: project_indexes | uniq %}
       {% assign projects = projects | sort: "order" %}
         {% assign project_rows = '' | split: '' %}
