@@ -7,9 +7,11 @@ title: "Projects"
 
 {% assign project_readmes = site.pages | where_exp: "item", "item.path contains 'projects/'" %}
 {% assign project_readmes = project_readmes | where_exp: "item", "item.path contains '/README.md'" %}
+{% assign project_readmes = project_readmes | where_exp: "item", "item.path | split: '/' | size == 3" %}
 {% assign project_indexes = site.pages | where_exp: "item", "item.path contains 'projects/'" %}
 {% assign project_indexes = project_indexes | where_exp: "item", "item.path contains '/index.md'" %}
 {% assign project_indexes = project_indexes | where_exp: "item", "item.path != 'projects/index.md'" %}
+{% assign project_indexes = project_indexes | where_exp: "item", "item.path | split: '/' | size == 3" %}
 {% assign projects = project_readmes | concat: project_indexes | uniq %}
 
 <div class="table-responsive">
@@ -24,7 +26,7 @@ title: "Projects"
     <tbody>
       {% for project in projects %}
         {% if project.path != 'projects/index.md' %}
-  {% assign project_link = project.link | default: project.url %}
+          {% assign project_link = project.link | default: project.url %}
         <tr>
           <td class="fw-semibold">
             <a href="{{ project_link }}"{% if project.link %} target="_blank" rel="noopener"{% endif %}>{{ project.title | default: project.url }}</a>
