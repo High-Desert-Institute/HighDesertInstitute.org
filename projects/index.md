@@ -49,7 +49,13 @@ title: "Projects"
         {% assign row_path = parts[2] | default: parts[1] %}
         {% assign project = site.pages | where: 'path', row_path | first %}
         {% if project %}
-          {% assign project_dir_link = project.dir | default: project.url %}
+          {% if project.link %}
+            {% assign project_primary_link = project.link %}
+            {% assign project_link_is_external = true %}
+          {% else %}
+            {% assign project_primary_link = project.dir | default: project.url %}
+            {% assign project_link_is_external = false %}
+          {% endif %}
           {% assign repo_link = project.github_repo | default: project.repo | default: project.repository | default: project.github | default: project.repo_url %}
           {% if repo_link == nil or repo_link == '' %}
             {% if project.link and project.link contains 'github.com' %}
@@ -58,7 +64,7 @@ title: "Projects"
           {% endif %}
         <tr>
           <td class="fw-semibold">
-            <a href="{{ project_dir_link }}">{{ project.title | default: project.url }}</a>
+            <a href="{{ project_primary_link }}"{% if project_link_is_external %} target="_blank" rel="noopener"{% endif %}>{{ project.title | default: project.url }}</a>
           </td>
           <td>
             {% if project.guilds %}
