@@ -145,12 +145,6 @@ title: Building a Foundation for the Survival of Humanity
                   {% assign project_primary_link = project.dir | default: project.url %}
                   {% assign project_link_is_external = false %}
                 {% endif %}
-                {% assign repo_link = project.github_repo | default: project.repo | default: project.repository | default: project.github | default: project.repo_url %}
-                {% if repo_link == nil or repo_link == '' %}
-                  {% if project.link and project.link contains 'github.com' %}
-                    {% assign repo_link = project.link %}
-                  {% endif %}
-                {% endif %}
                 <tr>
                   <td class="fw-semibold">
                     <a href="{{ project_primary_link }}"{% if project_link_is_external %} target="_blank" rel="noopener"{% endif %}>{{ project.title | default: project.url }}</a>
@@ -187,12 +181,8 @@ title: Building a Foundation for the Survival of Humanity
                           <a href="{{ link_url }}" target="_blank" rel="noopener">{{ link_label }}</a>{% unless forloop.last %}<br>{% endunless %}
                         {% endif %}
                       {% endfor %}
-                    {% elsif repo_link %}
-                      <a href="{{ repo_link }}" target="_blank" rel="noopener">GitHub</a>
-                    {% elsif project.link %}
-                      <a href="{{ project.link }}" target="_blank" rel="noopener">Learn more</a>
                     {% else %}
-                      <span class="text-muted"></span>
+                      <span class="text-muted">—</span>
                     {% endif %}
                   </td>
                 </tr>
