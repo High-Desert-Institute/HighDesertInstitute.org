@@ -169,7 +169,7 @@ title: Building a Foundation for the Survival of Humanity
                     {% elsif project.link %}
                       <a href="{{ project.link }}" target="_blank" rel="noopener">Learn more</a>
                     {% else %}
-                      <span class="text-muted">—</span>
+                      <span class="text-muted"></span>
                     {% endif %}
                   </td>
                 </tr>
