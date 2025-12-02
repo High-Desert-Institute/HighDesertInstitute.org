@@ -112,6 +112,7 @@ title: Building a Foundation for the Survival of Humanity
               <th scope="col">Project</th>
               <th scope="col" width="1">Guild</th>
               <th scope="col">Description</th>
+              <th scope="col" width="1">Links</th>
             </tr>
           </thead>
           <tbody>
@@ -120,16 +121,16 @@ title: Building a Foundation for the Survival of Humanity
               {% assign row_path = parts[2] | default: parts[1] %}
               {% assign project = site.pages | where: 'path', row_path | first %}
               {% if project %}
-                {% if project.link %}
-                  {% assign project_link = project.link %}
-                {% elsif project.dir %}
-                  {% assign project_link = project.dir %}
-                {% else %}
-                  {% assign project_link = project.url %}
+                {% assign project_dir_link = project.dir | default: project.url %}
+                {% assign repo_link = project.github_repo | default: project.repo | default: project.repository | default: project.github | default: project.repo_url %}
+                {% if repo_link == nil or repo_link == '' %}
+                  {% if project.link and project.link contains 'github.com' %}
+                    {% assign repo_link = project.link %}
+                  {% endif %}
                 {% endif %}
                 <tr>
                   <td class="fw-semibold">
-                    <a href="{{ project_link }}"{% if project.link %} target="_blank" rel="noopener"{% endif %}>{{ project.title | default: project.url }}</a>
+                    <a href="{{ project_dir_link }}">{{ project.title | default: project.url }}</a>
                   </td>
                   <td>
                     {% if project.guilds %}
@@ -152,6 +153,23 @@ title: Building a Foundation for the Survival of Humanity
                       {{ project.blurb }}
                     {% else %}
                       <span class="text-muted">No summary provided.</span>
+                    {% endif %}
+                  </td>
+                  <td class="text-nowrap">
+                    {% if project.links %}
+                      {% for link in project.links %}
+                        {% assign link_label = link[0] | default: link.label | default: 'Link' %}
+                        {% assign link_url = link[1] | default: link.url %}
+                        {% if link_url %}
+                          <a href="{{ link_url }}" target="_blank" rel="noopener">{{ link_label }}</a>{% unless forloop.last %}<br>{% endunless %}
+                        {% endif %}
+                      {% endfor %}
+                    {% elsif repo_link %}
+                      <a href="{{ repo_link }}" target="_blank" rel="noopener">GitHub</a>
+                    {% elsif project.link %}
+                      <a href="{{ project.link }}" target="_blank" rel="noopener">Learn more</a>
+                    {% else %}
+                      <span class="text-muted">—</span>
                     {% endif %}
                   </td>
                 </tr>
