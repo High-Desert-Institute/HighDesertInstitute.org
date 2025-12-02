@@ -5,18 +5,35 @@ title: "Projects"
 
 <h1>Projects</h1>
 
-{% assign project_readmes = '' | split: '' %}
+{% assign project_slugs = '' | split: '' %}
 {% for item in site.pages %}
-  {% if item.path contains 'projects/' and item.path contains '/README.md' %}
+  {% if item.path contains 'projects/' %}
     {% assign path_parts = item.path | split: '/' %}
     {% if path_parts.size == 3 %}
-      {% assign project_readmes = project_readmes | push: item %}
+      {% assign slug = path_parts[1] %}
+      {% unless project_slugs contains slug %}
+        {% assign project_slugs = project_slugs | push: slug %}
+      {% endunless %}
     {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign project_slugs = project_slugs | sort %}
+
+{% assign project_pages = '' | split: '' %}
+{% for slug in project_slugs %}
+  {% assign index_path = 'projects/' | append: slug | append: '/index.md' %}
+  {% assign readme_path = 'projects/' | append: slug | append: '/README.md' %}
+  {% assign project_page = site.pages | where: 'path', index_path | first %}
+  {% if project_page == nil %}
+    {% assign project_page = site.pages | where: 'path', readme_path | first %}
+  {% endif %}
+  {% if project_page %}
+    {% assign project_pages = project_pages | push: project_page %}
   {% endif %}
 {% endfor %}
 
 {% assign project_rows = '' | split: '' %}
-{% for project in project_readmes %}
+{% for project in project_pages %}
   {% if project.path != 'projects/index.md' %}
     {% assign primary_guild_slug = project.guilds | first %}
     {% assign guild_page = site.pages | where: 'guild_id', primary_guild_slug | first %}

@@ -76,17 +76,34 @@ title: Building a Foundation for the Survival of Humanity
   <div markdown="0" class="row">
 
     <div class="col-12">
-      {% assign project_readmes = '' | split: '' %}
+      {% assign project_slugs = '' | split: '' %}
       {% for item in site.pages %}
-        {% if item.path contains 'projects/' and item.path contains '/README.md' %}
+        {% if item.path contains 'projects/' %}
           {% assign path_parts = item.path | split: '/' %}
           {% if path_parts.size == 3 %}
-            {% assign project_readmes = project_readmes | push: item %}
+            {% assign slug = path_parts[1] %}
+            {% unless project_slugs contains slug %}
+              {% assign project_slugs = project_slugs | push: slug %}
+            {% endunless %}
           {% endif %}
         {% endif %}
       {% endfor %}
+      {% assign project_slugs = project_slugs | sort %}
 
-      {% assign projects = project_readmes | sort: "order" %}
+      {% assign project_pages = '' | split: '' %}
+      {% for slug in project_slugs %}
+        {% assign index_path = 'projects/' | append: slug | append: '/index.md' %}
+        {% assign readme_path = 'projects/' | append: slug | append: '/README.md' %}
+        {% assign project_page = site.pages | where: 'path', index_path | first %}
+        {% if project_page == nil %}
+          {% assign project_page = site.pages | where: 'path', readme_path | first %}
+        {% endif %}
+        {% if project_page %}
+          {% assign project_pages = project_pages | push: project_page %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign projects = project_pages | sort: "order" %}
         {% assign project_rows = '' | split: '' %}
         {% for project in projects %}
           {% if project.path != 'projects/index.md' %}
