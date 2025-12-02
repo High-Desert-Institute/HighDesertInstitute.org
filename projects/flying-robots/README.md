@@ -28,6 +28,11 @@ We have raised more than ten thousand dollars and distributed hundreds of Cyberp
 - **Meshtastic** – Open-source firmware that turns low-power LoRa radios into long-range mesh nodes. Every drone and ground station can exchange commands and telemetry through this resilient network.
 - **ATAK (Android Team Awareness Kit)** – A modular geospatial platform that rides on top of Meshtastic. ATAK displays drone locations, sensor alerts, and task queues on a shared map and supports plugins for mission planning and chat.
 
+## Other Ingredients
+
+- [Universal Radio Hacker](https://github.com/jopohl/urh) an open source project which in this case enables us to use software-defined radio to analyze and understand the radio protocols used by various cheap, remote control robots sold ubiquitously at toy stores around the world.
+- [Cartographer](https://github.com/cartographer-project/cartographer) an open source project which provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
+
 ## How It Works
 
 1. **Sensor alert** – A motion sensor, weather station, or manual request triggers an event.
