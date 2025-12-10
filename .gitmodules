@@ -1,18 +1,18 @@
 [submodule "projects/localnet"]
-	path = projects/localnet
+	path = projects/localnet/repository
 	url = https://github.com/High-Desert-Institute/LocalNet
 [submodule "projects/openzine"]
-	path = projects/openzine
+	path = projects/openzine/repository
 	url = https://github.com/High-Desert-Institute/OpenZineProject.org
 [submodule "projects/pubsub"]
-	path = projects/pubsub
+	path = projects/pubsub/repository
 	url = https://github.com/High-Desert-Institute/pubsub
 [submodule "projects/meshtastic-llm"]
-	path = projects/meshtastic-llm
+	path = projects/meshtastic-llm/repository
 	url = https://github.com/High-Desert-Institute/Meshtastic-LLM
 [submodule "projects/librarian"]
-	path = projects/librarian
+	path = projects/librarian/repository
 	url = https://github.com/High-Desert-Institute/Librarian
 [submodule "projects/cyberpony-express-bbs"]
-	path = projects/cyberpony-express-bbs
+	path = projects/cyberpony-express-bbs/repository
 	url = https://github.com/High-Desert-Institute/cyberpony-express-bbs
