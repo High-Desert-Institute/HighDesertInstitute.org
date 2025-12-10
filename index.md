@@ -68,10 +68,85 @@ title: Building a Foundation for the Survival of Humanity
       <p><a href="/high-desert-community-development-fund/">Learn more →</a></p>
     </div-->
   </div><!--/row-->
+
   <div class="row">
     <div class="col">
       <hr>
-      <h2><a href="/projects/">Projects</a></h2>
+      <h2><a href="/guilds/">Guilds: Find Your People</a></h2>
+
+  <div markdown="0" class="row">
+
+    <div class="col-12">
+      {% assign guild_pages = '' | split: '' %}
+      {% for item in site.pages %}
+        {% assign parts = item.path | split: '/' %}
+        {% if parts[0] == 'guilds' and parts.size == 3 %}
+          {% assign guild_pages = guild_pages | push: item %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign guilds_sorted = guild_pages | sort: "title" %}
+
+      <div class="table-responsive">
+        <table class="table table-striped align-middle">
+          <thead>
+            <tr>
+              <th scope="col">Guild</th>
+              <th scope="col">Description</th>
+              <th scope="col" width="1">Links</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for guild in guilds_sorted %}
+              {% if guild %}
+                {% if guild.link %}
+                  {% assign guild_primary_link = guild.link %}
+                  {% assign guild_link_is_external = true %}
+                {% else %}
+                  {% assign guild_primary_link = guild.url %}
+                  {% assign guild_link_is_external = false %}
+                {% endif %}
+                <tr>
+                  <td class="fw-semibold">
+                    <a href="{{ guild_primary_link }}"{% if guild_link_is_external %} target="_blank" rel="noopener"{% endif %}>{{ guild.title | default: guild.url }}</a>
+                  </td>
+                  <td>
+                    {% if guild.blurb %}
+                      {{ guild.blurb }}
+                    {% else %}
+                      <span class="text-muted">No summary provided.</span>
+                    {% endif %}
+                  </td>
+                  <td class="text-nowrap">
+                    {% if guild.links %}
+                      {% for link in guild.links %}
+                        {% assign link_label = link[0] | default: link.label | default: 'Link' %}
+                        {% assign link_url = link[1] | default: link.url %}
+                        {% if link_url %}
+                          <a href="{{ link_url }}" target="_blank" rel="noopener">{{ link_label }}</a>{% unless forloop.last %}<br>{% endunless %}
+                        {% endif %}
+                      {% endfor %}
+                    {% else %}
+                      <span class="text-muted">—</span>
+                    {% endif %}
+                  </td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div><!--/row-->
+
+    </div><!--/col-->
+  </div><!--/row-->
+
+  <div class="row">
+    <div class="col">
+      <hr>
+      <h2><a href="/projects/">Projects: Find Something To Work On</a></h2>
 
   <div markdown="0" class="row">
 
@@ -197,6 +272,8 @@ title: Building a Foundation for the Survival of Humanity
 
     </div><!--/col-->
   </div><!--/row-->
+
+
 
   <div class="row">
     <div class="col">
