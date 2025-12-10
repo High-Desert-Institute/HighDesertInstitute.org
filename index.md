@@ -207,7 +207,7 @@ title: Building a Foundation for the Survival of Humanity
                   {% assign project_link_is_external = false %}
                 {% endif %}
                 <tr>
-                  <td class="fw-semibold">
+                  <td class="fw-semibold text-nowrap">
                     <a href="{{ project_primary_link }}"{% if project_link_is_external %} target="_blank" rel="noopener"{% endif %}>{{ project.title | default: project.url }}</a>
                   </td>
                   <td>
