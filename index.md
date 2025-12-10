@@ -146,7 +146,7 @@ title: Building a Foundation for the Survival of Humanity
   <div class="row">
     <div class="col">
       <hr>
-      <h2><a href="/projects/">Projects: Find Something To Work On</a></h2>
+      <h2><a href="/projects/">Projects: Find Your Work</a></h2>
 
   <div markdown="0" class="row">
 
