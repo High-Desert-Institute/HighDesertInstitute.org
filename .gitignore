@@ -1,1 +1,9 @@
 .obsidian
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+node_modules
+.DS_Store
+Thumbs.db
