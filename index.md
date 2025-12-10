@@ -93,7 +93,6 @@ title: Building a Foundation for the Survival of Humanity
             <tr>
               <th scope="col">Guild</th>
               <th scope="col">Description</th>
-              <th scope="col" width="1">Links</th>
             </tr>
           </thead>
           <tbody>
@@ -107,7 +106,7 @@ title: Building a Foundation for the Survival of Humanity
                   {% assign guild_link_is_external = false %}
                 {% endif %}
                 <tr>
-                  <td class="fw-semibold">
+                  <td class="fw-semibold text-nowrap">
                     <a href="{{ guild_primary_link }}"{% if guild_link_is_external %} target="_blank" rel="noopener"{% endif %}>{{ guild.title | default: guild.url }}</a>
                   </td>
                   <td>
@@ -115,19 +114,6 @@ title: Building a Foundation for the Survival of Humanity
                       {{ guild.blurb }}
                     {% else %}
                       <span class="text-muted">No summary provided.</span>
-                    {% endif %}
-                  </td>
-                  <td class="text-nowrap">
-                    {% if guild.links %}
-                      {% for link in guild.links %}
-                        {% assign link_label = link[0] | default: link.label | default: 'Link' %}
-                        {% assign link_url = link[1] | default: link.url %}
-                        {% if link_url %}
-                          <a href="{{ link_url }}" target="_blank" rel="noopener">{{ link_label }}</a>{% unless forloop.last %}<br>{% endunless %}
-                        {% endif %}
-                      {% endfor %}
-                    {% else %}
-                      <span class="text-muted">—</span>
                     {% endif %}
                   </td>
                 </tr>
