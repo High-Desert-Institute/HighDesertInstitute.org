@@ -229,9 +229,9 @@ title: Building a Foundation for the Survival of Humanity
                       {% for guild_slug in project.guilds %}
                         {% assign guild_page = site.pages | where: "guild_id", guild_slug | first %}
                         {% if guild_page %}
-                          <a href="{{ guild_page.url }}" class="badge text-bg-secondary me-1">{{ guild_page.title }}</a>
+                          <a href="{{ guild_page.url }}" class="badge text-bg-success me-1">{{ guild_page.title }}</a>
                         {% else %}
-                          <span class="badge text-bg-secondary me-1">{{ guild_slug }}</span>
+                          <span class="badge text-bg-success me-1">{{ guild_slug }}</span>
                         {% endif %}
                       {% endfor %}
                     {% else %}
