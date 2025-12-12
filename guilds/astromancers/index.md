@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: guild
 title: Astromancers' Guild
+guild_id: astromancers
 blurb: "Exploring the cosmos through advanced radio astronomy and gravity wave research, Astromancers seeking to unlock the secrets of the universe."
 thumbnail: /assets/images/astromancers.jpg
 ---
