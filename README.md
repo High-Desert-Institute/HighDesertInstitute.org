@@ -34,3 +34,131 @@ The exception to these rules is for any factual errors or inconsistencies. If yo
 - Download vs code to edit the pages. This has good integration for copilot which will help a lot for debugging and completions.
 
 TODO put together a good self-hosted, open-source alternative set of recommendations running completions with something like QwQ-32b instead.
+
+
+## Guilds and Projects (how they work, and how to add new ones)
+
+This site is designed so guilds and project teams can update their own pages without needing to edit global site plumbing. Most of the “index” pages (like `/guilds/` and `/projects/`) automatically discover entries by scanning the repository for pages in the right folder structure.
+
+The short version:
+
+- A **guild** is a lightweight “org unit” page under `guilds/<guild-slug>/index.md`.
+- A **project** is a page under `projects/<project-slug>/index.md`.
+- Projects are linked to guilds via a simple front-matter field: `guilds: [<guild-slug>, ...]`.
+- Project repositories should be added as **git submodules** under `projects/<project-slug>/repository/` so anyone (and any agent) can clone this whole org with full context.
+
+### How guild pages work
+
+Guilds are discovered by `guilds/index.md` using the path shape:
+
+- Included in the guild list if the page path is `guilds/<slug>/index.md` (exactly 3 path parts).
+
+Guild pages typically use the `guild` layout (`_layouts/guild.html`). That layout renders the page content, then automatically lists the projects that declare they belong to the guild.
+
+#### What Jekyll expects for a guild
+
+Create:
+
+- `guilds/<guild-slug>/index.md`
+
+Recommended front matter (example):
+
+```yaml
+---
+layout: guild
+title: "My Guild Name"
+guild_id: my-guild-slug
+blurb: "Short description shown on /guilds"
+thumbnail: /assets/images/my-guild.jpg
+---
+```
+
+Fields used by the site:
+
+- `layout: guild` is what enables the “Current Projects in this Guild” section.
+- `guild_id` is the canonical slug. This is what projects reference.
+- `title` is what gets displayed in lists and badges.
+- `blurb` is shown on `/guilds/`.
+- `thumbnail` is optional, shown on `/guilds/`.
+
+#### How guild → projects linking works
+
+`_layouts/guild.html` collects all pages under `projects/` and filters them to those whose front matter contains the guild slug:
+
+- `p.guilds contains page.guild_id`
+
+So the guild page doesn’t need to manually maintain a list of projects as long as each project sets `guilds:` correctly.
+
+### How project pages work
+
+Projects are discovered by `projects/index.md` using the path shape:
+
+- Included in the projects table if the page path is `projects/<slug>/index.md` (exactly 3 path parts).
+- There’s also a fallback: if `projects/<slug>/index.md` doesn’t exist, it will look for `projects/<slug>/README.md`.
+
+Projects typically use the `project` layout (`_layouts/project.html`). That layout renders the project title + optional primary link + summary, then shows the page content.
+
+#### What Jekyll expects for a project
+
+Create:
+
+- `projects/<project-slug>/index.md`
+
+Recommended front matter (example):
+
+```yaml
+---
+layout: project
+title: "My Project"
+slug: my-project
+guilds:
+	- my-guild-slug
+summary: >-
+	A short summary shown on /projects and at the top of the project page.
+link: "https://github.com/ORG/REPO" # optional (makes the title link out)
+links: # optional (adds extra links in the /projects table)
+	Repo: "https://github.com/ORG/REPO"
+	Docs: "https://example.com"
+---
+```
+
+Fields used by the site:
+
+- `title` is displayed everywhere.
+- `summary` (or `blurb`) is shown in the `/projects/` table and also rendered near the top of the project page.
+- `guilds` is used to:
+	- display badges/links on `/projects/`
+	- include the project in a guild page’s “Current Projects” list
+- `link` (optional):
+	- on `/projects/`, the project name points to `link` instead of the internal page
+	- on the project page, the header becomes clickable and a “Visit Project Site” button appears
+- `links` (optional): additional labeled URLs shown in the `/projects/` table.
+
+### Adding a project repository as a submodule (recommended)
+
+If a project has its own code repository, include it here as a git submodule:
+
+- `projects/<project-slug>/repository/`
+
+Why this matters:
+
+- Contributors can clone this website repo *once* with `--recurse-submodules` and have a complete working set.
+- Agents and tooling get full “organization context” across all projects without needing to guess which repos are relevant.
+- The website can link directly to `./repository/README.md` (many projects already do).
+
+There are helper scripts (`rollup.bat` and `rollup.sh`) that update submodules recursively and create a single commit when submodule pointers change.
+
+### Quick checklist (copy/paste)
+
+**New guild**
+
+- [ ] Create `guilds/<guild-slug>/index.md`
+- [ ] Set `layout: guild`, `title`, and `guild_id: <guild-slug>`
+- [ ] Add `blurb` (for `/guilds/`) and optional `thumbnail`
+
+**New project**
+
+- [ ] Create `projects/<project-slug>/index.md`
+- [ ] Set `layout: project`, `title`, `slug`, `summary`
+- [ ] Set `guilds: [<guild-slug>, ...]` to link it into the right guild page(s)
+- [ ] If there’s a code repo, add it as `projects/<project-slug>/repository/` (submodule)
