@@ -19,7 +19,7 @@ Design and construct wildlife-friendly habitats to protect native species and en
 [Learn More](https://highdesertinstitute.org/guilds/faunamancers/habitat-creation)
 
 #### Desert Wildlife Monitoring
-Use camera traps and other tools to monitor local wildlife populations and behavior patterns.  
+Use cameras and other tools to monitor local wildlife populations and behavior patterns.  
 [Learn More](https://highdesertinstitute.org/guilds/faunamancers/wildlife-monitoring)
 
 #### Wildlife Corridors
@@ -27,5 +27,5 @@ Develop and maintain wildlife corridors to help animals safely traverse between 
 [Learn More](https://highdesertinstitute.org/guilds/faunamancers/wildlife-corridors)
 
 #### Solar Chicken
-Sunlight -&gt; Algae -&gt; Larvae -&gt; Chickens -&gt; Eggs
+Sunlight -&gt; Algae -&gt; Larvae -&gt; Chickens -&gt; Eggs.  
 [Learn More](https://highdesertinstitute.org/guilds/faunamancers/solar-chicken)
