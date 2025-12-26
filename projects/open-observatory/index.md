@@ -44,7 +44,7 @@ The first thin you need to do is connect with existing local astronomical societ
 * [Estes Valley Astronomical Society](http://angelsabove.org//) (Estes Park)
 * [Longmont Astronomical Society](http://www.longmontastro.org/) (Longmont)
 * [Northern Colorado Astronomical Society](http://www.NoCoAstro.org//) (Laporte)
-* [Southern Colorado Astronomical Society](https://www.google.com/search?q=https://nightsky.jpl.nasa.gov/club-view.cfm%3FClub_ID%3D1834) (Pueblo)
+* [Southern Colorado Astronomical Society](https://nightsky.jpl.nasa.gov/clubs/scaspueblo/home/) (Pueblo)
 * [Western Colorado Astronomy Club](http://www.wcacastronomy.org/org/) (Grand Junction)
 
 ## Idaho (Snake River Plain High Desert)
