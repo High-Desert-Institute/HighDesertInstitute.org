@@ -12,7 +12,7 @@ summary: >-
 
 ## STEP ONE
 
-The first thin you need to do is connect with existing local astronomical societies in your area. These groups are full of DIY experts who are already doing a lot of the things we are interested in doing, and full of high contributors who will be able to lead the community through many of these projects:
+The first thing you need to do is connect with existing local astronomical societies in your area. These groups are full of DIY experts who are already doing a lot of the things we are interested in doing, and full of high contributors who will be able to lead the community through many of these projects:
 
 ## Arizona (High Desert / Colorado Plateau)
 
@@ -86,19 +86,26 @@ Now that we know and understand what already exists in our area and we've starte
 
 
 ### Providing Access To Basic Astronomical Tools
-- **Optical Telescopes**: Recommendations for telescope types, mounts, and enclosures suitable for public viewing and astrophotography.
-- **Radio Interferometry**: Instructions for building and operating radio telescope arrays to observe the universe in the radio spectrum.
+- **Basic Optical Telescopes**: Recommendations for telescope types, mounts, and enclosures suitable for public viewing and astrophotography.
+- **Basic Radio Interferometry**: Instructions for building and operating radio telescope arrays to observe the universe in the radio spectrum.
   - **[Very Small Array](/projects/very-small-array/)**: A project to build small radio interferometry arrays.
   - **Open Engineering**: Salvaging and repurposing old satellite dishes and radio equipment for amateur astronomy.
-    - [saveitforparts:  Can I Hear The Moon With A Coffee Can?](https://www.youtube.com/watch?v=Nvcu_O7B9KU)
+    
 
+### Providing More Advanced Tools
+- **Higher-Powered Optical Telescopes**: 
+- **Higher-Powered Radio Interferometry Arrays**: 
 
-### To-Do: Accomplishing Hard Things
-What does an observatory empower a community to work on and accomplish?
+##STEP THREE 
 
-- **EME (Earth-Moon-Earth)**: Equipment and techniques for bouncing radio signals off the moon to communicate with other stations on Earth. Imagine Moon Ham parties where people send their vocal manifestations to the moon and back!
-- **Astronomical Forecasting Tools**: Publishing forecasts of astronomical events (a la Stargazer's Almanac) and optimal viewing times.
-- 
+Now that we have provided basic tool access (moving towards more advanced tools over time), we can start working on big, hard, long-term projects. 
+
+## What can an observatory empower a community to work on and accomplish?
+
+- **Astronomical Forecasting Publications**: Many of the details of what's happening in the sky depend entirely on where you are in the world at a given moment. This creates a huge opportunity for publishing local almanacs and forecasts of astronomical events (a la Stargazer's Almanac) and optimal viewing times. Naturally, this segues into organizing community observation events like Star Parties.
+- **EME (Earth-Moon-Earth)**: Bouncing a transmission off the moon and having it reflecting back to the entire earth is actually not the hardest task. Doing it well gets progressively harder and harder.
+  - [saveitforparts:  Can I Hear The Moon With A Coffee Can?](https://www.youtube.com/watch?v=Nvcu_O7B9KU)
+
 
 
 ## Goals
