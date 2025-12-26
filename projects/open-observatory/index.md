@@ -10,14 +10,76 @@ summary: >-
 
 <img src="/assets/images/open-observatory.jpg" class="photo">
 
-## Components of an Open Observatory
+## STEP ONE
 
-This kit covers a wide range of infrastructure and equipment, including:
+The first thin you need to do is connect with existing local astronomical societies in your area. These groups are full of DIY experts who are already doing a lot of the things we are interested in doing, and full of high contributors who will be able to lead the community through many of these projects:
+
+## Arizona (High Desert / Colorado Plateau)
+
+* [Astronomers of Verde Valley](http://www.astroverde.org/) (Cottonwood)
+* [Astronomy Association of Arizona](https://AstronomyAssociationArizona.org/) (Buckeye)
+* [Huachuca Astronomy Club of Southeastern Arizona](http://www.hacastronomy.org/) (Sierra Vista)
+* [Little Colorado River Valley Astronomy Club](https://nightsky.jpl.nasa.gov/club-view.cfm?Club_ID%3D1833) (Winslow)
+* [Lowell Observatory](http://www.lowell.edu/) (Flagstaff)
+* [Prescott Astronomy Club](http://www.PrescottAstronomyClub.org/) (Prescott)
+* [Reach For The Stars](http://www.rftstars.com/) (Vail)
+* [Sonora Astronomical Society](https://www.sonoraastronomicalsociety.org/) (Green Valley)
+* [Sun City Oro Valley Astronomy Club](http://scovastronomy.weebly.com/) (Oro Valley)
+* [Tucson Amateur Astronomy Association](http://www.tucsonastronomy.org/) (Tucson)
+
+## California (Mojave & Great Basin High Desert)
+
+* [Antelope Valley Astronomy Club](http://www.avastronomyclub.org/) (Lancaster)
+* [Bear Valley Springs Astronomy Club](http://bvsac.org/) (Tehachapi Mountains)
+* [Big Bear Valley Astronomical Society](http://www.bearvalleyastronomers.org//) (Big Bear City)
+* [Death Valley National Park](http://www.nps.gov/deva/index.htm/) (Death Valley)
+* [High Desert Astronomical Society](https://www.lewiscenter.org/Departments/Local-Programs/High-Desert-Astronomical-Society-HiDAS/index.html/) (Apple Valley)
+* [Kern Astronomical Society](http://kernastro.org/) (Bakersfield - Arid basin border)
+
+## Colorado (High Plains & Colorado Plateau)
+
+* [Black Canyon Astronomical Society](http://www.blackcanyonastronomy.com//) (Montrose)
+* [Colorado Springs Astronomical Society](http://csastro.org//) (Colorado Springs)
+* [Denver Astronomical Society](http://www.denverastro.org/) (Denver - Semi-arid high plains)
+* [Estes Valley Astronomical Society](http://angelsabove.org//) (Estes Park)
+* [Longmont Astronomical Society](http://www.longmontastro.org/) (Longmont)
+* [Northern Colorado Astronomical Society](http://www.NoCoAstro.org//) (Laporte)
+* [Southern Colorado Astronomical Society](https://www.google.com/search?q=https://nightsky.jpl.nasa.gov/club-view.cfm%3FClub_ID%3D1834) (Pueblo)
+* [Western Colorado Astronomy Club](http://www.wcacastronomy.org/org/) (Grand Junction)
+
+## Idaho (Snake River Plain High Desert)
+
+* [Boise Astronomical Society](http://www.boiseastro.org/) (Garden City/Boise)
+* [Bruneau Dunes Observatory](http://parksandrecreation.idaho.gov/parks/bruneau-dunes/) (Mountain Home)
+* [Idaho Falls Astronomical Society](http://www.ifastro.org/) (Idaho Falls)
+* [Magic Valley Astronomical Society](http://www.mvastro.org/) (Kimberly)
+
+## New Mexico (High Desert / Chihuahuan Plateau)
+
+* [Alamogordo Astronomy Club](http://www.zianet.com/aacwp/) (Alamogordo)
+* [Amateur Astronomers Group](http://www.astronomersgroup.org/) (Alamogordo)
+* [Astronomical Society of Las Cruces](http://aslc-nm.org/) (Las Cruces)
+* [Rio Rancho Astronomical Society, Inc.](http://www.rrastro.org/) (Rio Rancho)
+* [Roswell Astronomy Club](https://roswellastronomy.org/) (Roswell)
+* [Santa Fe Stargazers](http://santafestargazers.org/) (Santa Fe)
+* [The Albuquerque Astronomical Society](http://www.taas.org/) (Albuquerque)
+
+## Utah (Great Basin & Colorado Plateau)
+
+* [Cache Valley Astronomical Society](http://www.cvas-utahskies.org/) (Logan)
+* [Ogden Astronomical Society](http://ogden-astronomy.org//) (Ogden)
+* [Salt Lake Astronomical Society (SLAS)](http://slas.us/) (Salt Lake City)
+* [St. George Astronomy Group](https://SGAG.club//) (St. George)
+* [Stellar Vista Observatory](http://stellarvistaobservatory.org/) (Kanab)
+* [Utah Valley Astronomy Club](http://uvac.us/) (Orem)
+
+---
+
 
 
 ### Community and Education
-- **Star Party Infrastructure**: Guides for planning and setting up power, red lighting, and seating for community observation events.
 - **Planetarium**: Designs and software for DIY planetariums to host educational presentations about the night sky.
+- **Star Parties**: Guides for planning and setting up power, red lighting, and seating for community observation events.
 
 
 ### Providing Access To Basic Astronomical Tools
