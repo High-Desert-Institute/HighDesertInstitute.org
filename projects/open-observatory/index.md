@@ -33,7 +33,7 @@ The first thin you need to do is connect with existing local astronomical societ
 * [Bear Valley Springs Astronomy Club](http://bvsac.org/) (Tehachapi Mountains)
 * [Big Bear Valley Astronomical Society](http://www.bearvalleyastronomers.org//) (Big Bear City)
 * [Death Valley National Park](http://www.nps.gov/deva/index.htm/) (Death Valley)
-* [High Desert Astronomical Society](https://www.lewiscenter.org/Departments/Local-Programs/High-Desert-Astronomical-Society-HiDAS/index.html/) (Apple Valley)
+* [High Desert Astronomical Society](https://www.lewiscenter.org/Departments/Local-Programs/High-Desert-Astronomical-Society-HiDAS/index.html) (Apple Valley)
 * [Kern Astronomical Society](http://kernastro.org/) (Bakersfield - Arid basin border)
 
 ## Colorado (High Plains & Colorado Plateau)
@@ -73,8 +73,11 @@ The first thin you need to do is connect with existing local astronomical societ
 * [Stellar Vista Observatory](http://stellarvistaobservatory.org/) (Kanab)
 * [Utah Valley Astronomy Club](http://uvac.us/) (Orem)
 
----
+Note: Almost all of these groups charge dues for membership. I think this is one of the biggest opportunities for community projects to fill a gap where most people are unwilling to participate if there is any cost at all. And if you need to fundraise, my experience has always been that you can raise plenty of money with a policy of no one turned away for lack of funds or one of asking people to pay what they want.
 
+## STEP TWO
+
+Now that we know and understand what already exists in our area and we've started to build relationships with key stakeholders and project contributors, let's start to build what our community is missing!
 
 
 ### Community and Education
