@@ -8,6 +8,7 @@ summary: >-
   A comprehensive public kit designed to help communities build their own observatories at their land projects. It provides detailed guides, examples, and specifications for various components of an observatory, enabling groups to create dedicated spaces for astronomical observation and education.
 ---
 
+<img src="/assets/images/open-observatory.jpg" class="photo">
 
 ## Components of an Open Observatory
 
@@ -27,11 +28,11 @@ This kit covers a wide range of infrastructure and equipment, including:
     - [saveitforparts:  Can I Hear The Moon With A Coffee Can?](https://www.youtube.com/watch?v=Nvcu_O7B9KU)
 
 
-### TO-Do: Accomplishing Hard Things
+### To-Do: Accomplishing Hard Things
 What does an observatory empower a community to work on and accomplish?
 
 - **EME (Earth-Moon-Earth)**: Equipment and techniques for bouncing radio signals off the moon to communicate with other stations on Earth. Imagine Moon Ham parties where people send their vocal manifestations to the moon and back!
-- **Astronomical Forecasting Tools**: Software recommendations for predicting celestial events (a la Stargazer's Almanac) and optimal viewing times.
+- **Astronomical Forecasting Tools**: Publishing forecasts of astronomical events (a la Stargazer's Almanac) and optimal viewing times.
 - 
 
 
