@@ -87,14 +87,18 @@ Now that we know and understand what already exists in our area and we've starte
 
 ### Providing Access To Basic Astronomical Tools
 - **Basic Optical Telescopes**: Recommendations for telescope types, mounts, and enclosures suitable for public viewing and astrophotography.
-- **Basic Radio Interferometry**: Instructions for building and operating radio telescope arrays to observe the universe in the radio spectrum.
+  - **All sky cameras**: Build weatherproof all-sky stations (visible + optional IR), run nightly pipelines, publish sky quality / cloud maps, meteor detections, and timelapses.
+  - **Robotics around telescopes**: One of the first things you realize when you look through a telescope is how fast the sky moves. Simple robotics projects can track the sky as it moves, enabling longer exposure photos and helping locate deep sky objects automatically.
+- **Basic Radio Telescope**: Instructions for building and operating radio telescopes to observe the universe in the radio spectrum.
   - **[Very Small Array](/projects/very-small-array/)**: A project to build small radio interferometry arrays.
   - **Open Engineering**: Salvaging and repurposing old satellite dishes and radio equipment for amateur astronomy.
-    
+
 
 ### Providing More Advanced Tools
-- **Higher-Powered Optical Telescopes**: 
-- **Higher-Powered Radio Interferometry Arrays**: 
+- **Higher-Powered Robotic Optical Telescopes**: 
+- **Radio Interferometry Arrays**: Networking several radio telescopes is far more complex than setting up a single one, and it unlocks far more capabilities.
+  - Pulsar Detection and triangulation
+  - Gravity wave modeling
 
 ## STEP THREE 
 
@@ -102,10 +106,24 @@ Now that we have provided basic tool access (moving towards more advanced tools 
 
 ## What can an observatory empower a community to work on and accomplish?
 
-- **Astronomical Forecasting Publications**: Many of the details of what's happening in the sky depend entirely on where you are in the world at a given moment. This creates a huge opportunity for publishing local almanacs and forecasts of astronomical events (a la Stargazer's Almanac) and optimal viewing times. Naturally, this segues into organizing community observation events like Star Parties.
+- **Astronomical Modeling and Forecasting Publications**: Many of the details of what's happening in the sky depend entirely on where you are in the world at a given moment. This creates a huge opportunity for publishing local almanacs and forecasts of astronomical events (a la Stargazer's Almanac) and optimal viewing times. Naturally, this segues into organizing community observation events like Star Parties.
+  - Sky clarity
+  - Meteor showers
+  - Star/Planet transits
+  - ISS transits
+  - Solar weather
+  - Lunar Illumination
+  - Ionisphere activity and signal propagation
 - **EME (Earth-Moon-Earth)**: Bouncing a transmission off the moon and having it reflecting back to the entire earth is actually not the hardest task. Doing it well gets progressively harder and harder.
   - [saveitforparts:  Can I Hear The Moon With A Coffee Can?](https://www.youtube.com/watch?v=Nvcu_O7B9KU)
-
+- **Public "ask for an observation" program**: Students/community propose targets; your system schedules, captures, processes, and returns results—like a tiny open telescope network.
+- Local-first + offline ops: Observatory runs without internet; syncs later. Robust UI, local docs, and “disaster mode” capability.
+- End-to-end open pipeline: From capture → calibration → solving → stacking → photometry/astrometry → publish. With reproducible configs.
+- Coordinate with universities / amateurs on campaigns
+  - Transits, occultations, supernova follow-up, comet outbursts—requires governance, training, and reliability.
+- Host “calibration weekends”
+  - Annual/seasonal calibration events: standard stars, instrument characterization, shared procedures—build a culture of measurement.
+- Community “signal atlas”: Tie radio astronomy + spectrum awareness together: map local transmitters, identify unknown signals, teach RF literacy alongside cosmic sources. This connects to the pathfinders' guild and its networking efforts, including the Cyberpony Express.
 
 
 ## Goals
