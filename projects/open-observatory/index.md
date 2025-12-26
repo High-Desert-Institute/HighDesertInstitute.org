@@ -16,14 +16,24 @@ The Open Observatory project is a comprehensive public kit designed to help comm
 
 This kit covers a wide range of infrastructure and equipment, including:
 
+
+### Community and Education
+- **Star Party Infrastructure**: Guides for planning and setting up power, red lighting, and seating for community observation events.
 - **Planetarium**: Designs and software for DIY planetariums to host educational presentations about the night sky.
+
+
+### Providing Access To Basic Astronomical Tools
 - **Optical Telescopes**: Recommendations for telescope types, mounts, and enclosures suitable for public viewing and astrophotography.
 - **Radio Interferometry**: Instructions for building and operating radio telescope arrays to observe the universe in the radio spectrum.
+  - **[/projects/very-small-array/]{Very Small Array}**: A project to build small radio interferometry arrays.
+  - **Open Engineering**: Salvaging and repurposing old satellite dishes and radio equipment for amateur astronomy.
+    - [https://www.youtube.com/watch?v=Nvcu_O7B9KU](saveitforparts:  Can I Hear The Moon With A Coffee Can?)
+
+
+### Accomplishing Hard Things
 - **EME (Earth-Moon-Earth)**: Equipment and techniques for bouncing radio signals off the moon to communicate with other stations on Earth. Imagine Moon Ham parties where people send their vocal manifestations to the moon and back!
-- **Star Party Infrastructure**: Guides for planning and setting up power, red lighting, and seating for community observation events.
 - Astronomical Forecasting Tools: Software recommendations for predicting celestial events (a la Stargazer's Almanac) and optimal viewing times.
-- **Open Engineering**: Salvaging and repurposing old satellite dishes and radio equipment for amateur astronomy.
-  - [https://www.youtube.com/watch?v=Nvcu_O7B9KU](saveitforparts:  Can I Hear The Moon With A Coffee Can?)
+
 
 ## Goals
 
