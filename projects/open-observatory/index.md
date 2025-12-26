@@ -5,12 +5,9 @@ slug: open-observatory
 guilds:
   - astromancers
 summary: >-
-  A public kit for building an observatory at your land project, including the different kinds of things you might want at an observatory and examples and details of how to do that.
+  A comprehensive public kit designed to help communities build their own observatories at their land projects. It provides detailed guides, examples, and specifications for various components of an observatory, enabling groups to create dedicated spaces for astronomical observation and education.
 ---
 
-# Open Observatory
-
-The Open Observatory project is a comprehensive public kit designed to help communities build their own observatories at their land projects. It provides detailed guides, examples, and specifications for various components of an observatory, enabling groups to create dedicated spaces for astronomical observation and education.
 
 ## Components of an Open Observatory
 
