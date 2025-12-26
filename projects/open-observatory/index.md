@@ -22,14 +22,17 @@ This kit covers a wide range of infrastructure and equipment, including:
 ### Providing Access To Basic Astronomical Tools
 - **Optical Telescopes**: Recommendations for telescope types, mounts, and enclosures suitable for public viewing and astrophotography.
 - **Radio Interferometry**: Instructions for building and operating radio telescope arrays to observe the universe in the radio spectrum.
-  - **[/projects/very-small-array/]{Very Small Array}**: A project to build small radio interferometry arrays.
+  - **[Very Small Array](/projects/very-small-array/)**: A project to build small radio interferometry arrays.
   - **Open Engineering**: Salvaging and repurposing old satellite dishes and radio equipment for amateur astronomy.
-    - [https://www.youtube.com/watch?v=Nvcu_O7B9KU](saveitforparts:  Can I Hear The Moon With A Coffee Can?)
+    - [saveitforparts:  Can I Hear The Moon With A Coffee Can?](https://www.youtube.com/watch?v=Nvcu_O7B9KU)
 
 
-### Accomplishing Hard Things
+### TO-Do: Accomplishing Hard Things
+What does an observatory empower a community to work on and accomplish?
+
 - **EME (Earth-Moon-Earth)**: Equipment and techniques for bouncing radio signals off the moon to communicate with other stations on Earth. Imagine Moon Ham parties where people send their vocal manifestations to the moon and back!
-- Astronomical Forecasting Tools: Software recommendations for predicting celestial events (a la Stargazer's Almanac) and optimal viewing times.
+- **Astronomical Forecasting Tools**: Software recommendations for predicting celestial events (a la Stargazer's Almanac) and optimal viewing times.
+- 
 
 
 ## Goals
