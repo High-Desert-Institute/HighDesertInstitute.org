@@ -96,7 +96,7 @@ Now that we know and understand what already exists in our area and we've starte
 - **Higher-Powered Optical Telescopes**: 
 - **Higher-Powered Radio Interferometry Arrays**: 
 
-##STEP THREE 
+## STEP THREE 
 
 Now that we have provided basic tool access (moving towards more advanced tools over time), we can start working on big, hard, long-term projects. 
 
