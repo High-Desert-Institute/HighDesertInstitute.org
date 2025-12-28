@@ -5,48 +5,45 @@ slug: very-small-array
 guilds:
   - astromancers
 summary: >-
-  A portable, standalone SDR device equipped with a phased antenna array and onboard FPGA,
-  designed to visualize radio frequencies in augmented reality and to perform advanced SDR
-  and radio astronomy tasks.
+  A distributed software project for microcontrollers and single board computers using affordable software defined radio (SDR) hardware to collaborate on Very Long Baseline Interferometry (VLBI).
 ---
 
 # Very Small Array
 
-The **Very Small Array (VSA)** is a portable, standalone **software-defined radio (SDR)** device equipped with a **phased antenna array** and an onboard **FPGA**.
+The **Very Small Array (VSA)** is a distributed software project designed to run on hardware ranging from small microcontrollers with simple radios to more powerful single board computers with advanced software defiend radios.
 
-Its two primary goals are:
+This project focuses on using a **Very Long Baseline Interferometry (VLBI)** approach to allow each device to independently determine its location and the precise time before capturing radio measurements. These nodes then report their results back separately to a coordinating node for later correlation and analysis.
 
-1. **Augmented reality RF visualization** — turning the invisible RF environment into something you can *see* and understand in real time.
-2. **Advanced SDR + radio astronomy** — enabling serious measurement, direction-finding, interferometry experiments, and other astronomy-adjacent workflows in a field-deployable form factor.
+The intent is that many cheap nodes can be deployed to work together and accomplish various tasks, creating a powerful distributed array from accessible hardware.
 
 ## Overview
 
-The Very Small Array is a concept for a portable device inspired by large-scale radio arrays (like the Very Large Array), but **miniaturized for field deployment**.
+The Very Small Array takes the concepts of large-scale radio astronomy arrays and applies them to a distributed network of low-cost devices. Instead of a single massive installation, the VSA relies on software coordination across many small, inexpensive nodes.
 
-It’s designed to pair with augmented reality hardware (for example, the upcoming Valve *Steam Frame*) so users can “see” the RF environment as an overlay: frequencies, power, directionality, and other derived features translated into **colors, lights, and spatial cues**.
-
-On the research end of the spectrum, the VSA also aims to support heavier “radio astronomy adjacent” workflows, including **high-bandwidth signal processing** and experiments that could contribute to **pulsar timing / triangulation** style approaches.
+By leveraging VLBI techniques, the system allows for precise localization and timing without relying on centralized infrastructure like GPS for the initial measurements. Each node acts as an independent observer, collecting data that becomes valuable when correlated with the rest of the network.
 
 ## Core Features
 
-- **Phased Antenna Array:** A compact, multi-element antenna system intended for directionality, beamforming experiments, and array processing.
-- **Onboard FPGA:** Handles high-bandwidth processing for real-time spectrum analysis, correlation/beamforming-style experiments, and other compute-heavy SDR pipelines.
-- **AR Integration:** Pairs with AR devices to render radio frequencies as visual elements in the user’s field of view.
-- **Practical use cases:** Monitoring NOAA broadcasts, visualizing local signal sources, exploring ground-based GPS references, and experimenting with radio astronomy techniques.
+- **Distributed VLBI:** Implements Very Long Baseline Interferometry algorithms suitable for low-power, distributed hardware.
+- **Hardware Agnostic:** Designed to run on a spectrum of devices, from microcontrollers (like ESP32, nRF52) to Single Board Computers (Raspberry Pi, etc.).
+- **Self-Localization:** Enables nodes to determine their own location and time through radio observation.
+- **Centralized Correlation:** Data is reported back to a coordinating node where the heavy lifting of correlation and analysis takes place.
+- **Scalable Deployment:** Intended for deployment of many cheap nodes to form a large synthetic aperture or sensor network.
 
 ## Relationship to Other Projects
 
-The VSA fits into the High Desert Institute ecosystem as an “instrument” that bridges **community infrastructure** and **science**:
+The VSA fits into the High Desert Institute ecosystem as a distributed instrument that bridges **community infrastructure** and **science**:
 
-- It complements resilient communications projects like the [Cyberpony Express](/projects/cyberpony-express/) by making RF conditions *legible* to builders and operators.
+- It complements resilient communications projects like the [Cyberpony Express](/projects/cyberpony-express/) by providing alternative methods for localization and timing.
 - It aligns with the [Astromancers’ Guild](/guilds/astromancers/) mission around radio astronomy and related sensing.
-- It connects to a broader theme in the org: taking advanced tools (SDR, sensing, visualization, applied inference) and making them accessible + field-ready.
+- It connects to a broader theme in the org: taking advanced tools (VLBI, distributed sensing) and making them accessible using commodity hardware.
 
 ## Next Steps
 
-1. **Prototyping:** Identify the minimal viable hardware stack (antenna elements, FPGA/SoC choice, RF front end, timebase/clocking, power budget).
-2. **AR Development:** Define the AR visualization primitives (what variables to render, how to map them to the environment) and plan integration with Steam Frame or similar.
-3. **Community Collaboration:** Specify an open-source development approach, recruit contributors, and explore partnerships with SDR + amateur radio + radio astronomy communities.
+1. **Algorithm Development:** Implement core VLBI algorithms for time and location determination on constrained hardware.
+2. **Hardware Selection:** Identify suitable low-cost microcontrollers and radio modules for the initial node prototypes.
+3. **Coordinator Software:** Develop the central software required to ingest, correlate, and analyze data from multiple nodes.
+4. **Field Testing:** Deploy a small network of nodes to validate the localization and timing accuracy in real-world conditions.
 
 ## Why this matters
 
