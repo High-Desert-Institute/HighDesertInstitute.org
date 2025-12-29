@@ -159,7 +159,7 @@ title: Building a Foundation for the Survival of Humanity
                 {% if guild_projects.size > 0 %}
                   <tr>
                     <td style="border-top: none;" colspan="2">
-                      <strong>Projects:</strong>
+                      <strong>Projects of {{ guild.title }}:</strong>
                       <table class="table table-sm table-borderless mb-0 mt-1">
                         <tbody>
                           {% for project in guild_projects %}
