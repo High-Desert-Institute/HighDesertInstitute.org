@@ -165,7 +165,7 @@ title: Building a Foundation for the Survival of Humanity
                           {% for project in guild_projects %}
                             <tr>
                               <td width="20%"><a href="{{ project.url }}">↳ {{ project.title }}</a></td>
-                              <td class="text-muted small">{{ project.summary | truncate: 120 }}</td>
+                              <td class="text-muted small" style="padding-left: 1rem;">{{ project.summary | truncate: 120 }}</td>
                             </tr>
                           {% endfor %}
                         </tbody>
