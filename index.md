@@ -117,7 +117,7 @@ title: Building a Foundation for the Survival of Humanity
       {% assign guilds_sorted = guild_pages | sort: "title" %}
 
       <div class="table-responsive">
-        <table class="table table-striped align-middle">
+        <table class="table align-middle">
           <thead>
             <tr>
               <th scope="col">Guild</th>
@@ -144,7 +144,7 @@ title: Building a Foundation for the Survival of Humanity
                   {% assign guild_primary_link = guild.url %}
                   {% assign guild_link_is_external = false %}
                 {% endif %}
-                <tr>
+                <tr class="table-active">
                   <td class="fw-semibold text-nowrap">
                     <a href="{{ guild_primary_link }}"{% if guild_link_is_external %} target="_blank" rel="noopener"{% endif %}>{{ guild.title | default: guild.url }}</a>
                   </td>
