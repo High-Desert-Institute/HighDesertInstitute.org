@@ -72,71 +72,6 @@ title: Building a Foundation for the Survival of Humanity
   <div class="row">
     <div class="col">
       <hr>
-      <h2><a href="/guilds/">Guilds: Find Your People</a></h2>
-
-  <div markdown="0" class="row">
-
-    <div class="col-12">
-      {% assign guild_pages = '' | split: '' %}
-      {% for item in site.pages %}
-        {% assign parts = item.path | split: '/' %}
-        {% if parts[0] == 'guilds' and parts.size == 3 %}
-          {% assign guild_pages = guild_pages | push: item %}
-        {% endif %}
-      {% endfor %}
-
-      {% assign guilds_sorted = guild_pages | sort: "title" %}
-
-      <div class="table-responsive">
-        <table class="table table-striped align-middle">
-          <thead>
-            <tr>
-              <th scope="col">Guild</th>
-              <th scope="col">Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for guild in guilds_sorted %}
-              {% if guild %}
-                {% if guild.link %}
-                  {% assign guild_primary_link = guild.link %}
-                  {% assign guild_link_is_external = true %}
-                {% else %}
-                  {% assign guild_primary_link = guild.url %}
-                  {% assign guild_link_is_external = false %}
-                {% endif %}
-                <tr>
-                  <td class="fw-semibold text-nowrap">
-                    <a href="{{ guild_primary_link }}"{% if guild_link_is_external %} target="_blank" rel="noopener"{% endif %}>{{ guild.title | default: guild.url }}</a>
-                  </td>
-                  <td>
-                    {% if guild.blurb %}
-                      {{ guild.blurb }}
-                    {% else %}
-                      <span class="text-muted">No summary provided.</span>
-                    {% endif %}
-                  </td>
-                </tr>
-              {% endif %}
-            {% endfor %}
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-  </div><!--/row-->
-
-    </div><!--/col-->
-  </div><!--/row-->
-
-  <div class="row">
-    <div class="col">
-      <hr>
-      <h2><a href="/projects/">Projects: Find Your Work</a></h2>
-
-  <div markdown="0" class="row">
-
-    <div class="col-12">
       {% assign project_slugs = '' | split: '' %}
       {% for item in site.pages %}
         {% if item.path contains 'projects/' %}
@@ -165,6 +100,94 @@ title: Building a Foundation for the Survival of Humanity
       {% endfor %}
 
       {% assign projects = project_pages | sort: "order" %}
+
+      <h2><a href="/guilds/">Guilds: Find Your People</a></h2>
+
+  <div markdown="0" class="row">
+
+    <div class="col-12">
+      {% assign guild_pages = '' | split: '' %}
+      {% for item in site.pages %}
+        {% assign parts = item.path | split: '/' %}
+        {% if parts[0] == 'guilds' and parts.size == 3 %}
+          {% assign guild_pages = guild_pages | push: item %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign guilds_sorted = guild_pages | sort: "title" %}
+
+      <div class="table-responsive">
+        <table class="table table-striped align-middle">
+          <thead>
+            <tr>
+              <th scope="col">Guild</th>
+              <th scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for guild in guilds_sorted %}
+              {% if guild %}
+                {% assign guild_slug = guild.path | split: '/' | offset: 1 | first %}
+                {% assign guild_projects = projects | where_exp: "item", "item.guilds contains guild_slug" %}
+
+                {% if guild.link %}
+                  {% assign guild_primary_link = guild.link %}
+                  {% assign guild_link_is_external = true %}
+                {% else %}
+                  {% assign guild_primary_link = guild.url %}
+                  {% assign guild_link_is_external = false %}
+                {% endif %}
+                <tr>
+                  <td class="fw-semibold text-nowrap">
+                    <a href="{{ guild_primary_link }}"{% if guild_link_is_external %} target="_blank" rel="noopener"{% endif %}>{{ guild.title | default: guild.url }}</a>
+                  </td>
+                  <td>
+                    {% if guild.blurb %}
+                      {{ guild.blurb }}
+                    {% else %}
+                      <span class="text-muted">No summary provided.</span>
+                    {% endif %}
+                  </td>
+                </tr>
+                {% if guild_projects.size > 0 %}
+                  <tr class="table-light">
+                    <td style="border-top: none;"></td>
+                    <td style="border-top: none;">
+                      <strong>Projects:</strong>
+                      <table class="table table-sm table-borderless mb-0 mt-1">
+                        <tbody>
+                          {% for project in guild_projects %}
+                            <tr>
+                              <td width="30%"><a href="{{ project.url }}">↳ {{ project.title }}</a></td>
+                              <td class="text-muted small">{{ project.summary | truncate: 120 }}</td>
+                            </tr>
+                          {% endfor %}
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div><!--/row-->
+
+    </div><!--/col-->
+  </div><!--/row-->
+
+  <div class="row">
+    <div class="col">
+      <hr>
+      <h2><a href="/projects/">Projects: Find Your Work</a></h2>
+
+  <div markdown="0" class="row">
+
+    <div class="col-12">
+
         {% assign project_rows = '' | split: '' %}
         {% for project in projects %}
           {% if project.path != 'projects/index.md' %}
