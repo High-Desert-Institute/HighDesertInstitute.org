@@ -128,13 +128,16 @@ title: Building a Foundation for the Survival of Humanity
             {% for guild in guilds_sorted %}
               {% if guild %}
                 {% assign guild_slug = guild.path | split: '/' | offset: 1 | first %}
+                <!-- DEBUG: Guild Slug: [{{ guild_slug }}] -->
                 
                 {% assign guild_projects = '' | split: '' %}
                 {% for proj in projects %}
+                  <!-- DEBUG: Checking Project: {{ proj.title }} - Guilds: {{ proj.guilds | join: ', ' }} -->
                   {% if proj.guilds contains guild_slug %}
                     {% assign guild_projects = guild_projects | push: proj %}
                   {% endif %}
                 {% endfor %}
+                <!-- DEBUG: Found {{ guild_projects.size }} projects for {{ guild_slug }} -->
 
                 {% if guild.link %}
                   {% assign guild_primary_link = guild.link %}
