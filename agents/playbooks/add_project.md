@@ -15,7 +15,10 @@ This playbook describes the procedure for adding a new project to the High Deser
 
 ## Steps
 
-    - If it exists, the name may be too ambiguous, or the project may already exist. Check the contents to be sure. Advise the user and ask how to proceed.
+1.  **Check for Existing Content**
+    Search the workspace for the project name.
+    - If a folder in `projects/` exists, stop and advise the user.
+    - If a page exists elsewhere (e.g., in the root or a guild folder), you may need to migrate its content to the new project page and set up a redirect or delete the old page.
 
 2.  **Create Directory**
     Create the directory: `projects/<project_slug>/`
@@ -41,5 +44,10 @@ This playbook describes the procedure for adding a new project to the High Deser
     <description>
     ```
 
-4. Review Associated Guild Page
-    Most guilds have some dummy text about future projects on their pages. This new project is likely already explaiend there is some details. If this is the case, move that text over to the body of the new project page, and remove it from the guild page, so that this new separate project page has the full details. After we create it, it will be listed on the linked guild page automatically.
+4.  **Review Associated Guild Page**
+    - **Migrate Content:** Most guilds have some dummy text about future projects on their pages. If this new project is already explained there, move that text to the body of the new project page and remove it from the guild page.
+    - **Verify Layout:** Ensure the guild page (`guilds/<guild_slug>/index.md`) has the following frontmatter so the project appears automatically:
+      ```yaml
+      layout: guild
+      guild_id: <guild_slug>
+      ```
