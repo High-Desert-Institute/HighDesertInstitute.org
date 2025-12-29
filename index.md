@@ -138,8 +138,6 @@ title: Building a Foundation for the Survival of Humanity
                 {% endfor %}
 
                 {% if guild.link %}
-
-                {% if guild.link %}
                   {% assign guild_primary_link = guild.link %}
                   {% assign guild_link_is_external = true %}
                 {% else %}
