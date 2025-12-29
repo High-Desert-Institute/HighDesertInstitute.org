@@ -129,7 +129,6 @@ title: Building a Foundation for the Survival of Humanity
               {% if guild %}
                 {% assign guild_parts = guild.path | split: '/' %}
                 {% assign guild_slug = guild_parts[1] %}
-                <!-- DEBUG: Guild Path: {{ guild.path }} -> Slug: [{{ guild_slug }}] -->
                 
                 {% assign guild_projects = '' | split: '' %}
                 {% for proj in projects %}
@@ -137,7 +136,8 @@ title: Building a Foundation for the Survival of Humanity
                     {% assign guild_projects = guild_projects | push: proj %}
                   {% endif %}
                 {% endfor %}
-                <!-- DEBUG: Found {{ guild_projects.size }} projects for {{ guild_slug }} -->
+
+                {% if guild.link %}
 
                 {% if guild.link %}
                   {% assign guild_primary_link = guild.link %}
@@ -159,7 +159,7 @@ title: Building a Foundation for the Survival of Humanity
                   </td>
                 </tr>
                 {% if guild_projects.size > 0 %}
-                  <tr class="table-light">
+                  <tr>
                     <td style="border-top: none;"></td>
                     <td style="border-top: none;">
                       <strong>Projects:</strong>
