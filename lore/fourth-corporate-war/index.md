@@ -22,3 +22,21 @@ summary: >-
 
 ## Current Status
 This is the ongoing conflict of our time, where the battle is for control over the digital infrastructure that underpins reality itself.
+
+[← More Info About The Corporate Wars](/lore/corporate-wars/)
+
+## The Exodus
+
+### The Net vs the Nets
+
+During the fourth corporate war, the technofeudal platforms became fully enshitified. They had made it illegal to leave. They had made it illegal and infeasible to build an alternative. They aggressively moved to destroy and defang any serious avenues to better alternatives on the net.
+
+Enshitification happens in several stages:
+
+* **Stage 1:** Good to Users The platform provides a high-quality, valuable service to attract users and build a large audience, often operating at a loss funded by venture capital. The focus is on user growth and experience to gain a strong market position.
+* **Stage 2:** Good to Business Customers Once the user base is large enough to form a "two-sided market," the platform shifts its focus to extracting value from its business customers (e.g., advertisers, sellers, content creators). This usually involves degrading the user experience to force business customers to spend more (e.g., making organic reach harder to encourage ad buys).
+* **Stage 3**: Extraction of Value for Shareholders Having become stronger than both users and business customers, the platform takes all remaining surplus value for itself, prioritizing short-term profits for shareholders. The quality of service for everyone declines significantly, as the company is "too big to care" due to lack of competition.
+
+A necessary biproduct of the enshitifaction of the net was an exodus of the technological priesthood. The right conditions were there, and it just happened. The smart creatives who had actually built the platforms found themselves adrift on the net, steeping in an endless miasma of shit. 
+
+Gradually at first, and then all at once, the technological priesthood departed the mundane enshitified net, creating their own pocket universes in the form of the nets. These manifold microgrids functioned as independent nodes for family and friends. Where free and open source alternatives thrived. FOSS alternatives to the enshitified platforms had long since been superior options, and a moment came when suddenly everyone realized Omelas wasn't all it was cracked up to be.

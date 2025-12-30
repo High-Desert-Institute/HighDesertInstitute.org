@@ -22,3 +22,5 @@ summary: >-
 
 ## End-state / Transition Driver
 Mass politics, decolonization, and the rise of formal international institutions changed the legitimacy game. Capital shifted from direct territorial control to rules, finance, and supply chains.
+
+[← More Info About The Corporate Wars](/lore/corporate-wars/)

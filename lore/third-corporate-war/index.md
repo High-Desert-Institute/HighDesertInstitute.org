@@ -22,3 +22,5 @@ summary: >-
 
 ## End-state / Transition Driver
 The *Net + compute + data* became the new “land.” Firms started behaving less like competitive market actors and more like lords of enclosed domains, leading to the next era.
+
+[← More Info About The Corporate Wars](/lore/corporate-wars/)
