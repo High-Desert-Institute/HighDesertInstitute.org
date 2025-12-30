@@ -1,6 +1,6 @@
 ---
 layout: lore
-title: "Corporate War I: Charter-Colonial"
+title: "First Corporate War: Charter-Colonial"
 slug: first-corporate-war
 summary: >-
   The era where corporations acted as quasi-states by charter, controlling sea lanes and resources through company navies and monopoly rights.

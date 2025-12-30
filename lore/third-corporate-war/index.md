@@ -1,6 +1,6 @@
 ---
 layout: lore
-title: "Corporate War III: Neoliberal"
+title: "Third Corporate War: Neoliberalism"
 slug: third-corporate-war
 summary: >-
   The era where firms ruled by standards, supply chains, and finance, enforcing market access and privatization through systemic coercion.

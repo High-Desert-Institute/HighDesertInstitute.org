@@ -1,6 +1,6 @@
 ---
 layout: lore
-title: "Corporate War IV: Technofeudal"
+title: "Fourth Corporate War: Technofeudalism"
 slug: fourth-corporate-war
 summary: >-
   The current era of digital enclosure where identity, attention, and compute are the new land, and firms control the means of participation.
@@ -25,6 +25,7 @@ This is the ongoing conflict of our time, where the battle is for control over t
 
 [← More Info About The Corporate Wars](/lore/corporate-wars/)
 
+
 ## The Exodus
 
 ### The Net vs the Nets
@@ -39,4 +40,6 @@ Enshitification happens in several stages:
 
 A necessary biproduct of the enshitifaction of the net was an exodus of the technological priesthood. The right conditions were there, and it just happened. The smart creatives who had actually built the platforms found themselves adrift on the net, steeping in an endless miasma of shit. 
 
-Gradually at first, and then all at once, the technological priesthood departed the mundane enshitified net, creating their own pocket universes in the form of the nets. These manifold microgrids functioned as independent nodes for family and friends. Where free and open source alternatives thrived. FOSS alternatives to the enshitified platforms had long since been superior options, and a moment came when suddenly everyone realized Omelas wasn't all it was cracked up to be.
+Gradually at first, and then all at once, the technological priesthood departed the mundane enshitified net, creating their own pocket universes in the form of private nets. These manifold microgrids functioned as independent nodes for family and friends; where free and open source alternatives thrived. 
+
+FOSS alternatives to the enshitified platforms had long since been superior options. They were everything from stage one of enshitification, with stages 2-4 being impossible. Eventually, a moment came when suddenly everyone realized Omelas wasn't all it was cracked up to be, and they walked away. They wallked away from the Net and they built the Nets.

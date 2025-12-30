@@ -1,6 +1,6 @@
 ---
 layout: lore
-title: "Corporate War II: Banana-Republic"
+title: "Second Corporate War: Banana-Republic"
 slug: second-corporate-war
 summary: >-
   The era where firms captured states to serve as proxies for resource extraction, using coups and private security to maintain control.
