@@ -68,9 +68,7 @@ The modern nation-state and industrial capacity eventually outgrew charter firms
 
 ---
 
-## Battle & Incident Files
-
-Each file is written to be reusable: *belligerents → stakes → method → outcome → consequences.*
+## Major Battles
 
 ---
 
