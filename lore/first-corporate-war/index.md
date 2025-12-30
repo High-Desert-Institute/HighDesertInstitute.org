@@ -7,6 +7,7 @@ summary: >-
 ---
 
 # Corporate War I: Charter-Colonial
+*(approx. 1600–1857)*
 
 **Core pattern:** corporations are *quasi-states* by charter.
 
@@ -66,139 +67,31 @@ The modern nation-state and industrial capacity eventually outgrew charter firms
 * **French Compagnie des Indes** (in the later phase)
 * **Local polities and allies** (sultanates, kingdoms, city-states) who are not “side characters” but decisive actors and kingmakers
 
----
-
 ## Major Battles
 
----
+### Battle of Plassey (1757)
+*Sovereignty by Conquest*
+*   **Major Belligerents:** East India Company vs. Nawab of Bengal.
+*   **Stakes / Terrain:** Control of Bengal’s tax revenue, textile trade, and the right to fortify trading posts.
+*   **What Happened:** The EIC bribed the Nawab’s general (Mir Jafar) to defect, turning a military confrontation into a rout.
+*   **Outcome:** The EIC gained de facto rule over Bengal, transforming from a trading company into a territorial sovereign with the power of taxation.
+*   **Strategic Consequences:** Established the model of corporate colonialism where a board of directors in London governed millions of subjects.
 
-### Battle of Swally (Suvali) — “The charter gets teeth”
+### The Amboyna Massacre (1623)
+*Monopoly by Extermination*
+*   **Major Belligerents:** VOC (Dutch East India Company) vs. EIC (British East India Company).
+*   **Stakes / Terrain:** The Spice Islands (Moluccas) and the global monopoly on cloves and nutmeg.
+*   **What Happened:** The VOC tortured and executed EIC agents under accusations of conspiracy to seize the fortress of Amboyna.
+*   **Outcome:** The EIC was effectively driven out of the Spice Islands and forced to refocus its operations on India.
+*   **Strategic Consequences:** Solidified the Dutch monopoly on fine spices and redirected British corporate attention to textiles and tea, shaping the future map of the British Empire.
 
-#### Belligerents
+### The Opium Wars (1839–1860)
+*Market Opening by Force*
+*   **Major Belligerents:** EIC / British Empire vs. Qing Dynasty.
+*   **Stakes / Terrain:** The right to sell illegal narcotics in China to balance the trade deficit caused by tea imports.
+*   **What Happened:** When China confiscated EIC opium, the corporation lobbied the British state to deploy its navy to bombard Chinese ports.
+*   **Outcome:** The Treaty of Nanking forced China to open "Treaty Ports," pay reparations, and cede Hong Kong.
+*   **Strategic Consequences:** Demonstrated the ultimate corporate power move: using the state’s military to enforce a drug cartel’s market access.
 
-* English East India Company (EIC) fleet under Thomas Best
-* Portuguese forces operating off the Gujarat coast
 
-#### Stakes / terrain
-
-* Access to Surat region trade and the legitimacy to operate on the Mughal coastline
-* Demonstrating that “company ships” can defeat an established imperial maritime power
-
-#### What happened (mechanism)
-
-* A smaller English force defeats a larger Portuguese flotilla near the coast.
-
-#### Outcome
-
-* EIC victory.
-
-#### Strategic consequences
-
-* Helps the EIC secure credibility and bargaining power for trading privileges.
-* Signals the beginning of Portugal’s declining monopoly in the region.
-
----
-
-### The Amboyna (Ambon) Trial/“Massacre” — “Corporate law as a weapon”
-
-#### Belligerents
-
-* VOC authorities on Ambon
-* EIC personnel and other accused conspirators (including Japanese mercenaries and others)
-
-#### Stakes / terrain
-
-* Control of the spice trade node and intimidation of rival company presence
-* The legal/administrative layer of sovereignty: courts, torture, confessions, executions
-
-#### What happened (mechanism)
-
-* VOC authorities accuse a conspiracy; confessions are obtained under torture; executions follow.
-
-#### Outcome
-
-* EIC local position collapses; cooperation in the area breaks.
-
-#### Strategic consequences
-
-* “Corporate jurisdiction” becomes indistinguishable from state terror.
-* Propaganda and public outrage feed later interstate conflict (company rivalry spills into national war).
-
----
-
-### Siege of Malacca (1640–1641) — “Chokepoint capture”
-
-#### Belligerents
-
-* VOC + local ally forces (notably Johor)
-* Portuguese Malacca
-
-#### Stakes / terrain
-
-* Malacca Strait access: a global trade artery and customs node
-* Breaking Portuguese dominance of a strategic port-fort
-
-#### What happened (mechanism)
-
-* A long siege isolates the fort-city; logistics and allied manpower matter as much as cannon.
-
-#### Outcome
-
-* Portuguese surrender; Dutch-allied victory.
-
-#### Strategic consequences
-
-* A decisive shift in who controls the regional trade choke.
-* Shows the charter-colonial logic clearly: a company and local allies conduct a state-like siege to capture a tariff machine.
-
----
-
-### Spice Islands “Pacification” (Banda & surrounding) — “Monopoly by extermination and transplantation”
-
-#### Belligerents
-
-* VOC forces and administrators
-* Local communities and rival traders
-
-#### Stakes / terrain
-
-* Nutmeg/clove monopoly nodes—small islands with enormous price leverage
-
-#### What happened (mechanism)
-
-* Fortification, coercive contracts, forced relocation, and plantation governance.
-
-#### Outcome
-
-* VOC dominance over key spice nodes.
-
-#### Strategic consequences
-
-* Corporate war reveals its darkest form: the “battle” is not always a battle; it can be the conversion of a society into a supply chain.
-
----
-
-### Plassey (1757) — “When trade becomes territorial rule”
-
-#### Belligerents
-
-* British East India Company forces under Robert Clive
-* The Nawab of Bengal (Siraj-ud-Daulah) with French support
-
-#### Stakes / terrain
-
-* Bengal’s revenue base and the right to operate as a power inside a major polity
-* The transition point from fort-empire to territorial governance
-
-#### What happened (mechanism)
-
-* Company force wins a decisive engagement; political defection and elite bargaining matter as much as battlefield tactics.
-
-#### Outcome
-
-* EIC victory; company influence in Bengal becomes dominant.
-
-#### Strategic consequences
-
-* The company becomes a proto-state at scale: taxation, administration, and permanent military capacity.
-* This battle functions as an “end of Act I” for Charter-Colonial and the seed of the next era’s capture mechanics.
+[← Back to Corporate Wars](/lore/corporate-wars/)

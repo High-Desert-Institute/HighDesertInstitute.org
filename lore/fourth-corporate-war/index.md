@@ -7,6 +7,7 @@ summary: >-
 ---
 
 # Corporate War IV: Technofeudal
+*(approx. 2008–Present)*
 
 **Core pattern:** enclosure returns, but it’s **digital**: identity, attention, compute, data, discovery, and distribution become “land.”
 
@@ -22,6 +23,32 @@ summary: >-
 
 ## Current Status
 This is the ongoing conflict of our time, where the battle is for control over the digital infrastructure that underpins reality itself.
+
+## Major Battles
+
+### The App Store Wars (Epic vs. Apple)
+*The Tollbooth Rebellion*
+*   **Major Belligerents:** Epic Games vs. Apple / Google.
+*   **Stakes / Terrain:** The 30% tax on all digital commerce and the right to exist on the platform without paying the landlord.
+*   **What Happened:** Epic tried to bypass the payment system; Apple removed Fortnite. A legal battle ensued over the definition of a monopoly.
+*   **Outcome:** Partial legal victory for Apple (walled garden upheld), but regulatory pressure increased globally (DMA in Europe).
+*   **Strategic Consequences:** Highlighted that in a technofeudal system, you do not own your business; you operate it at the pleasure of the platform owner.
+
+### The Reddit API Protests (2023)
+*Enclosure of the Commons*
+*   **Major Belligerents:** Reddit Inc. vs. Its Own Users / Moderators.
+*   **Stakes / Terrain:** Access to data for AI training vs. the ecosystem of third-party apps and community tools.
+*   **What Happened:** Reddit priced its API to kill third-party apps (to hoard data for AI). Moderators went on strike; Reddit threatened to remove them.
+*   **Outcome:** Reddit forced the API changes, destroyed third-party apps, and proved that "community" has no leverage against ownership.
+*   **Strategic Consequences:** The end of the "open web" era; data is now a proprietary resource to be mined, not shared.
+
+### The OpenAI Board Coup (2023)
+*Capture of the Safety Brake*
+*   **Major Belligerents:** Microsoft / Capital vs. Non-Profit Governance.
+*   **Stakes / Terrain:** Control over AGI development and commercialization speed.
+*   **What Happened:** The non-profit board fired CEO Sam Altman for lack of candor. Microsoft and employees threatened to leave.
+*   **Outcome:** Restoration of Sam Altman, effective removal of non-profit oversight, cementing Microsoft's control.
+*   **Strategic Consequences:** Demonstrated that no governance structure can withstand the pressure of trillion-dollar capital incentives.
 
 [← More Info About The Corporate Wars](/lore/corporate-wars/)
 
