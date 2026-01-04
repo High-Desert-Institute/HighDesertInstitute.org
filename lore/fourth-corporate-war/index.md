@@ -70,3 +70,5 @@ A necessary biproduct of the enshitifaction of the net was an exodus of the tech
 Gradually at first, and then all at once, the technological priesthood departed the mundane enshitified net, creating their own pocket universes in the form of private nets. These manifold microgrids functioned as independent nodes for family and friends; where free and open source alternatives thrived. 
 
 FOSS alternatives to the enshitified platforms had long since been superior options. They were everything from stage one of enshitification, with stages 2-4 being impossible. Eventually, a moment came when suddenly everyone realized Omelas wasn't all it was cracked up to be, and they walked away. They wallked away from the Net and they built the Nets.
+
+[Read more about the Exodus and the concept of Liminae vs Laminae](/lore/liminae-and-laminae/)
