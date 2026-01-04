@@ -8,6 +8,8 @@ summary: >-
   Developing skills and tools for radio direction finding to maintain the integrity of the Cyberpony Express mesh network and locate interference.
 ---
 
+<img src="/assets/images/fox-hunting.jpg" class="photo">
+
 # Community Policing: Fox Hunting
 
 ## Problem statement
