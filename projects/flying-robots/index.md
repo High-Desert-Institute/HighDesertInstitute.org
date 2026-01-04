@@ -27,6 +27,7 @@ We have raised more than ten thousand dollars and distributed hundreds of Cyberp
 - **Cyberpony Express** – A free, encrypted, public mesh network run by volunteers. It functions as a digital postal service for the people, carrying messages and data between outposts without central infrastructure.
 - **Meshtastic** – Open-source firmware that turns low-power LoRa radios into long-range mesh nodes. Every drone and ground station can exchange commands and telemetry through this resilient network.
 - **ATAK (Android Team Awareness Kit)** – A modular geospatial platform that rides on top of Meshtastic. ATAK displays drone locations, sensor alerts, and task queues on a shared map and supports plugins for mission planning and chat.
+- **RARE (Rapid Autonomic Reinforcement Engine)** – A safety-constrained online learning layer that continuously tunes gait and stabilization parameters. [Read the RARE Spec v2](rare/).
 
 ## Other Ingredients
 
