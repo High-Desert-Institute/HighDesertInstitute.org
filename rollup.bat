@@ -13,6 +13,7 @@ if %errorlevel%==0 (
     exit /b 0
 )
 
+git add .
 git commit -m "Rollup"
 
 popd >nul

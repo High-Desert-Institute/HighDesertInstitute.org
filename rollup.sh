@@ -11,4 +11,5 @@ if git diff --quiet && git diff --cached --quiet; then
   exit 0
 fi
 
+git add .
 git commit -m "Rollup"
