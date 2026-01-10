@@ -10,6 +10,8 @@ summary: >-
 ---
 # All Seeing Eye
 
+<img src="/projects/all-seeing-eye/repository/assets/images/rendering.jpg" alt="All-Seeing Eye Rendering" style="max-width: 100%; height: auto;"/>
+
 The **All-Seeing Eye** is a distributed RF observer node designed to work within a broader system of SDR (Software Defined Radio) nodes. It is a 3D printed structure containing ESP32 and CC1101 components to perform distributed, narrowband RSSI sensing.
 
 By correlating RSSI bitmaps from multiple perspectives (All-Seeing Eye nodes) with wideband spectrum sensing from SDR Nodes, the system can simultaneously determine where RF broadcasts originate in real time.
