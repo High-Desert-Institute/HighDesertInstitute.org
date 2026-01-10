@@ -16,3 +16,6 @@
 [submodule "projects/cyberpony-express-bbs/repository"]
 	path = projects/cyberpony-express-bbs/repository
 	url = https://github.com/High-Desert-Institute/cyberpony-express-bbs
+[submodule "projects/all-seeing-eye/repository"]
+	path = projects/all-seeing-eye/repository
+	url = https://github.com/cjtrowbridge/All-Seeing-Eye
