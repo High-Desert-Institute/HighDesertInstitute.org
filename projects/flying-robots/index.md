@@ -48,7 +48,7 @@ We have raised more than ten thousand dollars and distributed hundreds of Cyberp
 
 ![Collaborative Quadrupeds](/assets/images/quadruped-collaboration.png)
 
-### Collaborative Quadrupeds
+### [Collaborative Quadrupeds](collaborative-quadrupeds/)
 Quadruped robots can work together using the mesh to solve complex tasks as a team.
 
 **Example tasks:**
