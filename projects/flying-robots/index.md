@@ -28,6 +28,8 @@ We have raised more than ten thousand dollars and distributed hundreds of Cyberp
 - **Meshtastic** – Open-source firmware that turns low-power LoRa radios into long-range mesh nodes. Every drone and ground station can exchange commands and telemetry through this resilient network.
 - **ATAK (Android Team Awareness Kit)** – A modular geospatial platform that rides on top of Meshtastic. ATAK displays drone locations, sensor alerts, and task queues on a shared map and supports plugins for mission planning and chat.
 - **RARE (Rapid Autonomic Reinforcement Engine)** – A safety-constrained online learning layer that continuously tunes gait and stabilization parameters. [Read the RARE Spec v2](rare/).
+- **SLAM ([Simultaneous Localization and Mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping))** – Algorithms that let robots build maps of their surroundings while tracking their own position. This enables autonomous navigation in GPS-denied environments.
+- **Internal AI Hardware** – Onboard compute modules like the Raspberry Pi 5, LLM8850 and Jetson Nano Super allow powerful machine learning tools to run directly on the robots for real-time planning, collaboration, decision-making, and text or voice communication with users.
 
 ## Other Ingredients
 
@@ -43,6 +45,18 @@ We have raised more than ten thousand dollars and distributed hundreds of Cyberp
 5. **Reporting** – Results flow to responders or logbooks, closing the loop and readying the robot for the next assignment.
 
 ## Robot Types
+
+![Collaborative Quadrupeds](/assets/images/quadruped-collaboration.png)
+
+### Collaborative Quadrupeds
+Quadruped robots can work together using the mesh to solve complex tasks as a team.
+
+**Example tasks:**
+- Carrying heavy or bulky loads that a single robot can’t manage
+- Traversing rough or uneven terrain by distributing weight
+- Performing autonomous search-and-rescue missions during disasters
+- Recovery: if one robot gets stuck, its team mates can assist it
+- Modular tool use: each robot can carry a different tool to accomplish a shared task, via detachable mounts on top of the body
 
 ![Carrier (fixed-wing UAV)](/assets/images/flying-robots-carrier.png)
 
