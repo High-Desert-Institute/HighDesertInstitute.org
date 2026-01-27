@@ -22,7 +22,7 @@ NOAA broadcasts this data continuously from a pair of satellites in geostationar
 
 ## Concept
 
-The core idea is inspired by the work of *saveitforparts* and utilizes cheap, repurposed robotic RV satellite dishes. These dishes formed a large industry for mobile TV reception before Starlink, and many can be scavenged or found on marketplace or at thrift stores for $20-30. We can modify them to work as free uplinks to [NOAA](https://www.weather.gov/) weather satellites.
+The core idea is inspired by the work of *[saveitforparts](https://www.youtube.com/@saveitforparts)* and utilizes cheap, repurposed robotic RV satellite dishes. These dishes formed a large industry for mobile TV reception before Starlink, and many can be scavenged or found on marketplace or at thrift stores for $20-30. We can modify them to work as free uplinks to [NOAA](https://www.weather.gov/) weather satellites.
 
 ## What is a Geostationary Satellite?
 
@@ -84,7 +84,7 @@ The [**inspiration video**](https://www.youtube.com/watch?v=0O6tscHo6G4) by save
 
 ### Custom Yagi Feed Design
 
-To receive the signal efficiently, a custom linear polarized feed can be built to replace the original LNB on the TV dish.
+To receive the signal efficiently, a custom linear polarized feed can be built to replace the original LNB on the TV dish. This is a custom Yagi antenna (designed by [savitforparts](https://www.youtube.com/@saveitforparts)) made from simple materials like copper wire or tubing.
 
 ![Custom Yagi feed antenna schematics and hardware](/assets/images/hacked-weather-satellite-uplink-feed.png)
 
