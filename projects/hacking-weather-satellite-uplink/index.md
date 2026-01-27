@@ -4,7 +4,6 @@ title: "Hacking Weather Satellite Uplink"
 slug: hacking-weather-satellite-uplink
 guilds:
   - pathfinders
-link: "https://www.youtube.com/watch?v=0O6tscHo6G4"
 summary: >-
   Hacking together spare parts to build an off-grid satellite data uplink for free, local satellite images, weather forecasts, and emergency alerts.
 ---
