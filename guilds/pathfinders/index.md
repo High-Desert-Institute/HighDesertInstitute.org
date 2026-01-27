@@ -9,7 +9,7 @@ thumbnail: /assets/images/pathfinders.jpg
 ## Pathfinders' Guild
 
 ### Mission
-Maintain safe and accessible pathways for off-grid travel, ensuring community members can move freely through the desert landscape as well as the digital landscape between the outposts and other communities.
+Maintain safe and accessible pathways for off-grid travel, ensuring community members can move freely through the desert landscape as well as the digital landscape between the outposts and other communities.  
 <img src="/assets/images/pathfinders.jpg" class="photo">
 
 ### Current Projects
