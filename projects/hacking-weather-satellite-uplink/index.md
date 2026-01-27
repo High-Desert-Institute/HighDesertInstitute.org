@@ -110,5 +110,5 @@ You can use a phone app like "Satellite AR" or a website like [DishPointer](http
 
 ## Friendly Advice
 
-*   **The "Hacking" Part:** We are hacking old hardware to build this system. These Winebago dishes were only ever intended for bad fathers who would rather watch sports than spend time with their families while on camping trips. We are taking that generation's garbage (old RV dishes), stripping out the sports tv junk, and giving them a new and noble purpose; to protect and inform the community. The specific data stream we are intercepting is unencrypted and public, so receiving it is free and fully legal.
+*   **The "Hacking" Part:** We are hacking old hardware to build this system. These rv dishes were only ever intended for bad fathers who would rather watch sports than spend time with their families while on camping trips. We are taking that generation's garbage (old RV dishes), stripping out the sports tv junk, and giving them a new and noble purpose; to protect and inform the community. The specific data stream we are intercepting is unencrypted and public, so receiving it is free and fully legal.
 *   **Patience Required:** While the satellite doesn't move, finding the signal the first time can be tricky. Small adjustments to the dish make a big difference. Use the signal strength meter in SatDump to fine-tune your aim.
