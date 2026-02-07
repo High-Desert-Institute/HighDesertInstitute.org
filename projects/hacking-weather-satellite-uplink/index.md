@@ -82,21 +82,12 @@ Because this is a direct broadcast intended for emergency managers, it **does no
 
 The [**inspiration video**](https://www.youtube.com/watch?v=0O6tscHo6G4) by saveitforparts walks you through the whole process of building a custom receiver feed and properly pointing the dish.
 
-### Custom Yagi Feed Design
+### Implementation Examples
 
-To receive the signal efficiently, a custom linear polarized feed can be built to replace the original LNB on the TV dish. This is a custom Yagi antenna (designed by [savitforparts](https://www.youtube.com/@saveitforparts)) made from simple materials like copper wire or tubing.
-
-![Custom Yagi feed antenna schematics and hardware](/assets/images/hacked-weather-satellite-uplink-feed.png)
-
-**Antenna Dimensions:**
-*   **Reflector (Left):** 87mm length.
-*   **Driven Element (Middle):** 83mm length. This is a dipole split in the center where the coaxial cable connects.
-*   **Director (Right):** 66mm length.
-*   **Spacing:** There is a 22mm gap between the Reflector and Driven Element, and another 22mm gap between the Driven Element and the Director.
-
-**Displayed Hardware:**
-*   **RTL-SDR.COM:** A standard USB Software Defined Radio dongle used to ingest the radio signal into a computer.
-*   **SAWbird+ GOES:** A Low Noise Amplifier (LNA) and filter module specifically tuned for the GOES satellite frequency (~1.69 GHz). This is essential for boosting the weak satellite signal while filtering out noise from nearby cell towers and Wi-Fi.
+| Title | Feed type | Reflector type | Alignment mechanism |
+| --- | --- | --- | --- |
+| **[cjtrowbridge: repurposed robotic 3D-printed helical](/projects/hacking-weather-satellite-uplink/cjtrowbridge-repurposed-robotic-3d-printed-helical/)** | Helical | Parabolic dish (TV/RV) | Repurposed robotic mount |
+| **[cjtrowbridge: stationary 3D-printed helicone](/projects/hacking-weather-satellite-uplink/cjtrowbridge-stationary-3d-printed-helicone/)** | Helicone | Parabolic dish (TV/RV) | Stationary (fixed mount) |
 
 ### Pointing the Dish
 

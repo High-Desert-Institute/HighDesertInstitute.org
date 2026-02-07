@@ -19,3 +19,6 @@
 [submodule "projects/all-seeing-eye/repository"]
 	path = projects/all-seeing-eye/repository
 	url = https://github.com/cjtrowbridge/All-Seeing-Eye
+[submodule "projects/hacking-weather-satellite-uplink/repository"]
+	path = projects/hacking-weather-satellite-uplink/repository
+	url = https://github.com/cjtrowbridge/DIY-Weather-Satellite-Uplink

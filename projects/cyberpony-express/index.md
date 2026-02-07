@@ -14,51 +14,28 @@ The Cyberpony Express is a free, encrypted, public mesh network based on Meshtas
 
 *This project is currently stewarded by the Pathfinders' Guild, focusing on resilient communications and long-range connectivity between outposts.*
 
+## Why build off-grid mesh networks?
+
+Off-grid mesh networks are infrastructure you can own and operate locally. Different people come to this work for different reasons:
+
+- **[Community resiliency](/projects/cyberpony-express/why-community-resiliency/)**: mutual aid, local coordination, and keeping communities connected when everything else is unreliable.
+- **[Disaster communications](/projects/cyberpony-express/why-disaster-communications/)**: redundancy when cell/internet goes down, and a backbone for situational awareness.
+- **[Privacy and security](/projects/cyberpony-express/why-privacy-and-security/)**: minimizing centralized control, hardening comms, and learning practical opsec.
+
+## How to build off-grid mesh networks
+
+Start with the basics, then iterate in the field:
+
+- **[Workshops](/projects/cyberpony-express/workshops/):** recorded sessions + notes on hardware strategy, siting/outreach, BBS/Librarian, and opsec.
+- **[Build List v0.1](/projects/cyberpony-express/build-list-v0.1/):** concrete parts lists for minimal, simple, and advanced nodes.
+- **Deploy and test:** get a small number of nodes working end-to-end, then expand coverage based on real-world measurements and community stewardship.
+
 ## Current Projects Include
 
 - [Deploying New Nodes](https://forms.gle/UZgQiUNzm8q1dmNfA) - A project to deploy nodes in the wild and test the network. This is what the GoFundMe pays for.
 - [BBS](/projects/cyberpony-express-bbs/) - A simple, dumb system that works like a phone operator. It can send and receive messages with users, solve the backhaul problem of long-distance messaging between distant parts of the network, enable access to MUDs and chatbots like the Librarian, and provide a framework for extending the functionality of the Cyberpony Express in the future.
- - [Flying Robots](/projects/flying-robots/) - Low-cost quadcopters, UAVs, rovers, and electric boats coordinated over the mesh to handle tasks like observation, logistics, planting, weeding, and maintenance.
- - [Meshtastic-LLM](/projects/meshtastic-llm/) - A toolchain for connecting local large language models to the mesh so every outpost can run its own librarian, concierge, or alerting agent without internet access.
-
-## Workshops!
-
-### 2025-03-20 - Meet and Greet!
-
-[Text summary of the first workshop.](/blog/2025-03-19/) 
-
-
-### 2025-03-27 - Meshtastic Hardware Strategy and Development 
-
-[Text summary of the second workshop.](/blog/2025-03-27-meshtastic-hardware-strategy-development/)  
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1Sw1WCDngTA?si=2bLo_iF1MKjQO0kG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-### 2025-04-03 - Siting and Outreach
-
-[Text summary of the third workshop.](/blog/2025-04-03/)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zCB9deVyMq8?si=g343O4FyGhktcBZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-### 2025-04-10 - BBS/Librarian
-
-[Text summary of the fourth workshop.](https://highdesertinstitute.org/guilds/lorekeepers/cyberpony-express/bbs/)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3gRCj5V-8wc?si=x9lYCh9Qg6KwmHE5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-### 2025-04-16 - Opsec in AI and Meshtastic
-
-[Text summary of the fifth workshop.](https://highdesertinstitute.org/blog/2025-04-16-opsec-ai-meshtastic/)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z5k--VjGQjA?si=V5tZ3E881doqj-zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-## Build Lists!
-
-- [Build List v0.1](/projects/cyberpony-express/build-list-v0.1/)
+- [Flying Robots](/projects/flying-robots/) - Low-cost quadcopters, UAVs, rovers, and electric boats coordinated over the mesh to handle tasks like observation, logistics, planting, weeding, and maintenance.
+- [Meshtastic-LLM](/projects/meshtastic-llm/) - A toolchain for connecting local large language models to the mesh so every outpost can run its own librarian, concierge, or alerting agent without internet access.
 
 
 ## Useful Tools
