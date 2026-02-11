@@ -86,8 +86,7 @@ The [**inspiration video**](https://www.youtube.com/watch?v=0O6tscHo6G4) by save
 
 | Title | Feed type | Reflector type | Alignment mechanism |
 | --- | --- | --- | --- |
-| **[cjtrowbridge: repurposed robotic 3D-printed helical](/projects/hacking-weather-satellite-uplink/cjtrowbridge-repurposed-robotic-3d-printed-helical/)** | Helical | Parabolic dish (TV/RV) | Repurposed robotic mount |
-| **[cjtrowbridge: stationary 3D-printed helicone](/projects/hacking-weather-satellite-uplink/cjtrowbridge-stationary-3d-printed-helicone/)** | Helicone | Parabolic dish (TV/RV) | Stationary (fixed mount) |
+| **[cjtrowbridge: stationary 3D-printed helicone](https://cjtrowbridge.com/projects/current/hacking-weather-satellite-uplink/)** | Helicone | Parabolic dish | Stationary (fixed mount) |
 
 ### Pointing the Dish
 
