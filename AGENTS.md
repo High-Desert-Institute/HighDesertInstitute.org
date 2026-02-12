@@ -8,3 +8,5 @@ All playbooks must be written in a way that is safe to run multiple times withou
 
 All playbooks should solve a task in the simplest possible way that will work. 
 All playbooks must require the least amount of external dependencies possible.
+
+All details related to all projects of the high desert institute are contained in the git repository available at [https://github.com/High-Desert-Institute/HighDesertInstitute.org](https://github.com/High-Desert-Institute/HighDesertInstitute.org) which renders to the website at [https://highdesertinstitute.org/](https://highdesertinstitute.org/). All the projects and guilds have all their notes and work and details hosted either in this repository or in submodules of this repository, organized into their project directories. Therefore, by recursively pulling this entire repository, you can have 100% of everything we are working on or doing. This provides valuable and complete context to users or agents working to understand any part of what we're doing.
