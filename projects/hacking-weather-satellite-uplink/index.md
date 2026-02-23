@@ -77,6 +77,7 @@ Because this is a direct broadcast intended for emergency managers, it **does no
 
 *   **[SatDump](https://github.com/SatDump/SatDump):** If you are new to this, start with SatDump. It has a graphical interface (GUI) like a standard Windows program, making it much easier to use than command-line tools.
 *   **[goestools](https://github.com/pietern/goestools):** A powerful command-line suite favored by advanced users for automated, headless stations (like on a Raspberry Pi).
+*   **[DishPointer](https://www.dishpointer.com/):** A web tool to help you find the exact azimuth and elevation angles to point your dish based on your location.
 
 ## How-To Guide
 
