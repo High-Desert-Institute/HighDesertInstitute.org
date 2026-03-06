@@ -134,3 +134,7 @@ Now that we have provided basic tool access (moving towards more advanced tools 
 
 The Open Observatory project is an evolving resource, with contributions from the Astromancers' Guild and the wider open-source community.
 
+## Interesting Links
+
+- [Astra](https://github.com/ppp-one/astra) - An open-source software suite for controlling and automating astronomical observatories, designed to be user-friendly and adaptable for various hardware configurations.
+- [ExploraDome](https://explora-dome.com/) - An expensive but highly advanced robotic observatory system. Something to mimic rather than buy, but it is interesting to see how far you can push the capabilities of a small, robotic observatory system.
