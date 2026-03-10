@@ -22,6 +22,10 @@ This initiative now lives under the **Pathfinders' Guild**, reflecting their mis
 
 We have raised more than ten thousand dollars and distributed hundreds of Cyberpony Express nodes across the Sacramento – San Francisco Bay Area. This growing Meshtastic network lets devices talk even when the public internet or cell service is unavailable. With the network in place, inexpensive drones can coordinate just like Factorio's flying robots.
 
+## Similar Projects
+
+- [Exploring the ocean with Raspberry Pi powered marine robots](https://www.raspberrypi.com/news/exploring-the-ocean-with-raspberry-pi-powered-marine-robots/)
+
 ## Key Ingredients
 
 - **Cyberpony Express** – A free, encrypted, public mesh network run by volunteers. It functions as a digital postal service for the people, carrying messages and data between outposts without central infrastructure.
