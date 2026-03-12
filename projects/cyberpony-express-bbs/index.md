@@ -30,4 +30,7 @@ The BBS acts like an automated phone operator that:
 
 This project is hosted in a [submodule](./repository/).
 
+## Interesting Links
+- [An old photo of a very large BBS](https://rachelbythebay.com/w/2022/01/26/swcbbs/)
+
 [View Repository README](./repository/README.md)
