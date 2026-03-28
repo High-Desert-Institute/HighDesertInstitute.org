@@ -25,3 +25,6 @@
 [submodule "projects/forecast-convergence-analysis/repository"]
 	path = projects/forecast-convergence-analysis/repository
 	url = https://github.com/High-Desert-Institute/forecast-convergence-analysis/
+[submodule "agents"]
+	path = agents
+	url = https://github.com/cjtrowbridge/agents
