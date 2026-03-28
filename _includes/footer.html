@@ -20,12 +20,6 @@
     {% assign edit_branch = "main" %}
     {% assign edit_path = page.path | default: 'index.md' %}
     {% assign edit_path = edit_path | replace: '\\', '/' %}
-    {% assign is_project_page = page.layout == 'project' or edit_path contains 'projects/' %}
-
-    {% if is_project_page %}
-      <li><span class="text-muted">See project documentation for more details about how to contribute.</span></li>
-    {% else %}
-      <li><a href="{{ edit_repo }}/blob/{{ edit_branch }}/{{ edit_path }}">Edit this page on GitHub</a></li>
-    {% endif %}
+    <li><a href="{{ edit_repo }}/edit/{{ edit_branch }}/{{ edit_path }}">Edit this page on GitHub</a></li>
   </ul>
 </footer>
