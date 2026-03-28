@@ -22,3 +22,6 @@
 [submodule "projects/hacking-weather-satellite-uplink/repository"]
 	path = projects/hacking-weather-satellite-uplink/repository
 	url = https://github.com/cjtrowbridge/DIY-Weather-Satellite-Uplink
+[submodule "projects/forecast-convergence-analysis/repository"]
+	path = projects/forecast-convergence-analysis/repository
+	url = https://github.com/High-Desert-Institute/forecast-convergence-analysis/
