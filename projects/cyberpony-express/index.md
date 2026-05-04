@@ -42,3 +42,7 @@ Start with the basics, then iterate in the field:
 
 - [Flash Your Firmware From The Web](https://flasher.meshtastic.org/) Requires chrome!
 - [Plan Your Mesh](https://site.meshtastic.org/)
+
+## Things To Check Out
+- [Ground Station](https://github.com/sgoudelis/ground-station)
+
