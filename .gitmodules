@@ -28,3 +28,6 @@
 [submodule "agents"]
 	path = agents
 	url = https://github.com/cjtrowbridge/agents
+[submodule "projects/biblioteca-noetica/repository"]
+	path = projects/biblioteca-noetica/repository
+	url = https://github.com/High-Desert-Institute/biblioteca-noetica

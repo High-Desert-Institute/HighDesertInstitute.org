@@ -30,6 +30,7 @@ The Library is HDI's promise to publish everything we learn about thriving off-g
 ## Software stack
 
 - **HDI Librarian** for retrieval-augmented Q&A against the collection.
+- **[Biblioteca Noetica](/projects/biblioteca-noetica/)** for library stewardship architecture, publishing workflows, and durable catalog organization.
 - **Open-source doc viewers** (Kiwix, Calibre-web, Nextcloud) for browsing and syncing.
 - **Git + rsync/IPFS** pipelines for publishing updates back to HQ.
 
