@@ -44,6 +44,10 @@ Build a **portable direction-finding + coordination kit** and a **skillshare wor
 * **[Outreach Strategy & Protocol](outreach-strategy/)**: Scripts and protocols for community policing.
 
 ## Further Reading/Watching
+* [QuadRF can spot drones and see WiFi through my wall](https://github.com/High-Desert-Institute/HighDesertInstitute.org) an example of how to use multiple antennas to pinpoint drones in the sky.
+  - [Hackaday article](https://hackaday.com/2026/06/20/seeing-the-world-in-radio-waves-with-the-quadrf/)
+  - [Project website](https://scalerf.com/)
+  - [Project github](https://github.com/open-space-sdr/main)
 * [Gadgets For People Who Don't Trust The Government](https://www.youtube.com/watch?v=W_F4rEaRduk) An exploration of DIY radio direction finding techniques and existing projects for identifying and locating bad actors.
 * [Colonel Panic Github](https://github.com/colonelpanichacks?tab=repositories) A colleciton of projects related to RF direction finding and interference hunting, including drone tracking, foxhunting, flock detection, stingray detection, and even Meshtastic LLM projects.
 
