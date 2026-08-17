@@ -44,6 +44,7 @@ Build a **portable direction-finding + coordination kit** and a **skillshare wor
 * **[Outreach Strategy & Protocol](outreach-strategy/)**: Scripts and protocols for community policing.
 
 ## Further Reading/Watching
+* [DroneAware](https://droneaware.io/) — an SDR-based drone detection and awareness project.
 * [QuadRF can spot drones and see WiFi through my wall](https://github.com/High-Desert-Institute/HighDesertInstitute.org) an example of how to use multiple antennas to pinpoint drones in the sky.
   - [Hackaday article](https://hackaday.com/2026/06/20/seeing-the-world-in-radio-waves-with-the-quadrf/)
   - [Project website](https://scalerf.com/)
