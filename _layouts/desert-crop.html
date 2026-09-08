@@ -1,0 +1,106 @@
+---
+layout: default
+---
+
+<nav aria-label="breadcrumb" class="mt-4">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/guilds/floramancers/">Floramancers' Guild</a></li>
+    <li class="breadcrumb-item"><a href="/guilds/floramancers/desert-crops/">Desert Crops</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+
+<article class="desert-crop-profile">
+  <header class="mb-4">
+    <p class="text-uppercase text-muted mb-1">{{ page.crop_system | join: " / " }} high-desert crop</p>
+    <h1 class="mt-0 mb-2">{{ page.title }}</h1>
+    {% if page.scientific_name %}<p class="lead fst-italic mb-2">{{ page.scientific_name }}</p>{% endif %}
+    {% if page.summary %}<p class="lead">{{ page.summary }}</p>{% endif %}
+    {% if page.data_status %}<span class="badge text-bg-secondary">Data: {{ page.data_status | replace: '_', ' ' }}</span>{% endif %}
+  </header>
+
+  <section aria-labelledby="biome-fit-heading">
+    <h2 id="biome-fit-heading">Biome fit</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-3">
+      {% assign biome_keys = "hot_high_desert,hot_cold_high_desert,cold_plateau,alpine" | split: "," %}
+      {% assign biome_names = "Hot high desert,Hot/cold high desert,Cold plateau,Alpine / short season" | split: "," %}
+      {% for biome_key in biome_keys %}
+        {% assign fit = page.biome_suitability[biome_key] %}
+        <div class="col">
+          <div class="card h-100 desert-biome-card">
+            <div class="card-body">
+              <h3 class="h6 mt-0">{{ biome_names[forloop.index0] }}</h3>
+              <span class="desert-rating desert-rating-{{ fit.rating }}">{{ fit.rating | capitalize }}</span>
+              {% if fit.note %}<p class="small mt-2 mb-0">{{ fit.note }}</p>{% endif %}
+              {% if fit.confidence %}<p class="small text-muted mb-0">Confidence: {{ fit.confidence }}</p>{% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section aria-labelledby="crop-spec-heading">
+    <h2 id="crop-spec-heading">Planning profile</h2>
+    <div class="table-responsive">
+      <table class="table table-striped align-middle desert-crop-spec">
+        <tbody>
+          <tr><th scope="row">Lifecycle</th><td>{{ page.lifecycle | capitalize }}</td></tr>
+          <tr><th scope="row">Harvested part</th><td>{{ page.harvested_part }}</td></tr>
+          <tr><th scope="row">Productive winter minimum</th><td>{{ page.temperature.productive_winter_min_f }}°F</td></tr>
+          <tr><th scope="row">Routine summer maximum</th><td>{{ page.temperature.routine_summer_max_f }}°F</td></tr>
+          <tr><th scope="row">Annual irrigation</th><td>{{ page.water.annual_acre_feet_per_acre.minimum }}–{{ page.water.annual_acre_feet_per_acre.maximum }} acre-feet/acre</td></tr>
+          <tr><th scope="row">Mature yield</th><td>{{ page.production.mature_yield_lb_per_acre.minimum }}–{{ page.production.mature_yield_lb_per_acre.maximum }} lb/acre</td></tr>
+          <tr><th scope="row">Representative density</th><td>{{ page.production.plants_per_acre }} plants/acre</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small text-muted">Planning values describe productive plantings, not absolute survival limits. Local evapotranspiration, soil, cultivar, plant age, rainfall, and management can materially change them.</p>
+  </section>
+
+  {% if page.water.seasonal_gallons_per_mature_plant_day %}
+  <section aria-labelledby="seasonal-water-heading">
+    <h2 id="seasonal-water-heading">Seasonal mature-plant water</h2>
+    <div class="table-responsive">
+      <table class="table table-sm align-middle">
+        <thead><tr><th>Season</th><th>Daily-equivalent gallons per plant</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Spring</th><td>{{ page.water.seasonal_gallons_per_mature_plant_day.spring.minimum }}–{{ page.water.seasonal_gallons_per_mature_plant_day.spring.maximum }}</td></tr>
+          <tr><th scope="row">Summer</th><td>{{ page.water.seasonal_gallons_per_mature_plant_day.summer.minimum }}–{{ page.water.seasonal_gallons_per_mature_plant_day.summer.maximum }}</td></tr>
+          <tr><th scope="row">Fall</th><td>{{ page.water.seasonal_gallons_per_mature_plant_day.fall.minimum }}–{{ page.water.seasonal_gallons_per_mature_plant_day.fall.maximum }}</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small text-muted">Daily-equivalent demand is useful for system sizing; actual irrigation may be accumulated into less-frequent, deeper applications.</p>
+  </section>
+  {% endif %}
+
+  {% if page.products %}
+  <section aria-labelledby="products-heading">
+    <h2 id="products-heading">Potential products</h2>
+    <ul>{% for product in page.products %}<li>{{ product }}</li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.trial_priorities %}
+  <section aria-labelledby="trial-priorities-heading">
+    <h2 id="trial-priorities-heading">Trial priorities</h2>
+    <ul>{% for priority in page.trial_priorities %}<li>{{ priority }}</li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+
+  {% if page.sources %}
+  <section aria-labelledby="sources-heading">
+    <h2 id="sources-heading">Starting sources</h2>
+    <ul>
+      {% for source in page.sources %}
+        <li><a href="{{ source.url }}" target="_blank" rel="noopener">{{ source.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>
+
+<div class="mt-4"><a href="/guilds/floramancers/desert-crops/">← Back to the Desert Crops comparison</a></div>

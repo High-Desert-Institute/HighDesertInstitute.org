@@ -86,3 +86,79 @@ img{
     width: 100%;
     max-width: 100%;
 }
+
+/* Desert Crops catalog */
+.desert-biome-card {
+    border-color: rgba(255, 255, 255, 0.18);
+}
+.desert-rating {
+    border-radius: 999px;
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 0.25rem 0.55rem;
+}
+.desert-rating-recommended {
+    background: #1f6f43;
+    color: #fff;
+}
+.desert-rating-promising {
+    background: #5c7c2f;
+    color: #fff;
+}
+.desert-rating-experimental {
+    background: #9a6700;
+    color: #fff;
+}
+.desert-rating-unsuitable {
+    background: #842029;
+    color: #fff;
+}
+.desert-crop-spec th {
+    width: 45%;
+}
+.desert-chart {
+    height: 32rem;
+    margin: 1.5rem 0 2rem;
+    max-width: 70rem;
+    position: relative;
+}
+.desert-rating-legend .desert-rating {
+    margin: 0.2rem 0;
+}
+.desert-location-grid {
+    min-width: 66rem;
+}
+.desert-location-crop-heading {
+    min-width: 10rem;
+}
+.desert-location-heading {
+    height: 11.5rem;
+    min-width: 3.5rem;
+    padding: 0.5rem;
+    vertical-align: bottom;
+}
+.desert-location-heading > div {
+    transform: rotate(180deg);
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+}
+.desert-location-cell {
+    min-width: 3.5rem;
+}
+.location-fit {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1;
+}
+.location-fit-ok {
+    color: #52b788;
+}
+.location-fit-problem {
+    color: #ef476f;
+}
+.location-fit-unknown {
+    color: #f4a261;
+}
