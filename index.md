@@ -8,7 +8,6 @@ title: Building a Foundation for the Survival of Humanity
     <div class="col">
       <h1><a href="/">High Desert Institute</a></h1>
       <p><i>Building a Foundation for the Survival of Humanity</i></p>
-      <!--img src="/assets/images/landscape.jpg" alt="High Desert Institute" style="width: 100%; max-width: 100%; border-radius: 8px; margin-bottom: 1rem;"-->
       <p>
         <a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Buy Land</a>
         <a href="https://www.gofundme.com/f/indigenous-solidarity-gardens-endangered-species" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Indigenous Solidarity & Endangered Species Gardens</a>
@@ -23,6 +22,7 @@ title: Building a Foundation for the Survival of Humanity
 
   <div class="row">
     <div class="col-md-12">
+      <img src="/assets/images/landscape.jpg" alt="High desert grassland beneath snow-covered mountains" width="1105" height="577" style="height: auto; border-radius: 8px; margin-bottom: 1rem;">
       <h2>What We Do</h2>
       <p>The High Desert Institute is a 501(c)(3) non-profit organization dedicated to building a foundation for the survival of humanity. We are focused on accomplishing this through off-grid land projects, libraries, and guilds.</p>
       <p>A group of seasoned experts from the off-grid community-building world are fundraising to create a series of new land projects in the high deserts of the southwest. These outposts will be centers for permaculture and mutual aid, designed to build a foundation for the survival of humanity. These new land projects will facilitate research, development, and distribution of free, open-source solutions to basic human needs like housing and off-grid infrastructure.</p>
