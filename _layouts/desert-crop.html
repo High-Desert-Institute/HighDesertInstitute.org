@@ -82,6 +82,26 @@ layout: default
   </section>
   {% endif %}
 
+  {% if page.resilience %}
+  <section aria-labelledby="resilience-heading">
+    <h2 id="resilience-heading">Drought and fire resilience</h2>
+    <div class="table-responsive">
+      <table class="table table-striped align-middle desert-crop-spec">
+        <tbody>
+          <tr>
+            <th scope="row">Drought tolerance</th>
+            <td><strong>{{ page.resilience.drought_tolerance.rating | capitalize }}</strong>{% if page.resilience.drought_tolerance.note %}<br>{{ page.resilience.drought_tolerance.note }}{% endif %}</td>
+          </tr>
+          <tr>
+            <th scope="row">Fire resistance</th>
+            <td><strong>{{ page.resilience.fire_resistance.rating | replace: "_", " " | capitalize }}</strong>{% if page.resilience.fire_resistance.note %}<br>{{ page.resilience.fire_resistance.note }}{% endif %}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {% endif %}
+
   {{ content }}
 
   {% if page.trial_priorities %}

@@ -26,6 +26,9 @@ location_temperature:
   bishop: {winter_low_f: 10, summer_high_f: 96, evidence: research_summary}
   mammoth_lakes: {winter_low_f: -10, summer_high_f: 78, evidence: research_summary}
   alturas: {winter_low_f: -10, summer_high_f: 89, evidence: research_summary}
+resilience:
+  drought_tolerance: {rating: high, evidence: research_summary, note: Tolerates drought, alkaline soils, and broad moisture conditions; repeatedly harvested arid-climate production still needs irrigation trials.}
+  fire_resistance: {rating: unknown, evidence: no_research_record, note: No fire-resistance finding is recorded in the current research set.}
 water:
   annual_acre_feet_per_acre: {minimum: 1.0, maximum: 2.0}
   seasonal_gallons_per_mature_plant_day:

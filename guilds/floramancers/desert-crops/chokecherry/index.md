@@ -26,6 +26,9 @@ location_temperature:
   bishop: {winter_low_f: 10, summer_high_f: 96, evidence: research_summary}
   mammoth_lakes: {winter_low_f: -10, summer_high_f: 78, evidence: research_summary}
   alturas: {winter_low_f: -10, summer_high_f: 89, evidence: research_summary}
+resilience:
+  drought_tolerance: {rating: high, evidence: research_summary, note: Established plants are drought resistant, while irrigation improves production and fruit quality.}
+  fire_resistance: {rating: unknown, evidence: no_research_record, note: No fire-resistance finding is recorded in the current research set.}
 water:
   annual_acre_feet_per_acre: {minimum: 1.7, maximum: 2.5}
   seasonal_gallons_per_mature_plant_day:

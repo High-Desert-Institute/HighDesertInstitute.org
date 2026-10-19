@@ -58,6 +58,16 @@ location_temperature:
     summer_high_f: 100
     evidence: research_summary
 
+resilience:
+  drought_tolerance:
+    rating: unknown
+    evidence: no_research_record
+    note: Explain survival drought tolerance separately from productive irrigation needs.
+  fire_resistance:
+    rating: unknown
+    evidence: no_research_record
+    note: Do not infer fire resistance from drought tolerance.
+
 water:
   annual_acre_feet_per_acre:
     minimum: 0.0
@@ -103,6 +113,8 @@ Explain the important climatic, agronomic, product-quality, and breeding conside
 - **Productive winter minimum:** an approximate annual extreme minimum compatible with dependable production, not the lowest temperature at which tissue might survive.
 - **Routine summer maximum:** an approximate recurring daytime maximum compatible with productive growth, not an instantaneous lethal temperature.
 - **Location temperature record:** a crop-page intersection record containing the researched winter low and summer high for one named location. The index gives that cell a green check when the low is not below the crop's productive winter minimum and the high is not above the crop's routine summer maximum; it gives a red cross otherwise. Missing records render as a question mark.
+- **Drought tolerance:** a survival and establishment characteristic, not a claim about water needed for reliable commercial yield.
+- **Fire resistance:** keep this as `unknown` unless the crop page has a supporting source. Do not infer it from drought tolerance, evergreen foliage, or native range.
 - **Daily-equivalent irrigation:** a system-sizing value. Actual water may be applied in deeper, less-frequent events.
 
 The schema is intentionally conservative. Add new structured fields only when they can be populated consistently across the catalog and improve comparisons on the public index.

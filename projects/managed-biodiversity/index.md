@@ -6,14 +6,16 @@ guilds:
   - floramancers
 summary: >-
   Grow native biodiversity and community 3D-printing skills by making BLOOM CASTERS and BLOOMSTICKS
-  and experimenting with DIVERSITY UNITS: clay pellets containing locally native seeds.
+  and experimenting with biodiversity pellets: clay pellets containing locally native seeds.
 ---
+
+<img src="/assets/images/bloom-caster-1.png" alt="Illustration of a Floramancer casting biodiversity pellets to restore the desert wildflower landscape" width="1448" height="1086" class="img-fluid rounded mb-4" style="height: auto;">
 
 ## Your mission: more native plants
 
 **MANAGED BIODIVERSITY** is a [Floramancers' Guild](/guilds/floramancers/) project combining native plant stewardship with hands-on community fabrication. We want to make supporting local species inviting, social, and fun while teaching people to print, assemble, measure, document, and improve things together.
 
-Our experimental 3D-printed rubber-band seed launchers come in two forms: a **BLOOM CASTER** is the shorter apparatus, and a **BLOOMSTICK** is the longer apparatus. Their **DIVERSITY UNITS** are small molded clay pellets containing locally native wildflower and other plant seeds. These are prototypes: we have not yet selected a launcher, established pellet dimensions, or demonstrated successful germination after use.
+Our experimental 3D-printed rubber-band seed launchers come in two forms: a **BLOOM CASTER** is the shorter apparatus, and a **BLOOMSTICK** is the longer apparatus. Their **BIODIVERSITY PELLETS** are small molded clay pellets containing locally native wildflower and other plant seeds. These are prototypes: we have not yet selected a launcher, established pellet dimensions, or demonstrated successful germination after use.
 
 ### A note from mission control
 
@@ -23,18 +25,28 @@ Use metaphors and euphemisms from videogames and other playful contexts to descr
 
 These community designs are starting points for evaluation, not confirmed seed-pellet-compatible builds. The names below follow the supplied links; their descriptions, functionality, licenses, and print profiles still need review. Some may be useful only as references or display mechanisms.
 
-| Community design | Reference |
-| --- | --- |
-| TT Gun V2 — Unbranded | [MakerWorld model and profile](https://makerworld.com/en/models/945220-tt-gun-v2-unbranded#profileId-911783) |
-| Moshu Bestselling Card Style Slingshot | [MakerWorld model and profile](https://makerworld.com/en/models/3087259-moshu-bestselling-card-style-slingshot#profileId-3477922) |
-| Lever Action Blaster — Working Slingshot Toy | [MakerWorld model and profile](https://makerworld.com/en/models/2969996-lever-action-blaster-working-slingshot-toy#profileId-3330588) |
-| BB Launcher with Feed Strip | [MakerWorld model and profile](https://makerworld.com/en/models/1623709-bb-launcher-with-feed-strip#profileId-1714227) |
-| Fidget Blowback Gun | [MakerWorld model and profile](https://makerworld.com/en/models/2532642-fidget-blowback-gun#profileId-2787584) |
-| 5–15 Shot Mini Finger Blaster | [MakerWorld model and profile](https://makerworld.com/en/models/1035994-5-15-shot-mini-finger-blaster#profileId-1019816) |
+<div class="table-responsive">
+  <table class="table table-striped table-bordered align-middle">
+    <caption class="visually-hidden">Initial community design candidates</caption>
+    <thead>
+      <tr><th scope="col">Community design</th><th scope="col">Reference</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">TT Gun V2 — Unbranded</th><td><a href="https://makerworld.com/en/models/945220-tt-gun-v2-unbranded#profileId-911783">MakerWorld model and profile</a></td></tr>
+      <tr><th scope="row">Moshu Bestselling Card Style Slingshot</th><td><a href="https://makerworld.com/en/models/3087259-moshu-bestselling-card-style-slingshot#profileId-3477922">MakerWorld model and profile</a></td></tr>
+      <tr><th scope="row">Lever Action Blaster — Working Slingshot Toy</th><td><a href="https://makerworld.com/en/models/2969996-lever-action-blaster-working-slingshot-toy#profileId-3330588">MakerWorld model and profile</a></td></tr>
+      <tr><th scope="row">BB Launcher with Feed Strip</th><td><a href="https://makerworld.com/en/models/1623709-bb-launcher-with-feed-strip#profileId-1714227">MakerWorld model and profile</a></td></tr>
+      <tr><th scope="row">Fidget Blowback Gun</th><td><a href="https://makerworld.com/en/models/2532642-fidget-blowback-gun#profileId-2787584">MakerWorld model and profile</a></td></tr>
+      <tr><th scope="row">5–15 Shot Mini Finger Blaster</th><td><a href="https://makerworld.com/en/models/1035994-5-15-shot-mini-finger-blaster#profileId-1019816">MakerWorld model and profile</a></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<img src="/assets/images/bloom-caster-2.png" alt="Illustration of a Floramancer using a BLOOM CASTER to scatter biodiversity pellets and restore a desert wildflower meadow" width="1448" height="1086" class="img-fluid rounded my-4" style="height: auto;" loading="lazy">
 
 Before adopting a design, record the creator, license and attribution requirements, revision/profile, materials, assembly requirements, and whether its intended operation actually suits this project. Share remixes only as the source license permits.
 
-## DIVERSITY UNIT development process
+## Biodiversity pellet development process
 
 The first deliverable is a repeatable **molding and seed-viability experiment**, rather than a fixed recipe. Mixture proportions, compaction, drying conditions, dimensions, and acceptance tolerances remain to be established through recorded trials.
 
@@ -48,7 +60,7 @@ The first deliverable is a repeatable **molding and seed-viability experiment**,
 
 ### Size is an open question
 
-Clay/seed pellets may have a lower mass than metal BBs of the same size. Larger DIVERSITY UNITS are therefore one candidate to investigate, **not an established requirement or a drop-in substitution**. Seed size, drying shrinkage, clay breakdown, handling durability, and equipment fit all need evaluation. No nominal diameter or tolerance has been selected.
+Clay/seed pellets may have a lower mass than metal BBs of the same size. Larger biodiversity pellets are therefore one candidate to investigate, **not an established requirement or a drop-in substitution**. Seed size, drying shrinkage, clay breakdown, handling durability, and equipment fit all need evaluation. No nominal diameter or tolerance has been selected.
 
 Begin with stationary mold samples and unloaded fit gauges. Treat any equipment compatibility testing as a separate supervised workshop step after reviewing the source design and the finished units. Evaluate gentle placement and hand sowing alongside the launcher concept; successful establishment of native plants is the measure of success.
 
@@ -56,20 +68,28 @@ Begin with stationary mold samples and unloaded fit gauges. Treat any equipment 
 
 Copy this record for each trial and retain unsuccessful results too.
 
-| Field | Record |
-| --- | --- |
-| Batch ID, date, contributor | |
-| Intended locality, habitat, species, seed provenance | |
-| Clay, water, seeds, other ingredients and quantities | |
-| Mold revision and cavity dimensions | |
-| Fill amount, mixing and compaction method | |
-| Drying conditions, duration, endpoint used | |
-| Wet and dry dimensions; sample count and range | |
-| Individual dried masses; sample count and range | |
-| Release, cracks, durability, wetting/breakdown observations | |
-| Germination conditions, loose-seed controls, counts and results | |
-| Equipment revision and unloaded fit observations, if applicable | |
-| Rejected units, reasons, next experiment | |
+<div class="table-responsive">
+  <table class="table table-striped table-bordered align-middle">
+    <caption class="visually-hidden">Biodiversity pellet batch and trial record</caption>
+    <thead>
+      <tr><th scope="col">Field</th><th scope="col">Record</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Batch ID, date, contributor</th><td></td></tr>
+      <tr><th scope="row">Intended locality, habitat, species, seed provenance</th><td></td></tr>
+      <tr><th scope="row">Clay, water, seeds, other ingredients and quantities</th><td></td></tr>
+      <tr><th scope="row">Mold revision and cavity dimensions</th><td></td></tr>
+      <tr><th scope="row">Fill amount, mixing and compaction method</th><td></td></tr>
+      <tr><th scope="row">Drying conditions, duration, endpoint used</th><td></td></tr>
+      <tr><th scope="row">Wet and dry dimensions; sample count and range</th><td></td></tr>
+      <tr><th scope="row">Individual dried masses; sample count and range</th><td></td></tr>
+      <tr><th scope="row">Release, cracks, durability, wetting/breakdown observations</th><td></td></tr>
+      <tr><th scope="row">Germination conditions, loose-seed controls, counts and results</th><td></td></tr>
+      <tr><th scope="row">Equipment revision and unloaded fit observations, if applicable</th><td></td></tr>
+      <tr><th scope="row">Rejected units, reasons, next experiment</th><td></td></tr>
+    </tbody>
+  </table>
+</div>
 
 ## Community workshop roadmap
 

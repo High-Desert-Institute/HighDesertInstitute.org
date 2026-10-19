@@ -30,9 +30,18 @@ location_columns:
 
 # Desert Crops
 
-<p class="lead">Develop practical crop systems for hot/cold high-desert regions.</p>
+<p class="lead">Develop cash-crop systems for small farms in hot/cold high deserts that can thrive on catchment water and drip irrigation with low water consumption.</p>
 
-Desert Crops compares perennial specialty crops by productive climate range, water requirements, yield, products, and opportunities for local adaptation. The goal is not to force every crop into every desert. It is to identify a practical crop system for each biome and use field trials to expand the useful boundaries over time.
+Desert Crops identifies perennial specialty crops that can turn scarce captured water into durable, high-value farm products. We compare productive climate range, irrigation demand, yield, products, and opportunities for local adaptation. The goal is not to force every crop into every desert; it is to identify low-water cash-crop systems that fit each high-desert biome and work at small-farm scale.
+
+## What this project optimizes
+
+- Cash crops that can support small farms rather than commodity-scale irrigation agriculture.
+- Catchment-fed storage and efficient drip irrigation instead of recreating a humid climate with pumped water.
+- Low annual water demand, low peak flow, and strong yield or product value per acre-foot.
+- Perennial systems that can survive high-desert heat, cold, frost, and low humidity.
+
+The catalog includes some high-water crops, especially date palm, as useful climatic and economic comparisons. They are not the default model for a low-water, catchment-fed farm.
 
 > **Evidence note:** This is an initial research catalog. Values labeled preliminary or experimental are planning ranges to test, not site-specific prescriptions.
 
@@ -210,14 +219,25 @@ These figures reveal three broad hydraulic classes: small shrubs and berries use
 
 ## Trial locations as biome analogs
 
-| Location | Biome role | Principal research value |
-|---|---|---|
-| Barstow | Hot high desert | Extreme-heat production and date trials |
-| Lucerne Valley | Hot/cold high desert | Desert heat with meaningful winter selection |
-| Kingman | Hot/cold high desert | Cold, aridity, alkaline soil, and intense solar exposure |
-| Bishop | Hot/cold transition | Strong combined heat and winter-cold selection |
-| Alturas | Cold plateau | Cold-system production and cultivar selection |
-| Mammoth Lakes | Alpine / short season | Extreme-cold and season-length stress testing |
+<div class="table-responsive">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Location</th>
+        <th scope="col">Biome role</th>
+        <th scope="col">Principal research value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">Barstow</th><td>Hot high desert</td><td>Extreme-heat production and date trials</td></tr>
+      <tr><th scope="row">Lucerne Valley</th><td>Hot/cold high desert</td><td>Desert heat with meaningful winter selection</td></tr>
+      <tr><th scope="row">Kingman</th><td>Hot/cold high desert</td><td>Cold, aridity, alkaline soil, and intense solar exposure</td></tr>
+      <tr><th scope="row">Bishop</th><td>Hot/cold transition</td><td>Strong combined heat and winter-cold selection</td></tr>
+      <tr><th scope="row">Alturas</th><td>Cold plateau</td><td>Cold-system production and cultivar selection</td></tr>
+      <tr><th scope="row">Mammoth Lakes</th><td>Alpine / short season</td><td>Extreme-cold and season-length stress testing</td></tr>
+    </tbody>
+  </table>
+</div>
 
 Coloma and Lucerne can provide productive warm-climate baselines without defining the high-desert target biomes themselves.
 
@@ -240,8 +260,6 @@ The first major research gap is a western high-desert water-response curve for p
 - **Research-anchored estimate:** derived from published production or irrigation research, but not necessarily from the target biome.
 - **Planning estimate:** suitable for sizing an experiment, not for final engineering or financial decisions.
 - **Experimental:** local performance must be demonstrated before recommending production acreage.
-
-The original [crop feasibility conversation](./Crop%20Feasibility%20Comparison.html) is retained as research context. Claims should be checked against their primary sources as individual crop profiles mature.
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {

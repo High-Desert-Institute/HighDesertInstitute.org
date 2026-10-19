@@ -4,7 +4,7 @@ The public project page is [index.md](index.md), rendered with the existing Jeky
 
 ## Editing and evidence
 
-- Preserve MANAGED BIODIVERSITY, BLOOM CASTERS, BLOOMSTICKS, and DIVERSITY UNITS as the project vocabulary. A **BLOOM CASTER** is the shorter apparatus; a **BLOOMSTICK** is the longer apparatus. No numerical length cutoff has been established. Use videogame metaphors without naming a specific game, and pair them with plain descriptions for context.
+- Preserve MANAGED BIODIVERSITY, BLOOM CASTERS, BLOOMSTICKS, and biodiversity pellets as the project vocabulary. A **BLOOM CASTER** is the shorter apparatus; a **BLOOMSTICK** is the longer apparatus. No numerical length cutoff has been established. Use videogame metaphors without naming a specific game, and pair them with plain descriptions for context.
 - Treat all six linked designs as evaluation candidates.
 - Do not present proposed mixture ratios, pellet dimensions, tolerances, drying times, or equipment compatibility as validated results. Publish batch records and comparison germination results before promoting a procedure to a repeatable specification.
 - Record seed provenance and intended locality. Obtain local planting expertise before field trials.
@@ -17,16 +17,20 @@ Use the project's gardening vocabulary consistently in original page copy, works
 | Avoid in original promotional copy | Prefer |
 | --- | --- |
 | gun, firearm, weapon | BLOOM CASTER (shorter apparatus) or BLOOMSTICK (longer apparatus); rubber-band seed launcher when explaining the mechanism |
-| bullet, ammunition, ammo, round | DIVERSITY UNIT; clay-and-seed pellet when explaining the material |
+| bullet, ammunition, ammo, round | biodiversity pellet; clay-and-seed pellet when explaining the material |
 | shooting, firing, firepower | seed casting, seed placement, planting capacity |
 | arsenal, armory | tool collection, fabrication workshop |
 | combat, attack, kill | planting mission, habitat stewardship, native-plant establishment |
 | target, targeting | planting site, intended planting area |
 
-Use videogame terms such as mission, deployment, unlock, and debrief where they fit naturally. Pair BLOOM CASTER, BLOOMSTICK, and DIVERSITY UNIT with their plain descriptions on first use. Keep the tone welcoming and centered on native plants and shared fabrication skills.
+Use videogame terms such as mission, deployment, unlock, and debrief where they fit naturally. Pair BLOOM CASTER and BLOOMSTICK with their plain descriptions on first use, and call their clay-and-seed contents biodiversity pellets. Keep the tone welcoming and centered on native plants and shared fabrication skills.
 
 Preserve exact third-party model titles, URLs, license text, and attribution, even when they contain words in the avoid list. Use whatever precise terminology safety instructions and technical records require. This is a style guide for our own promotional language, not a reason to obscure equipment functionality or alter source information.
 
 ## Verification
 
-Check front matter, the six complete MakerWorld URLs (including profile fragments), the guild link, and Markdown tables when editing. This checkpoint adds documentation only; it includes no CAD, equipment modifications, or validated pellet recipe. A Jekyll rendering check requires a working Jekyll environment; no root Gemfile or `_config.yml` was present at project creation.
+The public page uses explicit HTML tables with `table table-striped table-bordered align-middle` inside `table-responsive` wrappers. Plain Markdown tables did not receive Bootstrap's opt-in table styling. Preserve the classes, captions, and header scopes when editing; check that both tables remain padded, bordered, readable in the dark theme, and scroll within their wrappers on narrow screens. No global stylesheet override is required.
+
+The opening illustration is `/assets/images/bloom-caster-1.png` (1448 x 1086), displayed before the mission heading. The second illustration, `/assets/images/bloom-caster-2.png` (1448 x 1086), appears immediately below the design-candidates table. Preserve their aspect ratios and descriptive alt text. These are concept illustrations, not validated equipment designs.
+
+Check front matter, the six complete MakerWorld URLs (including profile fragments), the guild link, both HTML tables, and the illustration reference when editing. This project includes no CAD, equipment modifications, or validated pellet recipe. A Jekyll rendering check requires a working Jekyll environment; no root Gemfile or `_config.yml` was present at project creation.
