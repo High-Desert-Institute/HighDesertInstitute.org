@@ -26,6 +26,14 @@ We have raised more than ten thousand dollars and distributed hundreds of Cyberp
 
 - [Exploring the ocean with Raspberry Pi powered marine robots](https://www.raspberrypi.com/news/exploring-the-ocean-with-raspberry-pi-powered-marine-robots/)
 
+## Test Candidates
+
+- [FPV Wing Racer Rev 2](https://makerworld.com/en/models/1267212-fpv-wing-racer-rev-2#profileId-1303707) — Community fixed-wing design candidate for evaluation. Print requirements, licensing, and suitability for this project's systems remain to be reviewed; this is not a validated fleet design.
+
+## Other Resources
+
+- [Propeller Generator — Parametric Elliptical Blades](https://makerworld.com/en/models/1800273-propeller-generator-parametric-elliptical-blades#profileId-1919755) — Printable propeller design resource for evaluation. Compatibility with any candidate airframe or propulsion system has not been established.
+
 ## Key Ingredients
 
 - **Cyberpony Express** – A free, encrypted, public mesh network run by volunteers. It functions as a digital postal service for the people, carrying messages and data between outposts without central infrastructure.
