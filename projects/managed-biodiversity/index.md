@@ -33,7 +33,7 @@ These community designs are starting points for evaluation, not confirmed seed-p
     </thead>
     <tbody>
       <tr><th scope="row">TT Gun V2 — Unbranded</th><td><a href="https://makerworld.com/en/models/945220-tt-gun-v2-unbranded#profileId-911783">MakerWorld model and profile</a></td></tr>
-      <tr><th scope="row">Moshu Bestselling Card Style Slingshot</th><td><a href="https://makerworld.com/en/models/3087259-moshu-bestselling-card-style-slingshot#profileId-3477922">MakerWorld model and profile</a></td></tr>
+      <tr><th scope="row">Auto-loading card slingshot</th><td><a href="https://makerworld.com/en/models/3163737-auto-loading-card-slingshot#profileId-3575832">  MakerWorld model and profile</a></td></tr>
       <tr><th scope="row">Lever Action Blaster — Working Slingshot Toy</th><td><a href="https://makerworld.com/en/models/2969996-lever-action-blaster-working-slingshot-toy#profileId-3330588">MakerWorld model and profile</a></td></tr>
       <tr><th scope="row">BB Launcher with Feed Strip</th><td><a href="https://makerworld.com/en/models/1623709-bb-launcher-with-feed-strip#profileId-1714227">MakerWorld model and profile</a></td></tr>
       <tr><th scope="row">Fidget Blowback Gun</th><td><a href="https://makerworld.com/en/models/2532642-fidget-blowback-gun#profileId-2787584">MakerWorld model and profile</a></td></tr>
