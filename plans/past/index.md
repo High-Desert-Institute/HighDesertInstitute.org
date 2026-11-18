@@ -2,6 +2,7 @@
 
 Format: `last_modified | path | title | summary`
 
+2026-11-18-12-04-27 | plans/past/2026-11-18-12-01-22_add-salvagecorps-and-solar-chicken.md | Add SalvageCorps and Solar Chicken Pipeline | Introduce the SalvageCorps guild and document its food rescue, material depots, and collaboration on Solar Chicken Pipeline.
 2026-10-19-15-14-19 | plans/past/2026-10-19-15-10-46_managed-biodiversity-tables-and-illustration.md | Fix MANAGED BIODIVERSITY tables and add illustration | Apply existing Bootstrap table styling and display the supplied BLOOM CASTER illustration.
 2026-10-19-14-56-01 | plans/past/2026-10-19-14-10-50_homepage-landscape.md | Add landscape image above homepage What We Do | Display the existing landscape asset immediately above the homepage introduction section.
 2026-10-19-14-09-26 | plans/past/2026-10-19-14-10-00_flying-robots-printable-resources.md | Add Flying Robots printable design resources | Link a fixed-wing test candidate and a printable propeller generator.
