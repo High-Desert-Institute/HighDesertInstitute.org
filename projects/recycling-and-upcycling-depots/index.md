@@ -26,6 +26,14 @@ We source for the jobs crews have planned. When depot stock runs short, we give 
 
 We mix suitable plant scraps and [spent coffee grounds from cafés](/projects/dumpster-diving/) with dry leaves or other carbon-rich material to make compost for the soil. We sort sound offcuts and salvaged fasteners into repair stock. Crews use reclaimed lumber, doors, and fixtures where they suit the job, from shelving and tool storage to shade structures and compost bays.
 
+## Make biochar
+
+Every land project needs a way to make biochar and use it in compost. At the depot, it serves as a last resort for suitable organic leftovers from several kinds of work. We set aside untreated offcuts that are too small for repairs, brush and crop residues we have no use for as mulch, and food scraps that don’t belong in the compost pile. [Pyrolysis](https://www.climatehubs.usda.gov/hubs/northeast/topic/digging-biochar) uses controlled heat with limited oxygen to turn suitable material into char. We keep painted or treated wood, plastics, and mixed trash out of the feedstock.
+
+**Most recovered meat that has no safe use as food goes into this last-resort category.** Meat, fish, and bones can [attract rats and other animals when added directly to an on-site compost pile](https://www.epa.gov/recycle/composting-home). [Controlled pyrolysis can turn food scraps containing meat, fish, and bones into char](https://www.sciencedirect.com/science/article/pii/S2352554123004217). Where we have access to a process designed for those scraps, we char them first and add the resulting char to compost once it’s suitable for soil use. Where that process is unavailable, we send the scraps to a composting facility that accepts them.
+
+We mix biochar with compost because its pores can help soil hold water and nutrients, which is especially useful where soil dries out quickly. [Bone char can also supply phosphorus](https://scijournals.onlinelibrary.wiley.com/doi/10.1002/jsfa.6716). The benefits depend on the char and the soil, so we start with a small trial before using the blend widely.
+
 ## Catch, store, and haul water
 
 We source tanks sized for rain catchment, long-term storage, or hauling. Before using a tank for water, we check what it previously held and inspect its condition, lids, and fittings. For hauling, we use tanks designed for transport and check that the filled tank and other cargo stay within the truck or trailer’s payload rating.
