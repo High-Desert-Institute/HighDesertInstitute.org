@@ -4,7 +4,6 @@ title: Solar Chicken Pipeline
 slug: solar-chicken-pipeline
 guilds:
   - faunamancers
-  - salvagecorps
 summary: >-
   A proposed system that uses sunlight to grow algae for black soldier fly larvae and uses the larvae to supplement a balanced diet for laying hens.
 ---
@@ -19,4 +18,4 @@ summary: >-
 
 ## Where SalvageCorps comes in
 
-The Faunamancers will develop the pilot and tend the flock. SalvageCorps will identify farms, produce suppliers, and breweries that can set aside consistent by-products before they get mixed with trash. Clean vegetable trimmings and [spent brewery grains](https://extension.entm.purdue.edu/publications/E-276/E-276.html) are examples to evaluate for the larvae. Suitable produce can also go directly to hens in amounts consistent with a balanced ration. Feed inputs need a known source and [safe handling](https://www.fda.gov/media/97470/download), and must meet applicable animal-feed requirements. Materials with spoilage, chemical contamination, or an unknown handling history stay out of the feed stream.
+The Faunamancers will develop the pilot and tend the flock. As a sourcing partner, [SalvageCorps](/guilds/salvagecorps/) will identify farms, produce suppliers, and breweries that can set aside consistent by-products before they get mixed with trash. Clean vegetable trimmings and [spent brewery grains](https://extension.entm.purdue.edu/publications/E-276/E-276.html) are examples to evaluate for the larvae. Suitable produce can also go directly to hens in amounts consistent with a balanced ration. Feed inputs need a known source and [safe handling](https://www.fda.gov/media/97470/download), and must meet applicable animal-feed requirements. Materials with spoilage, chemical contamination, or an unknown handling history stay out of the feed stream.
