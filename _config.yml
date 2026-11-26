@@ -1,0 +1,6 @@
+# Keep linked design repositories available to contributors without publishing their contents.
+exclude:
+  - projects/tools/vibe-modeling/
+  - projects/tools/vibe-cutting/
+  - projects/tools/tools/astrolabes/small_astrolabe/
+  - projects/tools/tools/astrolabes/large_astrolabe/

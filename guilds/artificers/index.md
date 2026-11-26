@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: guild
+guild_id: artificers
 title: Artificers' Guild
 blurb: "⛏️ Builders and creators, artificers shape the physical world, crafting shelters that blend with the desert’s beauty."
 thumbnail: /assets/images/artificers-guild.jpg

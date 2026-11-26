@@ -31,3 +31,15 @@
 [submodule "projects/biblioteca-noetica/repository"]
 	path = projects/biblioteca-noetica/repository
 	url = https://github.com/High-Desert-Institute/biblioteca-noetica
+[submodule "projects/tools/vibe-modeling"]
+	path = projects/tools/vibe-modeling
+	url = https://github.com/cjtrowbridge/vibe-modeling
+[submodule "projects/tools/vibe-cutting"]
+	path = projects/tools/vibe-cutting
+	url = https://github.com/cjtrowbridge/vibe-cutting
+[submodule "projects/tools/tools/astrolabes/small_astrolabe"]
+	path = projects/tools/tools/astrolabes/small_astrolabe
+	url = https://github.com/kb1dds/small_astrolabe
+[submodule "projects/tools/tools/astrolabes/large_astrolabe"]
+	path = projects/tools/tools/astrolabes/large_astrolabe
+	url = https://github.com/kb1dds/large_astrolabe

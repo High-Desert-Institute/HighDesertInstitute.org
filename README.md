@@ -134,6 +134,10 @@ Fields used by the site:
 	- on the project page, the header becomes clickable and a “Visit Project Site” button appears
 - `links` (optional): additional labeled URLs shown in the `/projects/` table.
 
+### Adding a tool to the Artificers’ Tools index
+
+Copy `projects/tools/tools/astrolabes/readme.md` to `projects/tools/tools/<slug>/readme.md`. Keep the lowercase filename and set the title, date, summary, and permalink for the new tool. Use `/projects/tools/tools/<slug>/` as the permalink. The Tools page lists these entries newest first, and the README body becomes the tool’s detail page. If you add a design repository inside the tool folder, link to its GitHub page and add the submodule path to the Jekyll exclusions in `_config.yml`.
+
 ### Adding a project repository as a submodule (recommended)
 
 If a project has its own code repository, include it here as a git submodule:
